@@ -1,0 +1,10 @@
+import cvs
+
+With open('file.cvs', 'w', newline='') as file:
+    fieldnames = ['lastname', 'firstname', 'surname', 'work', 'description', 'phone', 'email']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    writer.writerow({'first_name': 'Baked', 'last_name': 'Beans'})
+    writer.writerow({'first_name': 'Lovely', 'last_name': 'Spam'})
+    writer.writerow({'first_name': 'Wonderful', 'last_name': 'Spam'})
