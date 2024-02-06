@@ -1,0 +1,3445 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of-essence-and-communication-attributes-attribute-types-ru/
+Subject: =?utf-8?Q?=D0=91=D0=B0=D0=B7=D1=8B=20=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85?=
+ =?utf-8?Q?.=20=D0=9F=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B5=20ER-=D0=BC=D0?=
+ =?utf-8?Q?=BE=D0=B4=D0=B5=D0=BB=D0=B8.=20=D0=9F=D0=BE=D0=BD=D1=8F=D1=82?=
+ =?utf-8?Q?=D0=B8=D0=B5=20=D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8?=
+ =?utf-8?Q?=20(entity).=20=D0=90=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B?=
+ =?utf-8?Q?.=20=D0=92=D0=B8=D0=B4=D1=8B=20=D0=B0=D1=82=D1=80=D0=B8=D0=B1?=
+ =?utf-8?Q?=D1=83=D1=82=D0=BE=D0=B2=20|=20BestProg?=
+Date: Wed, 6 Dec 2023 11:28:26 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----"
+
+
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/html
+Content-ID: <frame-31D8AD58F0DA8832DA1E5CC061767EB5@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of-essence-and-communication-attributes-attribute-types-ru/
+
+<!DOCTYPE html><!--[if IE 7]>
+<html class=3D"ie ie7" lang=3D"ru-RU">
+<![endif]--><!--[if IE 8]>
+<html class=3D"ie ie8" lang=3D"ru-RU">
+<![endif]--><!--[if !(IE 7) & !(IE 8)]><!--><html lang=3D"ru-RU"><!--<![end=
+if]--><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-998231=
+b8-4856-4295-bbfc-942507361acf@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-ecf7ef74-47d7-4a73-a184-8613a307e10d@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-bbe0355a-=
+53a6-4b1f-b0b1-88b8ae5b448d@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-9d102d17-b1d3-4261-890d-d2ef00698c6a@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-31b67828-0e1=
+9-455b-a204-759f323dffa0@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-de768dd1-11dc-46b9-8acd-778e0c8d76da@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cdff2459-3a0a-4=
+399-80cb-e7b8da2b7149@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-f89be40a-fe41-48e1-a366-385e23fb2713@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-fa20f447-9269-4c21=
+-8b4e-297db260fccb@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-26486b86-04ed-44e2-90b6-144b975fe4d6@mhtml.blink" />
+=09
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+	<title>=D0=91=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=
+=9F=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=
+=D0=B8. =D0=9F=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81=D1=83=D1=89=D0=BD=
+=D0=BE=D1=81=D1=82=D0=B8 (entity). =D0=90=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=
+=82=D1=8B. =D0=92=D0=B8=D0=B4=D1=8B =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=
+=82=D0=BE=D0=B2 | BestProg</title>
+	<link rel=3D"profile" href=3D"http://gmpg.org/xfn/11">
+	<link rel=3D"pingback" href=3D"https://www.bestprog.net/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src=3D"https://www.bestprog.net/wp-content/themes/twentyfourteen/j=
+s/html5.js"></script>
+	<![endif]-->
+	<meta name=3D"robots" content=3D"max-image-preview:large">
+<link rel=3D"alternate" href=3D"https://www.bestprog.net/uk/2019/01/24/the-=
+concept-of-er-model-the-concept-of-essence-and-communication-attributes-att=
+ribute-types-ua/" hreflang=3D"uk">
+<link rel=3D"alternate" href=3D"https://www.bestprog.net/en/2019/01/24/the-=
+concept-of-er-model-the-concept-of-essence-and-communication-attributes-att=
+ribute-types/" hreflang=3D"en">
+<link rel=3D"alternate" href=3D"https://www.bestprog.net/ru/2019/01/24/the-=
+concept-of-er-model-the-concept-of-essence-and-communication-attributes-att=
+ribute-types-ru/" hreflang=3D"ru">
+<link rel=3D"dns-prefetch" href=3D"https://fonts.googleapis.com/">
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"BestProg =C2=
+=BB =D0=9B=D0=B5=D0=BD=D1=82=D0=B0" href=3D"https://www.bestprog.net/ru/fee=
+d/">
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"BestProg =C2=
+=BB =D0=9B=D0=B5=D0=BD=D1=82=D0=B0 =D0=BA=D0=BE=D0=BC=D0=BC=D0=B5=D0=BD=D1=
+=82=D0=B0=D1=80=D0=B8=D0=B5=D0=B2" href=3D"https://www.bestprog.net/ru/comm=
+ents/feed/">
+
+
+<link rel=3D"stylesheet" id=3D"wp-block-library-css" href=3D"https://www.be=
+stprog.net/wp-includes/css/dist/block-library/style.min.css?ver=3D92b871aa2=
+15e047b7a61b08c082e2da2" type=3D"text/css" media=3D"all">
+
+
+<link rel=3D"stylesheet" id=3D"twentyfourteen-lato-css" href=3D"https://fon=
+ts.googleapis.com/css?family=3DLato%3A300%2C400%2C700%2C900%2C300italic%2C4=
+00italic%2C700italic&amp;subset=3Dlatin%2Clatin-ext" type=3D"text/css" medi=
+a=3D"all">
+<link rel=3D"stylesheet" id=3D"genericons-css" href=3D"https://www.bestprog=
+.net/wp-content/themes/twentyfourteen/genericons/genericons.css?ver=3D3.0.3=
+" type=3D"text/css" media=3D"all">
+<link rel=3D"stylesheet" id=3D"twentyfourteen-style-css" href=3D"https://ww=
+w.bestprog.net/wp-content/themes/twentyfourteen/style.css?ver=3D92b871aa215=
+e047b7a61b08c082e2da2" type=3D"text/css" media=3D"all">
+<!--[if lt IE 9]>
+<link rel=3D'stylesheet' id=3D'twentyfourteen-ie-css' href=3D'https://www.b=
+estprog.net/wp-content/themes/twentyfourteen/css/ie.css?ver=3D20131205' typ=
+e=3D'text/css' media=3D'all' />
+<![endif]-->
+
+
+<link rel=3D"https://api.w.org/" href=3D"https://www.bestprog.net/wp-json/"=
+><link rel=3D"alternate" type=3D"application/json" href=3D"https://www.best=
+prog.net/wp-json/wp/v2/posts/13644"><link rel=3D"EditURI" type=3D"applicati=
+on/rsd+xml" title=3D"RSD" href=3D"https://www.bestprog.net/xmlrpc.php?rsd">
+
+<link rel=3D"canonical" href=3D"https://www.bestprog.net/ru/2019/01/24/the-=
+concept-of-er-model-the-concept-of-essence-and-communication-attributes-att=
+ribute-types-ru/">
+<link rel=3D"shortlink" href=3D"https://www.bestprog.net/?p=3D13644">
+<link rel=3D"alternate" type=3D"application/json+oembed" href=3D"https://ww=
+w.bestprog.net/wp-json/oembed/1.0/embed?url=3Dhttps%3A%2F%2Fwww.bestprog.ne=
+t%2Fru%2F2019%2F01%2F24%2Fthe-concept-of-er-model-the-concept-of-essence-an=
+d-communication-attributes-attribute-types-ru%2F">
+<link rel=3D"alternate" type=3D"text/xml+oembed" href=3D"https://www.bestpr=
+og.net/wp-json/oembed/1.0/embed?url=3Dhttps%3A%2F%2Fwww.bestprog.net%2Fru%2=
+F2019%2F01%2F24%2Fthe-concept-of-er-model-the-concept-of-essence-and-commun=
+ication-attributes-attribute-types-ru%2F&amp;format=3Dxml">
+=09
+=09
+	<link rel=3D"icon" href=3D"https://www.bestprog.net/wp-content/uploads/202=
+1/02/cropped-Icon-3-32x32.png" sizes=3D"32x32">
+<link rel=3D"icon" href=3D"https://www.bestprog.net/wp-content/uploads/2021=
+/02/cropped-Icon-3-192x192.png" sizes=3D"192x192">
+<link rel=3D"apple-touch-icon" href=3D"https://www.bestprog.net/wp-content/=
+uploads/2021/02/cropped-Icon-3-180x180.png">
+<meta name=3D"msapplication-TileImage" content=3D"https://www.bestprog.net/=
+wp-content/uploads/2021/02/cropped-Icon-3-270x270.png">
+<meta name=3D"yandex-verification" content=3D"53bcdf191ed8ea93">
+
+
+=09
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+=09
+=09
+
+=09
+
+
+
+=09
+
+=09
+=09
+=09
+
+
+=09
+<link type=3D"text/css" href=3D"https://www.google.com/cse/static/element/3=
+bd4ac03c21554b3/default+en.css" rel=3D"stylesheet"><link type=3D"text/css" =
+href=3D"https://www.google.com/cse/static/style/look/v4/default.css" rel=3D=
+"stylesheet"></head>
+
+<body class=3D"post-template-default single single-post postid-13644 single=
+-format-standard custom-background masthead-fixed full-width footer-widgets=
+ singular">
+=09
+	<amp-auto-ads type=3D"adsense" data-ad-client=3D"ca-pub-9065892916791387">
+</amp-auto-ads>
+=09
+=09
+<div id=3D"page" class=3D"hfeed site">
+=09
+	<header id=3D"masthead" class=3D"site-header" role=3D"banner">
+		<div class=3D"header-main">
+			<h1 class=3D"site-title"><a href=3D"https://www.bestprog.net/ru/sitemap_=
+ru/" rel=3D"home">BestProg</a></h1>
+
+			<div class=3D"search-toggle">
+				<a href=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-mod=
+el-the-concept-of-essence-and-communication-attributes-attribute-types-ru/#=
+search-container" class=3D"screen-reader-text" aria-expanded=3D"false" aria=
+-controls=3D"search-container">=D0=9F=D0=BE=D0=B8=D1=81=D0=BA</a>
+			</div>
+
+			<nav id=3D"primary-navigation" class=3D"site-navigation primary-navigati=
+on" role=3D"navigation">
+				<button class=3D"menu-toggle">=D0=9E=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=
+=BE=D0=B5 =D0=BC=D0=B5=D0=BD=D1=8E</button>
+				<a class=3D"screen-reader-text skip-link" href=3D"https://www.bestprog.=
+net/ru/2019/01/24/the-concept-of-er-model-the-concept-of-essence-and-commun=
+ication-attributes-attribute-types-ru/#content">=D0=9F=D0=B5=D1=80=D0=B5=D0=
+=B9=D1=82=D0=B8 =D0=BA =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B8=D0=BC=D0=
+=BE=D0=BC=D1=83</a>
+				<div class=3D"menu-menu_ru-container"><ul id=3D"primary-menu" class=3D"=
+nav-menu"><li id=3D"menu-item-2909" class=3D"menu-item menu-item-type-post_=
+type menu-item-object-page menu-item-home menu-item-2909"><a href=3D"https:=
+//www.bestprog.net/ru/sitemap_ru/">=D0=9A=D0=B0=D1=80=D1=82=D0=B0 =D1=81=D0=
+=B0=D0=B9=D1=82=D0=B0</a></li>
+<li id=3D"menu-item-38840" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-38840"><a href=3D"https://www.bestprog.net/ru/v=
+ideo-ru/">=D0=92=D0=B8=D0=B4=D0=B5=D0=BE=D1=83=D1=80=D0=BE=D0=BA=D0=B8</a><=
+/li>
+<li id=3D"menu-item-29019" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-29019"><a href=3D"https://www.bestprog.net/ru/%=
+d0%bf%d0%b0%d1%82%d1%82%d0%b5%d1%80%d0%bd%d1%8b/">Patterns. =D0=9F=D0=B0=D1=
+=82=D1=82=D0=B5=D1=80=D0=BD=D1=8B</a></li>
+<li id=3D"menu-item-4557" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-4557"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/java/">Java</a></li>
+<li id=3D"menu-item-3473" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-3473"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/c/">C++</a></li>
+<li id=3D"menu-item-3475" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-3475"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/c-2/">C#</a></li>
+<li id=3D"menu-item-3474" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-3474"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/delphi/">Pascal / Delphi</a></li>
+<li id=3D"menu-item-3472" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-3472"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/%d0%b1%d0%b0%d0%b7%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/">=D0=
+=91=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85</a></li>
+<li id=3D"menu-item-15152" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-15152"><a href=3D"https://www.bestprog.net/ru/s=
+itemap_ru/python-ru/">Python</a></li>
+<li id=3D"menu-item-32680" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-32680"><a href=3D"https://www.bestprog.net/ru/k=
+otlin-2/">Kotlin</a></li>
+<li id=3D"menu-item-35712" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-35712"><a href=3D"https://www.bestprog.net/ru/j=
+avascript/">JavaScript</a></li>
+<li id=3D"menu-item-8-uk" class=3D"lang-item lang-item-2 lang-item-uk lang-=
+item-first menu-item menu-item-type-custom menu-item-object-custom menu-ite=
+m-8-uk"><a href=3D"https://www.bestprog.net/uk/2019/01/24/the-concept-of-er=
+-model-the-concept-of-essence-and-communication-attributes-attribute-types-=
+ua/" hreflang=3D"uk" lang=3D"uk"><img src=3D"data:image/png;base64,iVBORw0K=
+GgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAb1BMVEUAhP8AfP0Ac/oAZ/UAV/B5yv9wxv5=
+iwf1WvP1Ot/gAQOlMt/1Bs/s1rfkpqPdBsfYdovUAkciK0edqwuBautpNtdZAr9IATZr43QD8/G=
+X6+kn5+Tr4+C329iD09BTy8g309DHguQDy8iruzwDnwwAuoRPoAAAASElEQVR4AU3MAQYDQRAF0=
+Ve9WRAQYO5/zUgSDIxf8DQdiGR3I7v0YOLS3ns4PPt8Wq86vn6vVht7NRzG0OHRSpDb8Gt5IvjA=
+Hy/kBL+aIRygAAAAAElFTkSuQmCC" alt=3D"=D0=A3=D0=BA=D1=80=D0=B0=D1=97=D0=BD=
+=D1=81=D1=8C=D0=BA=D0=B0" width=3D"16" height=3D"11" style=3D"width: 16px; =
+height: 11px;"></a></li>
+<li id=3D"menu-item-8-en" class=3D"lang-item lang-item-9 lang-item-en menu-=
+item menu-item-type-custom menu-item-object-custom menu-item-8-en"><a href=
+=3D"https://www.bestprog.net/en/2019/01/24/the-concept-of-er-model-the-conc=
+ept-of-essence-and-communication-attributes-attribute-types/" hreflang=3D"e=
+n-GB" lang=3D"en-GB"><img src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhE=
+UgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+=
+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJ=
+jhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/m=
+bVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3H=
+NUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVN=
+FAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7=
+uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg=3D=3D" alt=3D"Engl=
+ish" width=3D"16" height=3D"11" style=3D"width: 16px; height: 11px;"></a></=
+li>
+<li id=3D"menu-item-8-ru" class=3D"lang-item lang-item-5 lang-item-ru curre=
+nt-lang menu-item menu-item-type-custom menu-item-object-custom menu-item-8=
+-ru"><a href=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-mo=
+del-the-concept-of-essence-and-communication-attributes-attribute-types-ru/=
+" hreflang=3D"ru-RU" lang=3D"ru-RU"><img src=3D"data:image/png;base64,iVBOR=
+w0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAdVBMVEX19f/u7vjm5/H+/v75+fng4Ove=
+3ulFRfyysv6cnP6QkPmIiPh/f/YAAOYAAP1ycv5QUP06OvkxMfcoKPcgIPYUFPS0AADdaYzTRG/=
+RPGnOM2LKLFzIIVPCEUZ7AAD0AQH7YGH3ODj0JyfzERDgAAD4TU3pAABIfLuPAAAAT0lEQVR4AQ=
+XBAQqDMAAAsZytyHzA/v9LYRS7JIAQMkBb0ATsgLoKInnHvIrHrdRaBzxupTDxuFUifUsp4R3zU=
+4iwzmOyT1ibBtP2u3C+wB+SHBB5JNY7DAAAAABJRU5ErkJggg=3D=3D" alt=3D"=D0=A0=D1=
+=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9" width=3D"16" height=3D"11" style=3D"widt=
+h: 16px; height: 11px;"></a></li>
+</ul></div>			</nav>
+		</div>
+
+		<div id=3D"search-container" class=3D"search-box-wrapper hide">
+			<div class=3D"search-box">
+				<form role=3D"search" method=3D"get" class=3D"search-form" action=3D"ht=
+tps://www.bestprog.net/ru/">
+				<label>
+					<span class=3D"screen-reader-text">=D0=9D=D0=B0=D0=B9=D1=82=D0=B8:</sp=
+an>
+					<input type=3D"search" class=3D"search-field" placeholder=3D"=D0=9F=D0=
+=BE=D0=B8=D1=81=D0=BA=E2=80=A6" value=3D"" name=3D"s">
+				</label>
+				<input type=3D"submit" class=3D"search-submit" value=3D"=D0=9F=D0=BE=D0=
+=B8=D1=81=D0=BA">
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id=3D"main" class=3D"site-main">
+	=09
+
+	<div id=3D"primary" class=3D"content-area">
+		<div id=3D"content" class=3D"site-content" role=3D"main">
+		=09
+<article id=3D"post-13644" class=3D"post-13644 post type-post status-publis=
+h format-standard hentry category-589 tag-er- tag-2346 tag-130 tag-2350">
+=09
+	<header class=3D"entry-header">
+				<div class=3D"entry-meta">
+			<span class=3D"cat-links"><a href=3D"https://www.bestprog.net/ru/categor=
+y/%d0%b1%d0%b0%d0%b7%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/" rel=3D"ca=
+tegory tag">=D0=91=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85</=
+a></span>
+		</div>
+		<h1 class=3D"entry-title">=D0=91=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=
+=BD=D1=8B=D1=85. =D0=9F=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 ER-=D0=BC=D0=BE=
+=D0=B4=D0=B5=D0=BB=D0=B8. =D0=9F=D0=BE=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81=
+=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8 (entity). =D0=90=D1=82=D1=80=D0=
+=B8=D0=B1=D1=83=D1=82=D1=8B. =D0=92=D0=B8=D0=B4=D1=8B =D0=B0=D1=82=D1=80=D0=
+=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2</h1>
+		<div class=3D"entry-meta">
+			<span class=3D"entry-date"><a href=3D"https://www.bestprog.net/ru/2019/0=
+1/24/the-concept-of-er-model-the-concept-of-essence-and-communication-attri=
+butes-attribute-types-ru/" rel=3D"bookmark"><time class=3D"entry-date" date=
+time=3D"2019-01-24T23:43:42+04:00">24 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F,=
+ 2019</time></a></span> <span class=3D"byline"><span class=3D"author vcard"=
+><a class=3D"url fn n" href=3D"https://www.bestprog.net/ru/author/bestprogi=
+sch/" rel=3D"author">BestProgISch</a></span></span>		</div><!-- .entry-meta=
+ -->
+	</header><!-- .entry-header -->
+
+		<div class=3D"entry-content">
+		<p><span id=3D"more-13644"></span></p>
+<h1 id=3D"contents" style=3D"text-align: center;">=D0=9F=D0=BE=D0=BD=D1=8F=
+=D1=82=D0=B8=D0=B5 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8. =D0=9F=D0=BE=D0=
+=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=
+=B8 (entity). =D0=90=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B. =D0=92=D0=
+=B8=D0=B4=D1=8B =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2</h1>
+<hr>
+<h3 style=3D"text-align: center;">=D0=A1=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=
+=B0=D0=BD=D0=B8=D0=B5</h3>
+<ul>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of=
+-essence-and-communication-attributes-attribute-types-ru/#q01">1. =D0=9A=D0=
+=B0=D0=BA=D0=B8=D0=B5 <strong>=D0=BF=D1=80=D0=BE=D0=B1=D0=BB=D0=B5=D0=BC=D1=
+=8B</strong> =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=B2=D0=BE=D0=B7=D0=BD=D0=B8=
+=D0=BA=D0=BD=D1=83=D1=82=D1=8C =D1=83 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=
+=D0=BE=D1=82=D1=87=D0=B8=D0=BA=D0=B0 =D0=BF=D1=80=D0=B8 =D0=BF=D1=80=D0=BE=
+=D0=B5=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B1=
+=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85?</a></span></li>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of=
+-essence-and-communication-attributes-attribute-types-ru/#q02">2. =D0=A7=D1=
+=82=D0=BE =D1=82=D0=B0=D0=BA=D0=BE=D0=B5 <strong>ER-=D0=BC=D0=BE=D0=B4=D0=
+=B5=D0=BB=D1=8C</strong> (Entity-relationship model)? =D0=94=D0=BB=D1=8F =
+=D1=87=D0=B5=D0=B3=D0=BE =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D1=80=D0=B0=D0=B7=
+=D1=80=D0=B0=D0=B1=D0=B0=D1=82=D1=8B=D0=B2=D0=B0=D1=82=D1=8C ER-=D0=BC=D0=
+=BE=D0=B4=D0=B5=D0=BB=D1=8C?</a></span></li>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of=
+-essence-and-communication-attributes-attribute-types-ru/#q03">3. =D0=A7=D1=
+=82=D0=BE =D1=82=D0=B0=D0=BA=D0=BE=D0=B5 <strong>=D1=81=D1=83=D1=89=D0=BD=
+=D0=BE=D1=81=D1=82=D1=8C</strong> =D0=B2 =D0=B1=D0=B0=D0=B7=D0=B5 =D0=B4=D0=
+=B0=D0=BD=D0=BD=D1=8B=D1=85? <strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80=
+=D1=8B</strong></a></span></li>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of=
+-essence-and-communication-attributes-attribute-types-ru/#q04">4. =D0=9A=D0=
+=B0=D0=BA=D0=B8=D0=B5 =D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D1=83=D1=
+=8E=D1=82 <strong>=D1=80=D0=B0=D0=B7=D0=BD=D0=BE=D0=B2=D0=B8=D0=B4=D0=BD=D0=
+=BE=D1=81=D1=82=D0=B8 =D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=81=D1=83=D1=89=D0=
+=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9</strong>? =D0=9E=D0=B1=D0=BE=D0=B7=D0=BD=
+=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=81=
+=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D0=B2 ER-=D0=BC=D0=BE=D0=
+=B4=D0=B5=D0=BB=D0=B8</a></span></li>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of=
+-essence-and-communication-attributes-attribute-types-ru/#q05">5. =D0=94=D0=
+=BB=D1=8F =D1=87=D0=B5=D0=B3=D0=BE =D0=BF=D1=80=D0=B5=D0=B4=D0=BD=D0=B0=D0=
+=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D1=8B <strong>=D0=B0=D1=82=D1=80=D0=B8=D0=
+=B1=D1=83=D1=82=D1=8B</strong>? =D0=92=D0=B8=D0=B4=D1=8B =D0=B0=D1=82=D1=80=
+=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2. =D0=9E=D0=B1=D0=BE=D0=B7=D0=BD=D0=B0=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=
+=D0=BE=D0=B2 =D0=BD=D0=B0 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8</a></span=
+></li>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of=
+-essence-and-communication-attributes-attribute-types-ru/#q06">6. =D0=9A=D0=
+=B0=D0=BA =D1=82=D0=B8=D0=BF=D1=8B =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=
+=82=D0=B5=D0=B9 =D0=B8 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B ER-=
+=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=
+=D1=83=D1=8E=D1=82=D1=81=D1=8F =D0=B2 =D1=80=D0=B5=D0=B0=D0=BB=D1=8C=D0=BD=
+=D1=8B=D1=85 =D0=B1=D0=B0=D0=B7=D0=B0=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=
+=D1=85 =D0=B8 =D1=83=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D0=BC=D1=8B=
+=D1=85 =D0=B8=D0=BC=D0=B8 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=
+=D0=B0=D1=85?</a></span></li>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-concept-of=
+-essence-and-communication-attributes-attribute-types-ru/#q07">7. <strong>=
+=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80</strong> =D1=84=D1=80=D0=B0=D0=B3=D0=
+=BC=D0=B5=D0=BD=D1=82=D0=B0 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =D0=B4=
+=D0=BB=D1=8F =D1=82=D0=B8=D0=BF=D0=B0 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 =C2=AB=D0=A1=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=C2=BB</a></sp=
+an></li>
+<li><a href=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-mod=
+el-the-concept-of-essence-and-communication-attributes-attribute-types-ru/#=
+topics"><strong><span style=3D"color: #333300;">=D0=A1=D0=B2=D1=8F=D0=B7=D0=
+=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D1=82=D0=B5=D0=BC=D1=8B</span></strong></a></l=
+i>
+</ul>
+<hr>
+<p><strong>=D0=9F=D0=BE=D0=B8=D1=81=D0=BA =D0=BD=D0=B0 =D0=B4=D1=80=D1=83=
+=D0=B3=D0=B8=D1=85 =D1=80=D0=B5=D1=81=D1=83=D1=80=D1=81=D0=B0=D1=85:</stron=
+g></p>
+<p></p>
+<div id=3D"___gcse_0"><div class=3D"gsc-control-searchbox-only gsc-control-=
+searchbox-only-en" dir=3D"ltr"><form class=3D"gsc-search-box gsc-search-box=
+-tools" accept-charset=3D"utf-8"><table cellspacing=3D"0" cellpadding=3D"0"=
+ role=3D"presentation" class=3D"gsc-search-box"><tbody><tr><td class=3D"gsc=
+-input"><div class=3D"gsc-input-box" id=3D"gsc-iw-id1"><table cellspacing=
+=3D"0" cellpadding=3D"0" role=3D"presentation" id=3D"gs_id50" class=3D"gstl=
+_50 gsc-input" style=3D"width: 100%; padding: 0px;"><tbody><tr><td id=3D"gs=
+_tti50" class=3D"gsib_a"><input autocomplete=3D"off" type=3D"text" size=3D"=
+10" class=3D"gsc-input" name=3D"search" title=3D"search" aria-label=3D"sear=
+ch" id=3D"gsc-i-id1" style=3D"width: 100%; padding: 0px; border: none; marg=
+in: 0px; height: auto; background: url(&quot;https://www.google.com/cse/sta=
+tic/images/1x/en/branding.png&quot;) left center no-repeat rgb(255, 255, 25=
+5); outline: none;" dir=3D"ltr" spellcheck=3D"false"></td><td class=3D"gsib=
+_b"><div class=3D"gsst_b" id=3D"gs_st50" dir=3D"ltr"><a class=3D"gsst_a" st=
+yle=3D"display: none;" title=3D"Clear search box" role=3D"button"><span cla=
+ss=3D"gscb_a" id=3D"gs_cb50" aria-hidden=3D"true">=C3=97</span></a></div></=
+td></tr></tbody></table></div></td><td class=3D"gsc-search-button"><button =
+class=3D"gsc-search-button gsc-search-button-v2"><svg width=3D"13" height=
+=3D"13" viewBox=3D"0 0 13 13"><title>search</title><path d=3D"m4.8495 7.822=
+6c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.=
+87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232=
+-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438=
+-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103=
+ 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115=
+ 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0=
+.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3=
+909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.939=
+2-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 =
+1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.=
+1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class=3D"gsc=
+-clear-button"><div class=3D"gsc-clear-button" title=3D"clear results">&nbs=
+p;</div></td></tr></tbody></table></form></div></div>
+<p></p>
+<!-- Ads_Begin_Databases_Delphi -->
+<p><ins class=3D"adsbygoogle" style=3D"display: block;" data-ad-client=3D"c=
+a-pub-9065892916791387" data-ad-slot=3D"4244804799" data-ad-format=3D"auto"=
+ data-full-width-responsive=3D"true"></ins> </p>
+<h5 id=3D"q01">1. =D0=9A=D0=B0=D0=BA=D0=B8=D0=B5 =D0=BF=D1=80=D0=BE=D0=B1=
+=D0=BB=D0=B5=D0=BC=D1=8B =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=B2=D0=BE=D0=B7=
+=D0=BD=D0=B8=D0=BA=D0=BD=D1=83=D1=82=D1=8C =D1=83 =D1=80=D0=B0=D0=B7=D1=80=
+=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA=D0=B0 =D0=BF=D1=80=D0=B8 =D0=BF=
+=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B8 =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85?</h5>
+<p>=D0=9F=D1=80=D0=B8 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B8=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=
+=BD=D0=BD=D1=8B=D1=85 =D0=B8 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=
+=82=D0=BA=D0=B5 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=BD=D0=
+=BE=D0=B3=D0=BE =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=B0 =D0=BD=D0=
+=B0=D0=B8=D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D0=B2=D0=B0=D0=B6=D0=BD=D0=BE=D0=
+=B9 =D0=BF=D1=80=D0=BE=D0=B1=D0=BB=D0=B5=D0=BC=D0=BE=D0=B9 =D0=B5=D1=81=D1=
+=82=D1=8C =D0=BF=D1=80=D0=BE=D0=B1=D0=BB=D0=B5=D0=BC=D0=B0 =D0=B2=D0=B7=D0=
+=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=8F =D1=
+=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA=D0=B0 =D1=
+=81 =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D1=87=D0=B8=D0=BA=D0=BE=D0=BC. =D0=97=D0=
+=B0=D0=B4=D0=B0=D1=87=D0=B0 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=
+=82=D1=87=D0=B8=D0=BA=D0=B0 =E2=80=93 =D0=BD=D0=B0=D0=B8=D0=B1=D0=BE=D0=BB=
+=D0=B5=D0=B5 =D1=82=D0=BE=D1=87=D0=BD=D0=BE =D0=B2=D0=BE=D1=81=D1=81=D0=BE=
+=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=BF=D0=BE=D0=B6=D0=B5=D0=BB=D0=B0=D0=BD=
+=D0=B8=D1=8F =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D1=87=D0=B8=D0=BA=D0=B0 =D0=BF=
+=D1=80=D0=B8 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B5 =
+=D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE =
+=D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=B0 =D1=83=D0=BF=D1=80=D0=B0=
+=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B1=D0=B0=D0=B7=D0=BE=D0=B9 =D0=B4=
+=D0=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=9E=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=
+=D1=8F =D0=BF=D1=80=D0=BE=D0=B1=D0=BB=D0=B5=D0=BC=D0=B0, =D0=BA=D0=BE=D1=82=
+=D0=BE=D1=80=D1=83=D1=8E =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D1=80=D0=B5=D1=88=
+=D0=B8=D1=82=D1=8C =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=
+=D0=B8=D0=BA=D1=83 =E2=80=93 =D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BB=D1=8C=D0=
+=BD=D0=BE=D0=B5 =D0=BF=D0=BE=D1=81=D1=82=D1=80=D0=BE=D0=B5=D0=BD=D0=B8=D0=
+=B5 =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85, =D0=B0 =
+=D1=82=D0=BE=D1=87=D0=BD=D0=B5=D0=B5 =D1=81=D1=85=D0=B5=D0=BC=D1=8B (=D1=81=
+=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D1=8B) =D0=B1=D0=B0=D0=B7=D1=8B =
+=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85.</p>
+<p>=D0=9A=D1=80=D0=BE=D0=BC=D0=B5 =D1=82=D0=BE=D0=B3=D0=BE, =D1=80=D0=B0=D0=
+=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA =D0=B4=D0=BE=D0=BF=D0=
+=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=B2=D1=81=D1=
+=82=D1=80=D0=B5=D1=87=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D1=81 =D0=B4=D1=80=D1=
+=83=D0=B3=D0=B8=D0=BC=D0=B8 =D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=BE=D1=81=D1=
+=82=D1=8F=D0=BC=D0=B8, =D0=BA =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=BC =
+=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=BE=D1=82=D0=BD=D0=B5=D1=81=D1=82=D0=B8:<=
+/p>
+<ul>
+<li>=D0=BF=D0=BE=D0=B8=D1=81=D0=BA =D1=8D=D1=84=D1=84=D0=B5=D0=BA=D1=82=D0=
+=B8=D0=B2=D0=BD=D1=8B=D1=85 =D0=B0=D0=BB=D0=B3=D0=BE=D1=80=D0=B8=D1=82=D0=
+=BC=D0=BE=D0=B2;</li>
+<li>=D0=BF=D0=BE=D0=B4=D0=B1=D0=BE=D1=80 =D0=BD=D0=B0=D0=B4=D0=BB=D0=B5=D0=
+=B6=D0=B0=D1=89=D0=B8=D1=85 =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=
+=80 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85;</li>
+<li>=D0=BE=D1=82=D0=BB=D0=B0=D0=B4=D0=BA=D0=B0 =D0=B8 =D1=82=D0=B5=D1=81=D1=
+=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D0=BB=D0=BE=D0=
+=B6=D0=BD=D0=BE=D0=B3=D0=BE =D0=BA=D0=BE=D0=B4=D0=B0;</li>
+<li>=D0=B4=D0=B8=D0=B7=D0=B0=D0=B9=D0=BD =D0=B8 =D1=83=D0=B4=D0=BE=D0=B1=D1=
+=81=D1=82=D0=B2=D0=BE =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D1=84=D0=B5=D0=B9=D1=
+=81=D0=B0 =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F.</li=
+>
+</ul>
+<p>=D0=92 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B5 =D1=80=D0=B0=D0=
+=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B8 =D0=BF=D1=80=D0=BE=D0=B3=D1=
+=80=D0=B0=D0=BC=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D0=B1=D0=B5=D1=81=D0=
+=BF=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D1=8F, =D1=83=D0=BF=D1=80=D0=B0=D0=B2=D0=
+=BB=D1=8F=D1=8E=D1=89=D0=B5=D0=B3=D0=BE =D0=B1=D0=B0=D0=B7=D0=BE=D0=B9 =D0=
+=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85, =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82=D1=87=D0=B8=D0=BA =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=BF=D0=
+=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=BE =D0=B2=D1=8B=D1=83=D1=87=D0=B8=D1=
+=82=D1=8C =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=
+=B7=D0=B0=D0=BA=D0=B0=D0=B7=D1=87=D0=B8=D0=BA=D0=B0. =D0=91=D0=B0=D0=B7=D0=
+=B0 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=
+=B0 =D0=B1=D1=8B=D1=82=D1=8C =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=
+=82=D0=B0=D0=BD=D0=B0 =D1=82=D0=B0=D0=BA=D0=B8=D0=BC =D0=BE=D0=B1=D1=80=D0=
+=B0=D0=B7=D0=BE=D0=BC, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BE=D0=BD=D0=B0 =
+=D0=B1=D1=8B=D0=BB=D0=B0 =D0=BF=D0=BE=D0=BD=D1=8F=D1=82=D0=BD=D0=BE=D0=B9, =
+=D0=BD=D0=B0=D0=B8=D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D1=82=D0=BE=D1=87=D0=BD=
+=D0=BE =D0=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B0=D0=BB=D0=B0 =D1=80=
+=D0=B5=D1=88=D0=B0=D0=B5=D0=BC=D1=83=D1=8E =D0=BF=D1=80=D0=BE=D0=B1=D0=BB=
+=D0=B5=D0=BC=D1=83 =D0=B8 =D0=BD=D0=B5 =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=
+=D0=B0=D0=BB=D0=B0 =D0=B8=D0=B7=D0=B1=D1=8B=D1=82=D0=BE=D1=87=D0=BD=D0=BE=
+=D1=81=D1=82=D0=B8 =D0=B2 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85.</p>
+<p>=D0=A7=D1=82=D0=BE=D0=B1=D1=8B =D0=BE=D0=B1=D0=BB=D0=B5=D0=B3=D1=87=D0=
+=B8=D1=82=D1=8C =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81 =D1=80=D0=B0=D0=
+=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B8 (=D0=BF=D1=80=D0=BE=D0=B5=D0=
+=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F) =D0=B1=D0=B0=D0=
+=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85, =D0=B8=D1=81=D0=BF=D0=BE=D0=
+=BB=D1=8C=D0=B7=D1=83=D1=8E=D1=82=D1=81=D1=8F =D1=82=D0=B0=D0=BA =D0=BD=D0=
+=B0=D0=B7=D1=8B=D0=B2=D0=B0=D0=B5=D0=BC=D1=8B=D0=B5 <em>=D1=81=D0=B5=D0=BC=
+=D0=B0=D0=BD=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D0=BC=D0=BE=
+=D0=B4=D0=B5=D0=BB=D0=B8</em> =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=94=
+=D0=BB=D1=8F =D1=80=D0=B0=D0=B7=D0=BD=D1=8B=D1=85 =D0=B2=D0=B8=D0=B4=D0=BE=
+=D0=B2 =D0=B1=D0=B0=D0=B7 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BD=D0=B0=
+=D0=B8=D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=
+=D0=BD=D0=BE=D0=B9 =D0=B5=D1=81=D1=82=D1=8C ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=
+=BB=D1=8C =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 (Entity-Relationship model).=
+</p>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<h5 id=3D"q02">2. =D0=A7=D1=82=D0=BE =D1=82=D0=B0=D0=BA=D0=BE=D0=B5 ER-=D0=
+=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C (Entity-relationship model)? =D0=94=D0=BB=
+=D1=8F =D1=87=D0=B5=D0=B3=D0=BE =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D1=80=D0=B0=
+=D0=B7=D1=80=D0=B0=D0=B1=D0=B0=D1=82=D1=8B=D0=B2=D0=B0=D1=82=D1=8C ER-=D0=
+=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C?</h5>
+<p>ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C (Entity-relationship model =D0=
+=B8=D0=BB=D0=B8 Entity-relationship diagram) =E2=80=93 =D1=8D=D1=82=D0=BE =
+=D1=81=D0=B5=D0=BC=D0=B0=D0=BD=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B0=D1=
+=8F =D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=B0=D1=8F =D0=BF=D1=80=D0=B5=D0=B4=D0=
+=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B0 =D0=B4=D0=BB=D1=8F =D1=
+=83=D0=BF=D1=80=D0=BE=D1=89=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D1=80=D0=BE=D1=
+=86=D0=B5=D1=81=D1=81=D0=B0 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=
+=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=98=D0=B7 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=
+=D0=B8 =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D0=BF=D0=BE=
+=D1=80=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D1=8B =D0=B2=D1=81=D0=B5 =D0=B2=D0=B8=
+=D0=B4=D1=8B =D0=B1=D0=B0=D0=B7 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85: =D1=
+=80=D0=B5=D0=BB=D1=8F=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=B5, =D0=B8=D0=
+=B5=D1=80=D0=B0=D1=80=D1=85=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5, =D1=
+=81=D0=B5=D1=82=D0=B5=D0=B2=D1=8B=D0=B5, =D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=
+=82=D0=BD=D1=8B=D0=B5. =D0=92 =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B5 ER-=D0=
+=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =D0=BB=D0=B5=D0=B6=D0=B0=D1=82 =D0=BF=D0=
+=BE=D0=BD=D1=8F=D1=82=D0=B8=D1=8F =C2=AB=D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=
+=81=D1=82=D1=8C=C2=BB, =C2=AB=D1=81=D0=B2=D1=8F=D0=B7=D1=8C=C2=BB =D0=B8 =
+=C2=AB=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=C2=BB.</p>
+<p>=D0=94=D0=BB=D1=8F =D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B8=D1=85 =D0=B1=D0=
+=B0=D0=B7 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BF=D0=BE=D1=81=D1=82=D1=
+=80=D0=BE=D0=B5=D0=BD=D0=B8=D0=B5 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =
+=D0=BF=D0=BE=D0=B7=D0=B2=D0=BE=D0=BB=D1=8F=D0=B5=D1=82 =D0=B8=D0=B7=D0=B1=
+=D0=B5=D0=B6=D0=B0=D1=82=D1=8C =D0=BE=D1=88=D0=B8=D0=B1=D0=BE=D0=BA =D0=BF=
+=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=
+=8F, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D1=87=D1=80=D0=B5=D0=B7=D0=
+=B2=D1=8B=D1=87=D0=B0=D0=B9=D0=BD=D0=BE =D1=81=D0=BB=D0=BE=D0=B6=D0=BD=D0=
+=BE =D0=B8=D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D1=8F=D1=82=D1=8C, =D0=B2 =
+=D0=BE=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B8, =D0=B5=
+=D1=81=D0=BB=D0=B8 =D0=B1=D0=B0=D0=B7=D0=B0 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=
+=D1=85 =D1=83=D0=B6=D0=B5 =D1=8D=D0=BA=D1=81=D0=BF=D0=BB=D1=83=D0=B0=D1=82=
+=D0=B8=D1=80=D1=83=D0=B5=D1=82=D1=81=D1=8F =D0=B8=D0=BB=D0=B8 =D0=BD=D0=B0 =
+=D1=81=D1=82=D0=B0=D0=B4=D0=B8=D0=B8 =D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=
+=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F. =D0=9E=D1=88=D0=B8=D0=B1=D0=BA=D0=B8 =
+=D0=B2 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B5 =D1=81=
+=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D1=8B =D0=B1=D0=B0=D0=B7=D1=8B =
+=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=BF=
+=D1=80=D0=B8=D0=B2=D0=B5=D1=81=D1=82=D0=B8 =D0=BA =D0=BF=D0=B5=D1=80=D0=B5=
+=D0=B4=D0=B5=D0=BB=D0=BA=D0=B5 =D0=BA=D0=BE=D0=B4=D0=B0 =D0=BF=D1=80=D0=BE=
+=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D0=B1=D0=B5=
+=D1=81=D0=BF=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=83=D0=BF=D1=80=D0=B0=
+=D0=B2=D0=BB=D1=8F=D1=8E=D1=89=D0=B5=D0=B3=D0=BE =D1=8D=D1=82=D0=BE=D0=B9 =
+=D0=B1=D0=B0=D0=B7=D0=BE=D0=B9 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=92=
+ =D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D0=B5 =D0=B2=D1=80=
+=D0=B5=D0=BC=D1=8F, =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2=D0=B0 =D0=B8=
+ =D1=87=D0=B5=D0=BB=D0=BE=D0=B2=D0=B5=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =
+=D1=80=D0=B5=D1=81=D1=83=D1=80=D1=81=D1=8B =D0=B1=D1=83=D0=B4=D1=83=D1=82 =
+=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D1=8B =
+=D0=BD=D0=B5=D1=8D=D1=84=D1=84=D0=B5=D0=BA=D1=82=D0=B8=D0=B2=D0=BD=D0=BE.</=
+p>
+<p>ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =E2=80=93 =D1=8D=D1=82=D0=BE =D0=
+=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5=
+ =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=B2 =D0=
+=B2=D0=B8=D0=B4=D0=B5 =D0=BD=D0=B0=D0=B3=D0=BB=D1=8F=D0=B4=D0=BD=D1=8B=D1=
+=85 =D0=B3=D1=80=D0=B0=D1=84=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=
+=B4=D0=B8=D0=B0=D0=B3=D1=80=D0=B0=D0=BC=D0=BC. ER-=D0=BC=D0=BE=D0=B4=D0=B5=
+=D0=BB=D1=8C =D0=B2=D0=B8=D0=B7=D1=83=D0=B0=D0=BB=D0=B8=D0=B7=D0=B8=D1=80=
+=D1=83=D0=B5=D1=82 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81, =D0=BA=D0=BE=
+=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=
+=D1=8F=D0=B5=D1=82 =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=83=D1=8E =
+=D0=BF=D1=80=D0=B5=D0=B4=D0=BC=D0=B5=D1=82=D0=BD=D1=83=D1=8E =D0=BE=D0=B1=
+=D0=BB=D0=B0=D1=81=D1=82=D1=8C. =D0=94=D0=B8=D0=B0=D0=B3=D1=80=D0=B0=D0=BC=
+=D0=BC=D0=B0 =C2=AB=D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=8C=C2=BB-=
+=C2=AB=D1=81=D0=B2=D1=8F=D0=B7=D1=8C=C2=BB =E2=80=93 =D1=8D=D1=82=D0=BE =D0=
+=B4=D0=B8=D0=B0=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B0, =D0=BA=D0=BE=D1=82=D0=
+=BE=D1=80=D0=B0=D1=8F =D0=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=
+=BB=D1=8F=D0=B5=D1=82 =D0=B2 =D0=B3=D1=80=D0=B0=D1=84=D0=B8=D1=87=D0=B5=D1=
+=81=D0=BA=D0=BE=D0=BC =D0=B2=D0=B8=D0=B4=D0=B5 =D1=81=D1=83=D1=89=D0=BD=D0=
+=BE=D1=81=D1=82=D0=B8, =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D0=
+=B8 =D1=81=D0=B2=D1=8F=D0=B7=D0=B8.</p>
+<p>ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =E2=80=93 =D1=8D=D1=82=D0=BE =D1=
+=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BA=D0=BE=D0=BD=D1=86=D0=B5=D0=BF=D1=
+=82=D1=83=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=83=D1=80=D0=BE=D0=B2=D0=
+=B5=D0=BD=D1=8C =D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F. ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =D0=BD=D0=B5=
+ =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B8=D1=82 =D0=B4=D0=B5=D1=82=D0=B0=
+=D0=BB=D0=B5=D0=B9 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=
+=D0=B8. =D0=94=D0=BB=D1=8F =D1=82=D0=BE=D0=B9 =D0=B6=D0=B5 =D1=81=D0=B0=D0=
+=BC=D0=BE=D0=B9 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =D0=B4=D0=B5=D1=82=
+=D0=B0=D0=BB=D0=B8 =D0=B5=D0=B5 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=
+=D1=86=D0=B8=D0=B8 =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=BE=D1=82=D0=BB=D0=B8=
+=D1=87=D0=B0=D1=82=D1=8C=D1=81=D1=8F.</p>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<h5 id=3D"q03">3. =D0=A7=D1=82=D0=BE =D1=82=D0=B0=D0=BA=D0=BE=D0=B5 =D1=81=
+=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B2 =D0=B1=D0=B0=D0=B7=D0=B5 =
+=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85? =D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80=
+=D1=8B</h5>
+<p>=D0=A1=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B2 =D0=B1=D0=B0=D0=
+=B7=D0=B5 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =E2=80=93 =D1=8D=D1=82=D0=BE=
+ =D0=BB=D1=8E=D0=B1=D0=BE=D0=B9 =D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82 =D0=B2=
+ =D0=B1=D0=B0=D0=B7=D0=B5 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85, =D0=BA=D0=
+=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=B2=D1=
+=8B=D0=B4=D0=B5=D0=BB=D0=B8=D1=82=D1=8C =D0=B8=D1=81=D1=85=D0=BE=D0=B4=D1=
+=8F =D0=B8=D0=B7 =D1=81=D1=83=D1=82=D0=B8 =D0=BF=D1=80=D0=B5=D0=B4=D0=BC=D0=
+=B5=D1=82=D0=BD=D0=BE=D0=B9 =D0=BE=D0=B1=D0=BB=D0=B0=D1=81=D1=82=D0=B8 =D0=
+=B4=D0=BB=D1=8F =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=D0=B9 =D1=80=D0=B0=D0=
+=B7=D1=80=D0=B0=D0=B1=D0=B0=D1=82=D1=8B=D0=B2=D0=B0=D0=B5=D1=82=D1=81=D1=8F=
+ =D1=8D=D1=82=D0=B0 =D0=B1=D0=B0=D0=B7=D0=B0 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=
+=D1=85. =D0=A0=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA =
+=D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=B4=D0=BE=
+=D0=BB=D0=B6=D0=B5=D0=BD =D1=83=D0=BC=D0=B5=D1=82=D1=8C =D0=BF=D1=80=D0=B0=
+=D0=B2=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=
+=D0=BB=D1=8F=D1=82=D1=8C =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8.<=
+/p>
+<p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 1.</strong> =D0=92 =D0=B1=
+=D0=B0=D0=B7=D0=B5 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BA=D0=BD=D0=B8=
+=D0=B6=D0=BD=D0=BE=D0=B3=D0=BE =D0=BC=D0=B0=D0=B3=D0=B0=D0=B7=D0=B8=D0=BD=
+=D0=B0 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=B2=D1=8B=D0=B4=D0=B5=D0=BB=D0=B8=
+=D1=82=D1=8C =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D1=81=
+=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8:</p>
+<ul>
+<li>=D0=BA=D0=BD=D0=B8=D0=B3=D0=B0;</li>
+<li>=D0=BF=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D1=89=D0=B8=D0=BA;</li>
+<li>=D1=80=D0=B0=D0=B7=D0=BC=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B2 =D0=
+=BC=D0=B0=D0=B3=D0=B0=D0=B7=D0=B8=D0=BD=D0=B5.</li>
+</ul>
+<p><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 2.</strong> =D0=92 =D0=B1=
+=D0=B0=D0=B7=D0=B5 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D1=83=D1=87=D0=B5=
+=D1=82=D0=B0 =D1=83=D1=87=D0=B5=D0=B1=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D1=80=
+=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B0 =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=
+=D1=80=D0=BE=D0=B3=D0=BE =D1=83=D1=87=D0=B5=D0=B1=D0=BD=D0=BE=D0=B3=D0=BE =
+=D0=B7=D0=B0=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BC=D0=BE=D0=B6=
+=D0=BD=D0=BE =D0=B2=D1=8B=D0=B4=D0=B5=D0=BB=D0=B8=D1=82=D1=8C =D1=81=D0=BB=
+=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D1=81=D1=83=D1=89=D0=BD=D0=BE=
+=D1=81=D1=82=D0=B8:</p>
+<ul>
+<li>=D1=81=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=D1=8B (=D1=83=D1=87=D0=B5=D0=
+=BD=D0=B8=D0=BA=D0=B8);</li>
+<li>=D0=BF=D1=80=D0=B5=D0=BF=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=D0=
+=BB=D0=B8;</li>
+<li>=D0=B3=D1=80=D1=83=D0=BF=D0=BF=D1=8B;</li>
+<li>=D0=B4=D0=B8=D1=81=D1=86=D0=B8=D0=BF=D0=BB=D0=B8=D0=BD=D1=8B, =D0=BA=D0=
+=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=B8=D0=B7=D1=83=D1=87=D0=B0=D1=8E=D1=
+=82=D1=81=D1=8F.</li>
+</ul>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<h5 id=3D"q04">4. =D0=9A=D0=B0=D0=BA=D0=B8=D0=B5 =D1=81=D1=83=D1=89=D0=B5=
+=D1=81=D1=82=D0=B2=D1=83=D1=8E=D1=82 =D1=80=D0=B0=D0=B7=D0=BD=D0=BE=D0=B2=
+=D0=B8=D0=B4=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =
+=D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9? =D0=9E=D0=B1=D0=BE=
+=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D0=B8=D0=BF=D0=BE=
+=D0=B2 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D0=B2 ER-=D0=
+=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8</h5>
+<p>=D0=92 =D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =C2=AB=D1=81=D1=83=D1=89=D0=
+=BD=D0=BE=D1=81=D1=82=D1=8C=C2=BB-=C2=AB=D1=81=D0=B2=D1=8F=D0=B7=D1=8C=C2=
+=BB =D1=80=D0=B0=D0=B7=D0=BB=D0=B8=D1=87=D0=B0=D1=8E=D1=82 =D0=B4=D0=B2=D0=
+=B5 =D1=80=D0=B0=D0=B7=D0=BD=D0=BE=D0=B2=D0=B8=D0=B4=D0=BD=D0=BE=D1=81=D1=
+=82=D0=B8 =D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=
+=81=D1=82=D0=B5=D0=B9:</p>
+<ul>
+<li><em>=D1=81=D0=BB=D0=B0=D0=B1=D1=8B=D0=B9 =D1=82=D0=B8=D0=BF</em>. =D0=
+=AD=D1=82=D0=BE=D1=82 =D1=82=D0=B8=D0=BF =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=
+=81=D1=82=D0=B8 =D0=B5=D1=81=D1=82=D1=8C =D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=
+=B8=D0=BC=D1=8B=D0=BC =D0=BE=D1=82 =D1=81=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE=D0=
+=B9 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8;</li>
+<li><em>=D1=81=D0=B8=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=82=D0=B8=D0=BF</em>.=
+ =D0=AD=D1=82=D0=BE =D1=81=D0=B0=D0=BC=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D1=82=
+=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=82=D0=B8=D0=BF =D1=81=D1=83=D1=89=
+=D0=BD=D0=BE=D1=81=D1=82=D0=B8, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =
+=D0=BD=D0=B8 =D0=BE=D1=82 =D0=BA=D0=BE=D0=B3=D0=BE =D0=BD=D0=B5 =D0=B7=D0=
+=B0=D0=B2=D0=B8=D1=81=D0=B8=D1=82.</li>
+</ul>
+<hr><!--Ads7--><hr>
+<p>=D0=9D=D0=B0 =D1=80=D0=B8=D1=81=D1=83=D0=BD=D0=BA=D0=B5 1 =D0=B8=D0=B7=
+=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=D1=8B =D0=BE=D0=B1=D0=BE=D0=B7=
+=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D0=BB=D0=B0=D0=B1=D0=BE=
+=D0=B3=D0=BE =D0=B8 =D1=81=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=
+=D0=B8=D0=BF=D0=B0 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B2 =
+ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8.</p>
+<p style=3D"text-align: center;"><a href=3D"https://www.bestprog.net/wp-con=
+tent/uploads/2019/01/01r.jpg"><img fetchpriority=3D"high" decoding=3D"async=
+" class=3D"alignnone wp-image-13651" title=3D"=D0=9E=D0=B1=D0=BE=D0=B7=D0=
+=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D0=B8=D0=BB=D1=8C=D0=BD=D0=
+=BE=D0=B3=D0=BE =D0=B8 =D1=81=D0=BB=D0=B0=D0=B1=D0=BE=D0=B3=D0=BE =D1=82=D0=
+=B8=D0=BF=D0=BE=D0=B2 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8" src=
+=3D"https://www.bestprog.net/wp-content/uploads/2019/01/01r-300x75.jpg" alt=
+=3D"ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =D1=81=D1=83=D1=89=D0=BD=D0=BE=
+=D1=81=D1=82=D1=8C =D0=BE=D0=B1=D0=BE=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=
+=D0=B8=D0=B5 =D1=80=D0=B8=D1=81=D1=83=D0=BD=D0=BE=D0=BA" width=3D"600" heig=
+ht=3D"149"></a></p>
+<p style=3D"text-align: center;">=D0=A0=D0=B8=D1=81. 1. =D0=9E=D0=B1=D0=BE=
+=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D0=B8=D0=BB=D1=8C=
+=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8 =D1=81=D0=BB=D0=B0=D0=B1=D0=BE=D0=B3=D0=BE =
+=D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=
+=D0=B8</p>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<h5 id=3D"q05">5. =D0=94=D0=BB=D1=8F =D1=87=D0=B5=D0=B3=D0=BE =D0=BF=D1=80=
+=D0=B5=D0=B4=D0=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D1=8B =D0=B0=
+=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B? =D0=92=D0=B8=D0=B4=D1=8B =D0=B0=
+=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2. =D0=9E=D0=B1=D0=BE=D0=B7=
+=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=
+=D1=83=D1=82=D0=BE=D0=B2 =D0=BD=D0=B0 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=
+=B8</h5>
+<p>=D0=9A=D0=B0=D0=B6=D0=B4=D1=8B=D0=B9 =D1=82=D0=B8=D0=BF =D1=81=D1=83=D1=
+=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B8=D0=BC=D0=B5=D0=B5=D1=82 =D0=BE=D0=
+=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D0=BD=D0=
+=B0=D0=B1=D0=BE=D1=80 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=
+=B2. =D0=90=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D0=BF=D1=80=D0=B5=D0=
+=B4=D0=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D1=8B =D0=B4=D0=BB=D1=
+=8F =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D1=8F =D0=BA=D0=BE=D0=BD=D0=
+=BA=D1=80=D0=B5=D1=82=D0=BD=D0=BE=D0=B9 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=
+=81=D1=82=D0=B8.</p>
+<p>=D0=A0=D0=B0=D0=B7=D0=BB=D0=B8=D1=87=D0=B0=D1=8E=D1=82 =D1=81=D0=BB=D0=
+=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D0=B2=D0=B8=D0=B4=D1=8B =D0=B0=D1=
+=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2:</p>
+<ul>
+<li><em>=D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=8B=D0=B5 </em>=D0=B0=D1=82=D1=80=
+=D0=B8=D0=B1=D1=83=D1=82=D1=8B. =D0=AD=D1=82=D0=BE =D0=B0=D1=82=D1=80=D0=B8=
+=D0=B1=D1=83=D1=82=D1=8B, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BC=
+=D0=BE=D0=B3=D1=83=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=87=D0=B0=D1=81=D1=82=
+=D1=8C=D1=8E =D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D1=8B=D1=85 =D0=B0=
+=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2. =D0=AD=D1=82=D0=B8 =D0=B0=
+=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D1=81=D0=BE=D1=81=D1=82=D0=BE=
+=D1=8F=D1=82 =D0=B8=D0=B7 =D0=BE=D0=B4=D0=BD=D0=BE=D0=B3=D0=BE =D0=BA=D0=BE=
+=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82=D0=B0. =D0=9D=D0=B0=D0=BF=D1=80=
+=D0=B8=D0=BC=D0=B5=D1=80, =D0=BA =D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=8B=D0=BC=
+ =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=B0=D0=BC =D0=BC=D0=BE=D0=B6=
+=D0=BD=D0=BE =D0=BE=D1=82=D0=BD=D0=B5=D1=81=D1=82=D0=B8: =D0=BA=D0=BE=D0=B4=
+ =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 =D0=B2 =D0=B1=D0=B8=D0=B1=D0=BB=D0=B8=D0=BE=
+=D1=82=D0=B5=D0=BA=D0=B5 =D0=B8=D0=BB=D0=B8 =D0=BA=D1=83=D1=80=D1=81 =D0=BE=
+=D0=B1=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D1=83=D0=B4=D0=B5=
+=D0=BD=D1=82=D0=B0 =D0=B2 =D1=83=D1=87=D0=B5=D0=B1=D0=BD=D0=BE=D0=BC =D0=B7=
+=D0=B0=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B8;</li>
+<li><em>=D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D1=8B=D0=B5 </em>=D0=B0=
+=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B. =D0=AD=D1=82=D0=BE =D0=B0=D1=82=
+=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=
+=D0=B5 =D1=81=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D1=82 =D0=B8=D0=B7 =D0=BD=D0=B5=
+=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=B8=D1=85 =D0=BF=D1=80=D0=BE=D1=81=
+=D1=82=D1=8B=D1=85 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2. =
+=D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=B0=D0=B4=D1=80=D0=B5=
+=D1=81 =D0=BF=D1=80=D0=BE=D0=B6=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BC=
+=D0=BE=D0=B6=D0=B5=D1=82 =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D1=82=
+=D1=8C =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D1=82=D1=80=
+=D0=B0=D0=BD=D1=8B, =D0=BD=D0=B0=D1=81=D0=B5=D0=BB=D0=B5=D0=BD=D0=BD=D0=BE=
+=D0=B3=D0=BE =D0=BF=D1=83=D0=BD=D0=BA=D1=82=D0=B0, =D1=83=D0=BB=D0=B8=D1=86=
+=D1=8B, =D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D0=B0 =D0=B4=D0=BE=D0=BC=D0=B0;</li>
+<li><em>=D0=BE=D0=B4=D0=BD=D0=BE=D0=B7=D0=BD=D0=B0=D1=87=D0=BD=D1=8B=D0=B5 =
+</em>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B. =D0=AD=D1=82=D0=BE =
+=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B, =D0=BA=D0=BE=D1=82=D0=BE=
+=D1=80=D1=8B=D0=B5 =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D1=82 =D1=82=
+=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BE=D0=B4=D0=BD=D0=BE =D0=B5=D0=B4=D0=B8=
+=D0=BD=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=B7=D0=BD=D0=B0=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=BB=D1=8F =D0=BD=D0=B5=D0=BA=D0=BE=
+=D1=82=D0=BE=D1=80=D0=BE=D0=B9 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=
+=D0=B8. =D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=B0=D1=82=D1=
+=80=D0=B8=D0=B1=D1=83=D1=82 =C2=AB=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D0=B7=D0=
+=B0=D1=87=D0=B5=D1=82=D0=BD=D0=BE=D0=B9 =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8=C2=
+=BB =D0=B4=D0=BB=D1=8F =D1=82=D0=B8=D0=BF=D0=B0 =D1=81=D1=83=D1=89=D0=BD=D0=
+=BE=D1=81=D1=82=D0=B8 =C2=AB=D0=A1=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=C2=
+=BB =D0=B5=D1=81=D1=82=D1=8C =D0=BE=D0=B4=D0=BD=D0=BE=D0=B7=D0=BD=D0=B0=D1=
+=87=D0=BD=D1=8B=D0=BC, =D1=82=D0=B0=D0=BA =D0=BA=D0=B0=D0=BA =D1=81=D1=82=
+=D1=83=D0=B4=D0=B5=D0=BD=D1=82 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B8=D0=BC=
+=D0=B5=D1=82=D1=8C =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BE=D0=B4=D0=B8=
+=D0=BD =D0=BD=D0=BE=D0=BC=D0=B5=D1=80 =D0=B7=D0=B0=D1=87=D0=B5=D1=82=D0=BD=
+=D0=BE=D0=B9 =D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 (=D0=BE=D0=B4=D0=BD=D0=BE =D0=
+=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5);</li>
+<li><em>=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE=D0=B7=D0=BD=D0=B0=D1=87=D0=BD=D1=8B=
+=D0=B5 </em>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B. =D0=AD=D1=82=
+=D0=BE =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B, =D0=BA=D0=BE=D1=82=
+=D0=BE=D1=80=D1=8B=D0=B5 =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D1=81=D0=BE=D0=B4=
+=D0=B5=D1=80=D0=B6=D0=B0=D1=82=D1=8C =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=
+=D1=8C=D0=BA=D0=BE =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B9. =D0=9D=
+=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=BC=D0=BD=D0=BE=D0=B3=D0=BE=
+=D0=B7=D0=BD=D0=B0=D1=87=D0=BD=D1=8B=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=
+=D1=83=D1=82 =C2=AB=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D1=82=D0=B5=D0=BB=D0=B5=
+=D1=84=D0=BE=D0=BD=D0=B0=C2=BB =D0=B4=D0=BB=D1=8F =D1=81=D1=83=D1=89=D0=BD=
+=D0=BE=D1=81=D1=82=D0=B8 =C2=AB=D0=A1=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=
+=C2=BB, =D1=82=D0=B0=D0=BA =D0=BA=D0=B0=D0=BA =D1=81=D1=82=D1=83=D0=B4=D0=
+=B5=D0=BD=D1=82 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B8=D0=BC=D0=B5=D1=82=D1=
+=8C =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BD=D0=BE=D0=
+=BC=D0=B5=D1=80=D0=BE=D0=B2 =D1=82=D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=BD=D0=
+=B0 (=D0=B4=D0=BE=D0=BC=D0=B0=D1=88=D0=BD=D0=B8=D0=B9, =D0=BC=D0=BE=D0=B1=
+=D0=B8=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=B8 =D1=82.=D0=B4.);</li>
+<li><em>=D0=BF=D1=80=D0=BE=D0=B8=D0=B7=D0=B2=D0=BE=D0=BB=D1=8C=D0=BD=D1=8B=
+=D0=B5</em> =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B. =D0=AD=D1=82=
+=D0=BE =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B, =D0=B7=D0=BD=D0=B0=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D1=85 =
+=D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D1=83=D0=B5=D1=82=D1=81=D1=8F =D0=BD=
+=D0=B0 =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B5 =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=
+=D0=BD=D0=B8=D0=B9 =D0=B4=D1=80=D1=83=D0=B3=D0=B8=D1=85 =D0=B0=D1=82=D1=80=
+=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2. =D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=
+=D0=B5=D1=80, =D1=82=D0=B5=D0=BA=D1=83=D1=89=D0=B8=D0=B9 =D0=BA=D1=83=D1=80=
+=D1=81 =D0=BE=D0=B1=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D1=83=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B0 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=B2=D1=8B=
+=D1=87=D0=B8=D1=81=D0=BB=D0=B8=D1=82=D1=8C =D0=BD=D0=B0 =D0=BE=D1=81=D0=BD=
+=D0=BE=D0=B2=D0=B5 =D1=80=D0=B0=D0=B7=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=82=
+=D0=B5=D0=BA=D1=83=D1=89=D0=B5=D0=B3=D0=BE =D0=B3=D0=BE=D0=B4=D0=B0 =D0=BE=
+=D0=B1=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=B3=D0=BE=D0=B4=D0=B0 =
+=D0=BF=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=
+=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=D0=B0 =D0=B2 =D1=83=D1=87=D0=B5=D0=B1=
+=D0=BD=D0=BE=D0=B5 =D0=B7=D0=B0=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 (=
+=D0=B5=D1=81=D0=BB=D0=B8 =D1=81=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82 =D0=BD=
+=D0=B5 =D0=B8=D0=BC=D0=B5=D0=BB =D0=BF=D1=80=D0=BE=D0=B1=D0=BB=D0=B5=D0=BC =
+=D1=81 =D1=83=D1=87=D0=B5=D0=B1=D0=BE=D0=B9 =D0=B8 =D1=85=D0=BE=D1=80=D0=BE=
+=D1=88=D0=BE =D1=83=D1=87=D0=B8=D0=BB =D0=B4=D0=B8=D1=81=D1=86=D0=B8=D0=BF=
+=D0=BB=D0=B8=D0=BD=D1=83 =C2=AB=D0=9E=D1=80=D0=B3=D0=B0=D0=BD=D0=B8=D0=B7=
+=D0=B0=D1=86=D0=B8=D1=8F =D0=B1=D0=B0=D0=B7 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=
+=D1=85 =D0=B8 =D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B9=C2=BB).</li>
+</ul>
+<p>=D0=9D=D0=B0 ER-=D0=B4=D0=B8=D0=B0=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B5 =
+=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D0=BE=D0=B1=D0=BE=D0=B7=
+=D0=BD=D0=B0=D1=87=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D1=82=D0=B0=D0=BA, =D0=BA=
+=D0=B0=D0=BA =D0=B8=D0=B7=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=D0=BE =
+=D0=BD=D0=B0 =D1=80=D0=B8=D1=81=D1=83=D0=BD=D0=BA=D0=B5 2. =D0=9A=D0=B0=D0=
+=BA =D0=B2=D0=B8=D0=B4=D0=BD=D0=BE =D0=B8=D0=B7 =D1=80=D0=B8=D1=81=D1=83=D0=
+=BD=D0=BA=D0=B0, =D0=BB=D1=8E=D0=B1=D0=BE=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=
+=B1=D1=83=D1=82 =D0=BE=D0=B1=D0=BE=D0=B7=D0=BD=D0=B0=D1=87=D0=B0=D0=B5=D1=
+=82=D1=81=D1=8F =D0=B2 =D0=B2=D0=B8=D0=B4=D0=B5 =D1=8D=D0=BB=D0=BB=D0=B8=D0=
+=BF=D1=81=D0=B0 =D1=81 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5=D0=
+=BC =D0=B2=D0=BD=D1=83=D1=82=D1=80=D0=B8 =D1=8D=D0=BB=D0=BB=D0=B8=D0=BF=D1=
+=81=D0=B0. =D0=95=D1=81=D0=BB=D0=B8 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=
+=82 =D0=B5=D1=81=D1=82=D1=8C =D0=BF=D0=B5=D1=80=D0=B2=D0=B8=D1=87=D0=BD=D1=
+=8B=D0=BC =D0=BA=D0=BB=D1=8E=D1=87=D0=BE=D0=BC, =D1=82=D0=BE =D0=B5=D0=B3=
+=D0=BE =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=D0=B4=
+=D1=87=D0=B5=D1=80=D0=BA=D0=B8=D0=B2=D0=B0=D1=8E=D1=82.</p>
+<p style=3D"text-align: center;"><a href=3D"https://www.bestprog.net/wp-con=
+tent/uploads/2019/01/02r.jpg"><img decoding=3D"async" class=3D"alignnone wp=
+-image-13654" title=3D"=D0=9F=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=
+=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=
+=BE=D0=B2 =D0=BD=D0=B0 =D0=B4=D0=B8=D0=B0=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=
+=B0=D1=85 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8" src=3D"https://www.bestp=
+rog.net/wp-content/uploads/2019/01/02r.jpg" alt=3D"=D0=B0=D1=82=D1=80=D0=B8=
+=D0=B1=D1=83=D1=82 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C =D1=84=D0=BE=D1=
+=82=D0=BE" width=3D"600" height=3D"350"></a></p>
+<p style=3D"text-align: center;">=D0=A0=D0=B8=D1=81=D1=83=D0=BD=D0=BE=D0=BA=
+ 2. =D0=9F=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=
+=B8=D0=B5 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2 =D0=BD=D0=
+=B0 =D0=B4=D0=B8=D0=B0=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B0=D1=85 ER-=D0=BC=
+=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8</p>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<h5 id=3D"q06">6. =D0=9A=D0=B0=D0=BA =D1=82=D0=B8=D0=BF=D1=8B =D1=81=D1=83=
+=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D0=B8 =D0=B0=D1=82=D1=80=D0=B8=
+=D0=B1=D1=83=D1=82=D1=8B ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =D1=80=D0=
+=B5=D0=B0=D0=BB=D0=B8=D0=B7=D1=83=D1=8E=D1=82=D1=81=D1=8F =D0=B2 =D1=80=D0=
+=B5=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=B1=D0=B0=D0=B7=D0=B0=D1=85 =D0=
+=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=B8 =D1=83=D0=BF=D1=80=D0=B0=D0=B2=D0=
+=BB=D1=8F=D0=B5=D0=BC=D1=8B=D1=85 =D0=B8=D0=BC=D0=B8 =D0=BF=D1=80=D0=BE=D0=
+=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B0=D1=85?</h5>
+<p>=D0=9F=D1=80=D0=B8 =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=
+=BA=D0=B5 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC =D1=83=D0=BF=D1=
+=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B1=D0=B0=D0=B7=D0=B0=D0=
+=BC=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85, =D1=82=D0=B8=D0=BF=D1=8B =
+=D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D0=B8 =D0=B8=D1=85 =
+=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D0=BC=D0=BE=D0=B6=D0=BD=
+=D0=BE =D0=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D1=82=
+=D1=8C =D0=BF=D0=BE =D1=80=D0=B0=D0=B7=D0=BD=D0=BE=D0=BC=D1=83 =D0=BF=D1=80=
+=D0=B8 =D1=8D=D1=82=D0=BE=D0=BC =D0=BF=D1=80=D0=B8=D0=B4=D0=B5=D1=80=D0=B6=
+=D0=B8=D0=B2=D0=B0=D1=8F=D1=81=D1=8C =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=
+=D1=8C=D0=BA=D0=B8=D1=85 =D0=BF=D0=BE=D0=B4=D1=85=D0=BE=D0=B4=D0=BE=D0=B2:<=
+/p>
+<ul>
+<li>=D0=B2=D1=8B=D0=B1=D1=80=D0=B0=D1=82=D1=8C =D0=B2 =D0=BA=D0=B0=D1=87=D0=
+=B5=D1=81=D1=82=D0=B2=D0=B5 =D0=B8=D1=81=D1=82=D0=BE=D1=87=D0=BD=D0=B8=D0=
+=BA=D0=B0 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=B8=D0=B7=D0=B2=D0=B5=D1=
+=81=D1=82=D0=BD=D1=83=D1=8E =D1=82=D0=B5=D1=85=D0=BD=D0=BE=D0=BB=D0=BE=D0=
+=B3=D0=B8=D1=8E (=D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80 Microsoft=
+ SQL Server, Oracle Database, Microsoft Access, Microsoft ODBC Data Source =
+=D0=B8 =D1=82.=D0=BF.), =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=B0=D1=8F =D1=83=
+=D0=B6=D0=B5 =D0=B8=D1=81=D1=81=D0=BB=D0=B5=D0=B4=D0=BE=D0=B2=D0=B0=D0=BD=
+=D0=B0, =D0=BF=D1=80=D0=BE=D1=82=D0=B5=D1=81=D1=82=D0=B8=D1=80=D0=BE=D0=B2=
+=D0=B0=D0=BD=D0=B0, =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=B8=
+=D0=B7=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B0 =D0=B8 =D0=B8=D0=BC=D0=B5=
+=D0=B5=D1=82 =D0=BE=D0=B3=D1=80=D0=BE=D0=BC=D0=BD=D1=8B=D0=B9 =D0=BD=D0=B0=
+=D0=B1=D0=BE=D1=80 =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2 =D1=83=D0=BF=
+=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B1=D0=B0=D0=B7=D0=BE=
+=D0=B9 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85;</li>
+<li>=D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D1=82=D1=8C =D1=
+=81=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D1=84=D0=
+=BE=D1=80=D0=BC=D0=B0=D1=82 =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=
+=BD=D1=8B=D1=85 =D0=B8 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=
+=B0=D1=82=D1=8C =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D1=8B =D0=B5=D0=B5 =D0=BE=D0=
+=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B8, =D0=B0 =D0=B2=D0=B7=D0=B0=D0=
+=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D0=B5 =D1=81 =D0=
+=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B8=D1=81=D1=
+=82=D0=BE=D1=87=D0=BD=D0=B8=D0=BA=D0=B0=D0=BC=D0=B8 =D0=B4=D0=B0=D0=BD=D0=
+=BD=D1=8B=D1=85 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D1=
+=82=D1=8C =D0=B2 =D0=B2=D0=B8=D0=B4=D0=B5 =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D0=
+=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=BA=D0=BE=D0=BC=D0=B0=D0=BD=D0=B4 =D0=
+=BD=D0=B0=D0=BF=D0=BE=D0=B4=D0=BE=D0=B1=D0=B8=D0=B5 =D0=98=D0=BC=D0=BF=D0=
+=BE=D1=80=D1=82/=D0=AD=D0=BA=D1=81=D0=BF=D0=BE=D1=80=D1=82. =D0=92 =D1=8D=
+=D1=82=D0=BE=D0=BC =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5 =D0=BF=D1=80=D0=B8=
+=D0=B4=D0=B5=D1=82=D1=81=D1=8F =D1=81=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B5=
+=D0=BD=D0=BD=D0=BE=D1=80=D1=83=D1=87=D0=BD=D0=BE =D0=BF=D1=80=D0=BE=D0=B3=
+=D1=80=D0=B0=D0=BC=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=B2=
+=D1=81=D1=8E =D1=80=D1=83=D1=82=D0=B8=D0=BD=D0=BD=D1=83=D1=8E =D1=80=D0=B0=
+=D0=B1=D0=BE=D1=82=D1=83 =D0=BF=D0=BE =D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=
+=D1=8E =D0=B8 =D0=BE=D0=B1=D0=B5=D1=81=D0=BF=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=
+=D1=8E =D0=BD=D0=B0=D0=B4=D0=B5=D0=B6=D0=BD=D0=BE=D0=B9 =D1=80=D0=B0=D0=B1=
+=D0=BE=D1=82=D1=8B =D0=B1=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=
+=D1=85;</li>
+<li>=D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=
+=BE=D0=B1=D1=8A=D0=B5=D0=B4=D0=B8=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=
+=B2=D1=83=D1=85 =D0=B2=D1=8B=D1=88=D0=B5=D0=BF=D1=80=D0=B8=D0=B2=D0=B5=D0=
+=B4=D0=B5=D0=BD=D0=BD=D1=8B=D1=85 =D0=BF=D0=BE=D0=B4=D1=85=D0=BE=D0=B4=D0=
+=BE=D0=B2. =D0=A1=D0=BE=D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=BD=D1=8B=D0=
+=B5 =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2=D0=B0 =D1=80=D0=B0=D0=B7=D1=
+=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B8 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=
+=B0=D0=BC=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D0=B1=D0=B5=D1=81=D0=BF=D0=
+=B5=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8=D0=BC=D0=B5=D1=8E=D1=82 =D0=BC=D0=
+=BE=D1=89=D0=BD=D1=8B=D0=B9 =D0=BD=D0=B0=D0=B1=D0=BE=D1=80 =D0=B1=D0=B8=D0=
+=B1=D0=BB=D0=B8=D0=BE=D1=82=D0=B5=D0=BA =D0=B4=D0=BB=D1=8F =D0=BE=D0=B1=D1=
+=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B8 =D1=81=D0=BB=D0=BE=D0=B6=D0=BD=D1=
+=8B=D1=85 =D0=BD=D0=B0=D0=B1=D0=BE=D1=80=D0=BE=D0=B2 =D0=B8 =D0=B2=D0=B8=D0=
+=B7=D1=83=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8 =D0=B4=D0=B0=D0=
+=BD=D0=BD=D1=8B=D1=85 =D0=B2 =D0=BD=D0=B8=D1=85 (=D0=BA=D0=BE=D0=BB=D0=BB=
+=D0=B5=D0=BA=D1=86=D0=B8=D0=B8, =D0=BC=D0=B0=D1=81=D1=81=D0=B8=D0=B2=D1=8B,=
+ =D0=BA=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82=D1=8B =D0=B2=D0=B8=
+=D0=B7=D1=83=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8 =D0=B8 =D1=82.=
+=D0=BF.).</li>
+</ul>
+<p>=D0=95=D1=81=D0=BB=D0=B8 =D0=B1=D0=B0=D0=B7=D0=B0 =D0=B4=D0=B0=D0=BD=D0=
+=BD=D1=8B=D1=85 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D1=83=D0=B5=D1=82=D1=
+=81=D1=8F =D0=B2 =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D0=BD=D1=8B=D1=85 =D1=
+=80=D0=B5=D0=BB=D1=8F=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D1=85 =D0=A1=D0=
+=A3=D0=91=D0=94 (=D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80 Microsoft=
+ Access, Microsoft SQL Server =D0=B8 =D1=82.=D0=BF.), =D1=82=D0=BE =D1=82=
+=D0=B8=D0=BF=D1=8B =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =
+=D0=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D1=8E=D1=82=D1=
+=81=D1=8F =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D0=B0=D0=BC=D0=B8. =D0=90=D1=
+=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D0=B8=D0=B7 ER-=D0=BC=D0=BE=D0=B4=
+=D0=B5=D0=BB=D0=B8 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=
+=D0=B2=D1=83=D1=8E=D1=82 =D0=BF=D0=BE=D0=BB=D1=8F=D0=BC =D1=82=D0=B0=D0=B1=
+=D0=BB=D0=B8=D1=86=D1=8B. =D0=9E=D0=B4=D0=BD=D0=B0 =D0=B7=D0=B0=D0=BF=D0=B8=
+=D1=81=D1=8C =D0=B2 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D0=B5 =D0=B1=D0=B0=
+=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BF=D1=80=D0=B5=D0=B4=
+=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D1=82 =D0=BE=D0=B4=D0=B8=D0=BD =
+=D1=8D=D0=BA=D0=B7=D0=B5=D0=BC=D0=BF=D0=BB=D1=8F=D1=80 =D1=81=D1=83=D1=89=
+=D0=BD=D0=BE=D1=81=D1=82=D0=B8.</p>
+<p>=D0=9A=D0=B0=D0=B6=D0=B4=D1=8B=D0=B9 =D0=B2=D0=B8=D0=B4 =D0=B0=D1=82=D1=
+=80=D0=B8=D0=B1=D1=83=D1=82=D0=B0 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D1=
+=83=D0=B5=D1=82=D1=81=D1=8F =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=
+=B8=D0=BC =D0=BE=D0=B1=D1=80=D0=B0=D0=B7=D0=BE=D0=BC:</p>
+<ul>
+<li><em>=D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=BE=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=
+=D0=B1=D1=83=D1=82</em> =D0=B8=D0=BB=D0=B8 =D0=BE=D0=B4=D0=BD=D0=BE=D0=B7=
+=D0=BD=D0=B0=D1=87=D0=BD=D1=8B=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=
+=D1=82 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D0=BF=D1=80=
+=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD =D0=B4=D0=BE=D1=81=
+=D1=82=D1=83=D0=BF=D0=BD=D1=8B=D0=BC =D0=BD=D0=B0=D0=B1=D0=BE=D1=80=D0=BE=
+=D0=BC =D0=B1=D0=B0=D0=B7=D0=BE=D0=B2=D1=8B=D1=85 =D1=82=D0=B8=D0=BF=D0=BE=
+=D0=B2, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=B5=D1=81=D1=82=D1=8C=
+ =D0=B2 =D0=BB=D1=8E=D0=B1=D0=BE=D0=BC =D1=8F=D0=B7=D1=8B=D0=BA=D0=B5 =D0=
+=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
+=D0=BD=D0=B8=D1=8F. =D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D1=
+=86=D0=B5=D0=BB=D0=BE=D1=87=D0=B8=D1=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5=
+ =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D0=BF=D1=80=D0=B5=D0=B4=
+=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D1=8E=D1=82=D1=81=D1=8F =D1=82=D0=B8=
+=D0=BF=D0=BE=D0=BC <span style=3D"color: #0000ff;">int</span>, <span style=
+=3D"color: #0000ff;">integer</span>, <span style=3D"color: #0000ff;">uint</=
+span> =D0=B8 =D1=82.=D0=B4.; =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=
+=8B =D1=81=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D1=89=D0=B8=D0=B5 =D0=B4=D1=
+=80=D0=BE=D0=B1=D0=BD=D1=83=D1=8E =D1=87=D0=B0=D1=81=D1=82=D1=8C =D0=BC=D0=
+=BE=D0=B3=D1=83=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D0=BF=D1=80=D0=B5=D0=B4=D1=
+=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D1=8B =D1=82=D0=B8=D0=BF=D0=BE=D0=
+=BC <span style=3D"color: #0000ff;">float</span>, <span style=3D"color: #00=
+00ff;">double</span>; =D1=81=D1=82=D1=80=D0=BE=D1=87=D0=BD=D1=8B=D0=B5 =D0=
+=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D1=82=D0=B8=D0=BF=D0=BE=D0=
+=BC <span style=3D"color: #0000ff;">string</span> =D0=B8 =D1=82.=D0=B4.;</l=
+i>
+<li><em>=D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D0=BE=D0=B9 =D0=B0=D1=82=
+=D1=80=D0=B8=D0=B1=D1=83=D1=82</em> =E2=80=93 =D1=8D=D1=82=D0=BE =D0=BE=D0=
+=B1=D1=8A=D0=B5=D0=BA=D1=82, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=
+=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D0=B5=D1=82 =D0=B2 =D1=81=D0=B5=D0=B1=D1=
+=8F =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=B2=D0=BB=D0=
+=BE=D0=B6=D0=B5=D0=BD=D0=BD=D1=8B=D1=85 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=
+=8B=D1=85 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2. =D0=9D=D0=
+=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=B2 =D0=A1=D0=A3=D0=91=D0=94 Mi=
+crosoft Access =D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D0=BE=D0=B9 =D0=
+=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=
+=BE=D1=80=D0=BE=D0=B9 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B =D0=BC=D0=
+=BE=D0=B6=D0=B5=D1=82 =D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BD=D0=B0 =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=
+=B5 =D0=BD=D0=B0=D0=B1=D0=BE=D1=80=D0=B0 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=
+=8B=D1=85 =D1=82=D0=B8=D0=BF=D0=BE=D0=B2 (=D0=BF=D0=BE=D0=BB=D0=B5=D0=B9). =
+=D0=92 =D1=8F=D0=B7=D1=8B=D0=BA=D0=B0=D1=85 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=
+=D0=B0=D0=BC=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BE=
+=D0=B1=D1=8A=D0=B5=D0=B4=D0=B8=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=
+=D0=BB=D0=B5=D0=B9 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D1=83=D0=B5=D1=82=
+=D1=81=D1=8F =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D0=B0=D0=BC=
+=D0=B8 =D0=B8=D0=BB=D0=B8 =D0=BA=D0=BB=D0=B0=D1=81=D1=81=D0=B0=D0=BC=D0=B8;=
+</li>
+<li><em>=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE=D0=B7=D0=BD=D0=B0=D1=87=D0=BD=D1=8B=
+=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82</em> =D0=BC=D0=BE=D0=B6=
+=D0=B5=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=
+=D0=BE=D0=B2=D0=B0=D0=BD =D0=BC=D0=B0=D1=81=D1=81=D0=B8=D0=B2=D0=BE=D0=BC =
+=D0=B8=D0=BB=D0=B8 =D0=BA=D0=BE=D0=BB=D0=BB=D0=B5=D0=BA=D1=86=D0=B8=D0=B5=
+=D0=B9 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=8B=D1=85 =D0=B8=D0=BB=D0=B8 =D1=81=
+=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D1=8B=D1=85 =D0=B0=D1=82=D1=80=D0=B8=
+=D0=B1=D1=83=D1=82=D0=BE=D0=B2;</li>
+<li><em>=D0=BF=D1=80=D0=BE=D0=B8=D0=B7=D0=B2=D0=BE=D0=BB=D1=8C=D0=BD=D1=8B=
+=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82</em> =D1=80=D0=B5=D0=B0=
+=D0=BB=D0=B8=D0=B7=D1=83=D0=B5=D1=82=D1=81=D1=8F =D0=B4=D0=BE=D0=BF=D0=BE=
+=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC =D0=BF=D0=BE=
+=D0=BB=D0=B5=D0=BC, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=D0=B5 =D0=B2=D1=8B=
+=D1=87=D0=B8=D1=81=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BF=D1=80=D0=B8 =
+=D0=BE=D0=B1=D1=80=D0=B0=D1=89=D0=B5=D0=BD=D0=B8=D0=B8 =D0=BA =D1=82=D0=B0=
+=D0=B1=D0=BB=D0=B8=D1=86=D0=B5. =D0=A2=D0=B0=D0=BA=D0=BE=D0=B5 =D0=BF=D0=BE=
+=D0=BB=D0=B5 =D0=BD=D0=B0=D0=B7=D1=8B=D0=B2=D0=B0=D0=B5=D1=82=D1=81=D1=8F =
+=D0=B2=D1=8B=D1=87=D0=B8=D1=81=D0=BB=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=
+=8B=D0=BC =D0=BF=D0=BE=D0=BB=D0=B5=D0=BC (calculated field) =D0=B8 =D1=84=
+=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D1=83=D0=B5=D1=82=D1=81=D1=8F =D0=BD=D0=B0 =
+=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B5 =D0=B4=D1=80=D1=83=D0=B3=D0=B8=D1=85 =
+=D0=BF=D0=BE=D0=BB=D0=B5=D0=B9 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B;<=
+/li>
+<li><em>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82, =D0=BA=D0=BE=D1=82=D0=
+=BE=D1=80=D1=8B=D0=B9 =D0=B5=D1=81=D1=82=D1=8C =D0=BF=D0=B5=D1=80=D0=B2=D0=
+=B8=D1=87=D0=BD=D1=8B=D0=BC =D0=BA=D0=BB=D1=8E=D1=87=D0=BE=D0=BC</em> =D0=
+=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=86=D0=B5=D0=BB=D0=
+=BE=D1=87=D0=B8=D1=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=BC, =D1=81=D1=82=D1=
+=80=D0=BE=D1=87=D0=BD=D1=8B=D0=BC =D0=B8=D0=BB=D0=B8 =D0=B8=D0=BD=D0=BE=D0=
+=B3=D0=BE =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=BE=D0=B2=D0=BE=D0=B3=D0=
+=BE =D1=82=D0=B8=D0=BF=D0=B0. =D0=92 =D1=8D=D1=82=D0=BE=D0=BC =D1=81=D0=BB=
+=D1=83=D1=87=D0=B0=D0=B5, =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D0=BA=D0=B0=D0=B6=D0=B4=D0=BE=D0=B9 =D1=8F=D1=87=D0=B5=D0=B9=D0=BA=D0=B8 =
+=D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=86=D1=8B, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=
+=D0=B0=D1=8F =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=
+=D1=83=D0=B5=D1=82 =D0=BF=D0=B5=D1=80=D0=B2=D0=B8=D1=87=D0=BD=D0=BE=D0=BC=
+=D1=83 =D0=BA=D0=BB=D1=8E=D1=87=D1=83, =D0=B5=D1=81=D1=82=D1=8C =D1=83=D0=
+=BD=D0=B8=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC. =D0=9D=D0=B0=D0=B8=D0=
+=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D1=87=D0=B0=D1=81=D1=82=D0=BE, =D0=B2 =D0=BA=
+=D0=B0=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B5 =D0=BF=D0=B5=D1=80=D0=B2=D0=B8=
+=D1=87=D0=BD=D0=BE=D0=B3=D0=BE =D0=BA=D0=BB=D1=8E=D1=87=D0=B0 =D0=B2=D1=8B=
+=D1=81=D1=82=D1=83=D0=BF=D0=B0=D0=B5=D1=82 =D1=86=D0=B5=D0=BB=D1=8B=D0=B9 =
+=D1=82=D0=B8=D0=BF (<span style=3D"color: #0000ff;">int</span>, <span style=
+=3D"color: #0000ff;">integer</span>).</li>
+</ul>
+<p>=D0=95=D1=81=D0=BB=D0=B8 =D0=B1=D0=B0=D0=B7=D0=B0 =D0=B4=D0=B0=D0=BD=D0=
+=BD=D1=8B=D1=85 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B0 =D0=B2 =D1=83=D0=BD=D0=B8=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=
+=BC =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=B5, =D1=82=D0=BE =D1=82=D0=B8=
+=D0=BF=D1=8B =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D1=83=
+=D0=B4=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5 =D0=B2=D1=81=D0=B5=D0=B3=D0=BE =D0=BF=
+=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D1=82=D1=8C =D0=B2 =
+=D0=B2=D0=B8=D0=B4=D0=B5 =D0=BA=D0=BB=D0=B0=D1=81=D1=81=D0=BE=D0=B2 =D0=B8=
+=D0=BB=D0=B8 =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80. =D0=90=D1=82=
+=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D1=83=D1=8E=D1=82=D1=81=
+=D1=8F =D0=B2 =D0=B2=D0=B8=D0=B4=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5=D0=B9 (=D0=
+=B2=D0=BD=D1=83=D1=82=D1=80=D0=B5=D0=BD=D0=BD=D0=B8=D1=85 =D0=B4=D0=B0=D0=
+=BD=D0=BD=D1=8B=D1=85) =D0=BA=D0=BB=D0=B0=D1=81=D1=81=D0=B0. =D0=9C=D0=B5=
+=D1=82=D0=BE=D0=B4=D1=8B =D0=BA=D0=BB=D0=B0=D1=81=D1=81=D0=B0 =D1=80=D0=B5=
+=D0=B0=D0=BB=D0=B8=D0=B7=D1=83=D1=8E=D1=82 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=
+=D0=BE=D0=B4=D0=B8=D0=BC=D1=83=D1=8E =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=
+=D1=82=D0=BA=D1=83 =D0=BF=D0=BE=D0=BB=D0=B5=D0=B9 =D0=BA=D0=BB=D0=B0=D1=81=
+=D1=81=D0=B0 (=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=BE=D0=B2). =D0=
+=92=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=
+=D0=B5 (=D1=81=D0=B2=D1=8F=D0=B7=D1=8C) =D0=BC=D0=B5=D0=B6=D0=B4=D1=83 =D0=
+=BA=D0=BB=D0=B0=D1=81=D1=81=D0=B0=D0=BC=D0=B8 =D1=80=D0=B5=D0=B0=D0=BB=D0=
+=B8=D0=B7=D1=83=D0=B5=D1=82=D1=81=D1=8F =D1=81 =D0=BF=D0=BE=D0=BC=D0=BE=D1=
+=89=D1=8C=D1=8E =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D0=
+=BE =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D0=BD=D0=BD=D1=
+=8B=D1=85 =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D1=84=D0=B5=D0=B9=D1=81=D0=BE=D0=
+=B2 =D1=81 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B8=D0=B5=D0=BC =D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D0=BD=D1=8B=D1=
+=85 =D1=88=D0=B0=D0=B1=D0=BB=D0=BE=D0=BD=D0=BE=D0=B2 =D0=BF=D1=80=D0=BE=D0=
+=B5=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F.</p>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<hr>
+<p></p>
+<!-- MyAd_End -->
+<p><ins class=3D"adsbygoogle" style=3D"display: block;" data-ad-client=3D"c=
+a-pub-9065892916791387" data-ad-slot=3D"9334958158" data-ad-format=3D"auto"=
+ data-full-width-responsive=3D"true"></ins> </p>
+<hr>
+<h5 id=3D"q07">7. =D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D1=84=D1=80=D0=B0=
+=D0=B3=D0=BC=D0=B5=D0=BD=D1=82=D0=B0 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=
+=B8 =D0=B4=D0=BB=D1=8F =D1=82=D0=B8=D0=BF=D0=B0 =D1=81=D1=83=D1=89=D0=BD=D0=
+=BE=D1=81=D1=82=D0=B8 =C2=AB=D0=A1=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=C2=
+=BB</h5>
+<p>=D0=9F=D1=80=D0=B8=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D0=
+=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=B4=D0=B5=D0=BC=D0=BE=D0=BD=D1=81=D1=
+=82=D1=80=D0=B8=D1=80=D1=83=D0=B5=D1=82 =D1=84=D1=80=D0=B0=D0=B3=D0=BC=D0=
+=B5=D0=BD=D1=82 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =D0=B4=D0=BB=D1=8F =
+=D1=82=D0=B8=D0=BF=D0=B0 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =
+=C2=AB=D0=A1=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=C2=BB.</p>
+<p style=3D"text-align: center;"><a href=3D"https://www.bestprog.net/wp-con=
+tent/uploads/2019/01/03r.jpg"><img decoding=3D"async" class=3D"alignnone wp=
+-image-13657 size-full" title=3D"=D0=A4=D1=80=D0=B0=D0=B3=D0=BC=D0=B5=D0=BD=
+=D1=82 ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D0=B8 =D0=B4=D0=BB=D1=8F =D1=82=D0=
+=B8=D0=BF=D0=B0 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8 &quot;=D0=
+=A1=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82&quot;" src=3D"https://www.bestprog.=
+net/wp-content/uploads/2019/01/03r.jpg" alt=3D"ER-=D0=BC=D0=BE=D0=B4=D0=B5=
+=D0=BB=D1=8C =D1=82=D0=B8=D0=BF =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=
+=D0=B8 =D1=80=D0=B8=D1=81=D1=83=D0=BD=D0=BE=D0=BA" width=3D"737" height=3D"=
+690"></a></p>
+<p style=3D"text-align: center;">=D0=A0=D0=B8=D1=81=D1=83=D0=BD=D0=BE=D0=BA=
+ 3. =D0=A4=D1=80=D0=B0=D0=B3=D0=BC=D0=B5=D0=BD=D1=82 ER-=D0=BC=D0=BE=D0=B4=
+=D0=B5=D0=BB=D0=B8 =D0=B4=D0=BB=D1=8F =D1=82=D0=B8=D0=BF=D0=B0 =D1=81=D1=83=
+=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B8 <span style=3D"color: #0000ff;">=C2=AB=
+=D0=A1=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=C2=BB</span></p>
+<p>=D0=9D=D0=B0 =D0=B2=D1=8B=D1=88=D0=B5=D0=BF=D1=80=D0=B8=D0=B2=D0=B5=D0=
+=B4=D0=B5=D0=BD=D0=BD=D0=BE=D0=BC =D1=80=D0=B8=D1=81=D1=83=D0=BD=D0=BA=D0=
+=B5 =D0=BE=D0=B1=D1=8A=D1=8F=D0=B2=D0=BB=D1=8F=D1=8E=D1=82=D1=81=D1=8F =D1=
+=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D0=B0=D1=82=D1=80=D0=
+=B8=D0=B1=D1=83=D1=82=D1=8B, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=
+=B2 =D0=A1=D0=A3=D0=91=D0=94 (=D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=
+=BC=D0=B5) =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=B8=D0=BC=D0=B5=D1=82=D1=8C =
+=D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B5 =D1=82=D0=B8=D0=BF=
+=D1=8B:</p>
+<ul>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=9F=D0=B5=D1=80=D0=B2=D0=B8=D1=87=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BB=D1=
+=8E=D1=87</span>&nbsp;=E2=80=93 =D0=B5=D1=81=D1=82=D1=8C =D1=83=D0=BD=D0=B8=
+=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC =D1=86=D0=B5=D0=BB=D0=BE=D1=87=
+=D0=B8=D1=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=BC =D0=B7=D0=BD=D0=B0=D1=87=
+=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=D0=B5 =
+=D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D1=83=D0=B5=D1=82=D1=81=D1=8F =D0=B0=
+=D0=B2=D1=82=D0=BE=D0=BC=D0=B0=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8. =
+=D0=92 =D0=A1=D0=A3=D0=91=D0=94 =D1=8D=D1=82=D0=BE =D0=B5=D1=81=D1=82=D1=8C=
+ =D0=BF=D0=BE=D0=BB=D0=B5-=D1=81=D1=87=D0=B5=D1=82=D1=87=D0=B8=D0=BA;</li>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=93=D0=BE=D0=B4 =D0=B2=D1=81=D1=82=D1=83=D0=BF=D0=BB=D0=B5=D0=BD=D0=
+=B8=D1=8F</span> =E2=80=93 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=BE=D0=B9 =D0=
+=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=
+=8B=D0=B9 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=
+=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=86=D0=B5=D0=BB=D0=BE=D1=87=D0=B8=D1=
+=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=BC =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=
+=BD=D0=B8=D0=B5=D0=BC (<span style=3D"color: #0000ff;">int</span>, <span st=
+yle=3D"color: #0000ff;">integer</span>);</li>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D1=82=D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=
+=BD=D0=B0</span> =E2=80=93 =D0=BC=D0=BD=D0=BE=D0=B3=D0=BE=D0=B7=D0=BD=D0=B0=
+=D1=87=D0=BD=D1=8B=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82, =D0=BA=
+=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B1=
+=D1=8B=D1=82=D1=8C =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=
+=D0=BD =D0=BA=D0=B0=D0=BA =D0=BC=D0=B0=D1=81=D1=81=D0=B8=D0=B2 =D0=B8=D0=BB=
+=D0=B8 =D0=BA=D0=BE=D0=BB=D0=BB=D0=B5=D0=BA=D1=86=D0=B8=D1=8F =D0=B8 =D1=82=
+.=D0=BF.;</li>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D0=B7=D0=B0=D1=87=D0=B5=D1=82=D0=BD=D0=
+=BE=D0=B9 =D0=BA=D0=BD=D0=B8=D0=B6=D0=BA=D0=B8</span> =E2=80=93 =D0=BF=D1=
+=80=D0=BE=D1=81=D1=82=D0=BE=D0=B9 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=
+=82, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=BC=D0=BE=D0=B6=D0=BD=D0=
+=BE =D1=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=
+=BA=D0=B0=D0=BA =D1=81=D1=82=D1=80=D0=BE=D0=BA=D1=83 =D1=81=D0=B8=D0=BC=D0=
+=B2=D0=BE=D0=BB=D0=BE=D0=B2, =D0=BF=D0=BE=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=
+=BA=D1=83 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80 =D0=B7=D0=B0=D1=87=D0=B5=D1=82=D0=
+=BD=D0=BE=D0=B9 =D0=BA=D0=BD=D0=B8=D0=B6=D0=BA=D0=B8 =D0=BA=D1=80=D0=BE=D0=
+=BC=D0=B5 =D1=86=D0=B8=D1=84=D1=80 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D1=81=D0=
+=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D1=82=D1=8C =D0=B8 =D0=B1=D1=83=D0=BA=D0=
+=B2=D1=8B;</li>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=A1=D1=82=D1=80=D0=B0=D0=BD=D0=B0</span>, <span style=3D"color: #000=
+0ff;">=D0=93=D0=BE=D1=80=D0=BE=D0=B4</span>, <span style=3D"color: #0000ff;=
+">=D0=A3=D0=BB=D0=B8=D1=86=D0=B0</span>, <span style=3D"color: #0000ff;">=
+=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D0=B4=D0=BE=D0=BC=D0=B0</span> =E2=80=93 =
+=D1=8D=D1=82=D0=BE =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B, =D0=BA=
+=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BE=D0=B1=D1=80=D0=B0=D0=B7=D1=83=
+=D1=8E=D1=82 =D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D0=BE=D0=B9 =D0=B0=
+=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000ff;">=D0=90=
+=D0=B4=D1=80=D0=B5=D1=81</span>. =D0=92=D1=81=D0=B5 =D1=8D=D1=82=D0=B8 =D0=
+=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D1=8B =D0=BC=D0=BE=D0=B3=D1=83=D1=
+=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=81=D1=82=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=
+=B3=D0=BE (=D1=82=D0=B5=D0=BA=D1=81=D1=82=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE) =
+=D1=82=D0=B8=D0=BF=D0=B0 (<span style=3D"color: #0000ff;">string</span>, <s=
+pan style=3D"color: #0000ff;">Text</span>);</li>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=A4=D0=B0=D0=BC=D0=B8=D0=BB=D0=B8=D1=8F</span>, <span style=3D"color=
+: #0000ff;">=D0=98=D0=BC=D1=8F</span>, <span style=3D"color: #0000ff;">=D0=
+=9E=D1=82=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE</span> =E2=80=93 =D1=8D=D1=82=
+=D0=BE =D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=8B=D0=B5 =D0=B0=D1=82=D1=80=D0=B8=
+=D0=B1=D1=83=D1=82=D1=8B, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D1=8F=
+=D0=B2=D0=BB=D1=8F=D1=8E=D1=82=D1=81=D1=8F =D1=87=D0=B0=D1=81=D1=82=D1=8C=
+=D1=8E =D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BD=D0=BE=D0=B3=D0=BE =D0=B0=
+=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82=D0=B0 <span style=3D"color: #0000ff;">=
+=D0=98=D0=BC=D1=8F =D1=81=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=D0=B0</span>.=
+ =D0=92=D1=81=D0=B5 =D1=8D=D1=82=D0=B8 =D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=
+=D1=82=D1=8B =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=81=
+=D1=82=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=B3=D0=BE (=D1=82=D0=B5=D0=BA=D1=81=
+=D1=82=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE) =D1=82=D0=B8=D0=BF=D0=B0 (<span style=
+=3D"color: #0000ff;">string</span>, <span style=3D"color: #0000ff;">Text</s=
+pan>);</li>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=94=D0=B5=D0=BD=D1=8C =D1=80=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=
+=8F</span> =E2=80=93 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=BE=D0=B9 =D0=B0=D1=
+=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 =D1=82=D0=B8=D0=BF=D0=B0 <span style=3D"c=
+olor: #0000ff;">=D0=94=D0=B0=D1=82=D0=B0</span> (<span style=3D"color: #000=
+0ff;">DateTime</span>);</li>
+<li>=D0=B0=D1=82=D1=80=D0=B8=D0=B1=D1=83=D1=82 <span style=3D"color: #0000f=
+f;">=D0=92=D0=BE=D0=B7=D1=80=D0=B0=D1=81=D1=82 =D1=81=D1=82=D1=83=D0=B4=D0=
+=B5=D0=BD=D1=82=D0=B0</span> =E2=80=93 =D0=B2=D1=8B=D1=87=D0=B8=D1=81=D0=BB=
+=D1=8F=D0=B5=D0=BC=D0=BE=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5, =D0=BA=D0=BE=D1=82=
+=D0=BE=D1=80=D0=BE=D0=B5 =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=8F=
+=D0=B5=D1=82=D1=81=D1=8F =D0=BA=D0=B0=D0=BA =D1=80=D0=B0=D0=B7=D0=BD=D0=BE=
+=D1=81=D1=82=D1=8C =D1=82=D0=B5=D0=BA=D1=83=D1=89=D0=B5=D0=B9 (=D1=81=D0=B8=
+=D1=81=D1=82=D0=B5=D0=BC=D0=BD=D0=BE=D0=B9) =D0=B4=D0=B0=D1=82=D1=8B =D0=B8=
+ =D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=B0=D1=82=D1=80=D0=B8=
+=D0=B1=D1=83=D1=82=D0=B0 <span style=3D"color: #0000ff;">=D0=94=D0=B5=D0=BD=
+=D1=8C =D1=80=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F</span>.</li>
+</ul>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<hr>
+<h3 id=3D"topics" style=3D"text-align: center;">=D0=A1=D0=B2=D1=8F=D0=B7=D0=
+=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D1=82=D0=B5=D0=BC=D1=8B</h3>
+<ul>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/27/entity-subtypes-supertype-example-adva=
+ntages-and-disadvantages-of-using-subtypes-of-entities-ru/" target=3D"_blan=
+k" rel=3D"noopener noreferrer"><strong>=D0=9F=D0=BE=D0=B4=D1=82=D0=B8=D0=BF=
+=D1=8B =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9</strong>. =D0=
+=A1=D1=83=D0=BF=D0=B5=D1=80=D1=82=D0=B8=D0=BF.&nbsp;<strong>=D0=9F=D1=80=D0=
+=B8=D0=BC=D0=B5=D1=80</strong>. =D0=9F=D1=80=D0=B5=D0=B8=D0=BC=D1=83=D1=89=
+=D0=B5=D1=81=D1=82=D0=B2=D0=B0 =D0=B8 =D0=BD=D0=B5=D0=B4=D0=BE=D1=81=D1=82=
+=D0=B0=D1=82=D0=BA=D0=B8 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=
+=D0=B8=D1=8F =D0=BF=D0=BE=D0=B4=D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=81=D1=83=
+=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9</a></span></li>
+<li><span style=3D"color: #333300;"><a style=3D"color: #333300;" href=3D"ht=
+tps://www.bestprog.net/ru/2019/01/27/er-model-the-concept-of-relationship-t=
+he-relationship-capacity-types-of-relationships-examples-ru/" target=3D"_bl=
+ank" rel=3D"noopener noreferrer"><strong>=D0=9F=D0=BE=D0=BD=D1=8F=D1=82=D0=
+=B8=D0=B5 =D1=81=D0=B2=D1=8F=D0=B7=D0=B8</strong>&nbsp;=D0=B2 ER-=D0=BC=D0=
+=BE=D0=B4=D0=B5=D0=BB=D0=B8. =D0=9C=D0=BE=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=
+=8C =D1=81=D0=B2=D1=8F=D0=B7=D0=B8. =D0=A2=D0=B8=D0=BF=D1=8B =D1=81=D0=B2=
+=D1=8F=D0=B7=D0=B5=D0=B9.&nbsp;<strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80=
+=D1=8B</strong></a></span></li>
+</ul>
+<p><strong><span style=3D"color: #333300;"><a style=3D"color: #333300;" hre=
+f=3D"https://www.bestprog.net/ru/2019/01/24/the-concept-of-er-model-the-con=
+cept-of-essence-and-communication-attributes-attribute-types-ru/#contents">=
+=E2=87=91</a></span></strong></p>
+<hr>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+	</div><!-- .entry-content -->
+=09
+	<footer class=3D"entry-meta"><span class=3D"tag-links"><a href=3D"https://=
+www.bestprog.net/tag/er-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d1%8c/" rel=3D"tag">=
+ER-=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C</a><a href=3D"https://www.bestprog.=
+net/tag/%d0%b0%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82/" rel=3D"tag">=D0=B0=D1=
+=82=D1=80=D0=B8=D0=B1=D1=83=D1=82</a><a href=3D"https://www.bestprog.net/ru=
+/tag/%d0%b1%d0%b0%d0%b7%d0%b0-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/" rel=3D=
+"tag">=D0=B1=D0=B0=D0=B7=D0=B0 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85</a><a h=
+ref=3D"https://www.bestprog.net/tag/%d1%81%d1%83%d1%89%d0%bd%d0%be%d1%81%d1=
+%82%d1%8c/" rel=3D"tag">=D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=8C</a=
+></span></footer></article><!-- #post-## -->
+	<nav class=3D"navigation post-navigation" role=3D"navigation">
+		<h1 class=3D"screen-reader-text">=D0=9D=D0=B0=D0=B2=D0=B8=D0=B3=D0=B0=D1=
+=86=D0=B8=D1=8F =D0=BF=D0=BE =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=D1=8F=D0=BC</h1=
+>
+		<div class=3D"nav-links">
+			<a href=3D"https://www.bestprog.net/ru/2019/01/21/recursion-examples-of-=
+recursive-methods-functions-in-c-ru/" rel=3D"prev"><span class=3D"meta-nav"=
+>=D0=9F=D1=80=D0=B5=D0=B4=D1=8B=D0=B4=D1=83=D1=89=D0=B0=D1=8F =D0=B7=D0=B0=
+=D0=BF=D0=B8=D1=81=D1=8C</span>C#. =D0=A0=D0=B5=D0=BA=D1=83=D1=80=D1=81=D0=
+=B8=D1=8F. =D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80=D1=8B =D1=80=D0=B5=D0=BA=D1=
+=83=D1=80=D1=81=D0=B8=D0=B2=D0=BD=D1=8B=D1=85 =D0=BC=D0=B5=D1=82=D0=BE=D0=
+=B4=D0=BE=D0=B2 (=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=B9) =D0=B2 C#</a><=
+a href=3D"https://www.bestprog.net/ru/2019/01/27/entity-subtypes-supertype-=
+example-advantages-and-disadvantages-of-using-subtypes-of-entities-ru/" rel=
+=3D"next"><span class=3D"meta-nav">=D0=A1=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=
+=89=D0=B0=D1=8F =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=D1=8C</span>=D0=91=D0=B0=D0=
+=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85. =D0=9F=D0=BE=D0=B4=D1=82=D0=
+=B8=D0=BF=D1=8B =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9. =D0=
+=A1=D1=83=D0=BF=D0=B5=D1=80=D1=82=D0=B8=D0=BF. =D0=9F=D1=80=D0=B8=D0=BC=D0=
+=B5=D1=80. =D0=9F=D1=80=D0=B5=D0=B8=D0=BC=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=
+=B2=D0=B0 =D0=B8 =D0=BD=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BA=D0=
+=B8 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=
+=BE=D0=B4=D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=
+=81=D1=82=D0=B5=D0=B9</a>		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+			</div><!-- #content -->
+	</div><!-- #primary -->
+
+<div id=3D"secondary">
+		<h2 class=3D"site-description">=D0=9F=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=
+=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5: =D1=82=D0=B5=D0=BE=
+=D1=80=D0=B8=D1=8F =D0=B8 =D0=BF=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0<=
+/h2>
+=09
+		<nav role=3D"navigation" class=3D"navigation site-navigation secondary-na=
+vigation">
+		<div class=3D"menu-site_map_ru-container"><ul id=3D"menu-site_map_ru" cla=
+ss=3D"menu"><li id=3D"menu-item-2018" class=3D"menu-item menu-item-type-pos=
+t_type menu-item-object-page menu-item-home menu-item-2018"><a href=3D"http=
+s://www.bestprog.net/ru/sitemap_ru/">=D0=9A=D0=B0=D1=80=D1=82=D0=B0 =D1=81=
+=D0=B0=D0=B9=D1=82=D0=B0</a></li>
+<li id=3D"menu-item-29020" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-29020"><a href=3D"https://www.bestprog.net/ru/%=
+d0%bf%d0%b0%d1%82%d1%82%d0%b5%d1%80%d0%bd%d1%8b/">Patterns. =D0=9F=D0=B0=D1=
+=82=D1=82=D0=B5=D1=80=D0=BD=D1=8B</a></li>
+<li id=3D"menu-item-4552" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-4552"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/java/">Java</a></li>
+<li id=3D"menu-item-2047" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-2047"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/c/">C++</a></li>
+<li id=3D"menu-item-2029" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-2029"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/c-2/">C#</a></li>
+<li id=3D"menu-item-2038" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-2038"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/delphi/">Pascal / Delphi</a></li>
+<li id=3D"menu-item-2676" class=3D"menu-item menu-item-type-post_type menu-=
+item-object-page menu-item-2676"><a href=3D"https://www.bestprog.net/ru/sit=
+emap_ru/%d0%b1%d0%b0%d0%b7%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/">=D0=
+=91=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85</a></li>
+<li id=3D"menu-item-15160" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-15160"><a href=3D"https://www.bestprog.net/ru/s=
+itemap_ru/python-ru/">Python</a></li>
+<li id=3D"menu-item-32688" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-32688"><a href=3D"https://www.bestprog.net/ru/k=
+otlin-2/">Kotlin</a></li>
+<li id=3D"menu-item-35715" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-35715"><a href=3D"https://www.bestprog.net/ru/j=
+avascript/">JavaScript</a></li>
+</ul></div>	</nav>
+=09
+		<div id=3D"primary-sidebar" class=3D"primary-sidebar widget-area" role=3D=
+"complementary">
+		<aside id=3D"block-2" class=3D"widget widget_block"><div class=3D"wp-widg=
+et-group__inner-blocks">
+<div class=3D"wp-block-columns is-layout-flex wp-container-core-columns-lay=
+out-2 wp-block-columns-is-layout-flex">
+<div class=3D"wp-block-column is-layout-flow wp-block-column-is-layout-flow=
+" style=3D"flex-basis:100%"><form role=3D"search" method=3D"get" action=3D"=
+https://www.bestprog.net/ru/" class=3D"wp-block-search__button-outside wp-b=
+lock-search__icon-button wp-block-search"><label class=3D"wp-block-search__=
+label screen-reader-text" for=3D"wp-block-search__input-2">=D0=9F=D0=BE=D1=
+=88=D1=83=D0=BA =D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=D1=82=D1=96</label><div cla=
+ss=3D"wp-block-search__inside-wrapper "><input class=3D"wp-block-search__in=
+put" id=3D"wp-block-search__input-2" placeholder=3D"" value=3D"" type=3D"se=
+arch" name=3D"s" required=3D""><button aria-label=3D"=D0=9F=D0=BE=D1=88=D1=
+=83=D0=BA" class=3D"wp-block-search__button has-icon wp-element-button" typ=
+e=3D"submit"><svg class=3D"search-icon" viewBox=3D"0 0 24 24" width=3D"24" =
+height=3D"24">
+					<path d=3D"M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1=
+ 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.=
+5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"></path>
+				</svg></button></div></form></div>
+</div>
+</div></aside><aside id=3D"block-4" class=3D"widget widget_block widget_cat=
+egories"><ul class=3D"wp-block-categories-list wp-block-categories">	<li cl=
+ass=3D"cat-item cat-item-22"><a href=3D"https://www.bestprog.net/ru/categor=
+y/c_sharp_ru/">C#</a> (176)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-601"><a href=3D"https://www.bestprog.net/ru=
+/category/c_sharp_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-ru/">=
+=D0=9F=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0</a> (46)
+	<ul class=3D"children">
+	<li class=3D"cat-item cat-item-24"><a href=3D"https://www.bestprog.net/ru/=
+category/c_sharp_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-ru/ms-=
+visual-studio-2010/">MS Visual Studio 2010</a> (34)
+</li>
+	<li class=3D"cat-item cat-item-1589"><a href=3D"https://www.bestprog.net/r=
+u/category/c_sharp_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-ru/m=
+s-visual-studio-2017-ru/">MS Visual Studio 2017</a> (7)
+</li>
+	<li class=3D"cat-item cat-item-3916"><a href=3D"https://www.bestprog.net/r=
+u/category/c_sharp_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-ru/m=
+s-visual-studio-2019-ru/">MS Visual Studio 2019</a> (13)
+</li>
+	</ul>
+</li>
+	<li class=3D"cat-item cat-item-637"><a href=3D"https://www.bestprog.net/ru=
+/category/c_sharp_ru/c-sharp-theory-ru/">=D0=A2=D0=B5=D0=BE=D1=80=D0=B8=D1=
+=8F</a> (130)
+	<ul class=3D"children">
+	<li class=3D"cat-item cat-item-5223"><a href=3D"https://www.bestprog.net/r=
+u/category/c_sharp_ru/c-sharp-theory-ru/ado-net-ru/">ADO .NET</a> (7)
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-37"><a href=3D"https://www.bestprog.net/ru/=
+category/cpp_ru/">C++</a> (171)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-607"><a href=3D"https://www.bestprog.net/ru=
+/category/cpp_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-ru-2/">=
+=D0=9F=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0</a> (31)
+	<ul class=3D"children">
+	<li class=3D"cat-item cat-item-43"><a href=3D"https://www.bestprog.net/ru/=
+category/cpp_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-ru-2/cpp_b=
+uilder_ru/">Borland C++ Builder 2007</a> (16)
+</li>
+	<li class=3D"cat-item cat-item-372"><a href=3D"https://www.bestprog.net/ru=
+/category/cpp_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-ru-2/ms-v=
+isual-studio-2010-ru/">MS Visual Studio 2010</a> (18)
+</li>
+	</ul>
+</li>
+	<li class=3D"cat-item cat-item-646"><a href=3D"https://www.bestprog.net/ru=
+/category/cpp_ru/question-answer-cpp_ru/">=D0=A2=D0=B5=D0=BE=D1=80=D0=B8=D1=
+=8F</a> (141)
+	<ul class=3D"children">
+	<li class=3D"cat-item cat-item-655"><a href=3D"https://www.bestprog.net/ru=
+/category/cpp_ru/question-answer-cpp_ru/visual-c-%d0%b2%d0%be%d0%bf%d1%80%d=
+0%be%d1%81-%d0%be%d1%82%d0%b2%d0%b5%d1%82-cpp_ru/">Visual C++</a> (136)
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-949"><a href=3D"https://www.bestprog.net/ru=
+/category/java_ru/">Java</a> (108)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-4175"><a href=3D"https://www.bestprog.net/r=
+u/category/java_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0-java_ru=
+/">=D0=9F=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0</a> (6)
+</li>
+	<li class=3D"cat-item cat-item-955"><a href=3D"https://www.bestprog.net/ru=
+/category/java_ru/question-answer_ru/">=D0=A2=D0=B5=D0=BE=D1=80=D0=B8=D1=8F=
+</a> (102)
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-4860"><a href=3D"https://www.bestprog.net/r=
+u/category/javascript_ru/">JavaScript</a> (22)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-4872"><a href=3D"https://www.bestprog.net/r=
+u/category/javascript_ru/practice_ru-javascript_ru/">=D0=9F=D1=80=D0=B0=D0=
+=BA=D1=82=D0=B8=D0=BA=D0=B0</a> (1)
+</li>
+	<li class=3D"cat-item cat-item-4866"><a href=3D"https://www.bestprog.net/r=
+u/category/javascript_ru/theory-javascript_ru/">=D0=A2=D0=B5=D0=BE=D1=80=D0=
+=B8=D1=8F</a> (21)
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-4582"><a href=3D"https://www.bestprog.net/r=
+u/category/kotlin_ru/">Kotlin</a> (22)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-4588"><a href=3D"https://www.bestprog.net/r=
+u/category/kotlin_ru/practice_ru/">=D0=9F=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=
+=BA=D0=B0</a> (1)
+</li>
+	<li class=3D"cat-item cat-item-4594"><a href=3D"https://www.bestprog.net/r=
+u/category/kotlin_ru/theory_ru/">=D0=A2=D0=B5=D0=BE=D1=80=D0=B8=D1=8F</a> (=
+21)
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-7"><a href=3D"https://www.bestprog.net/ru/c=
+ategory/delphi_ru/">Pascal/Delphi</a> (41)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-595"><a href=3D"https://www.bestprog.net/ru=
+/category/delphi_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0/">=D0=
+=9F=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0</a> (20)
+	<ul class=3D"children">
+	<li class=3D"cat-item cat-item-77"><a href=3D"https://www.bestprog.net/ru/=
+category/delphi_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0/delphi-=
+7/">Delphi-7</a> (4)
+</li>
+	<li class=3D"cat-item cat-item-585"><a href=3D"https://www.bestprog.net/ru=
+/category/delphi_ru/%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b0/embarc=
+adero-rad-studio-2010/">Embarcadero RAD Studio 2010</a> (18)
+</li>
+	</ul>
+</li>
+	<li class=3D"cat-item cat-item-695"><a href=3D"https://www.bestprog.net/ru=
+/category/delphi_ru/theory-delphi_ru/">=D0=A2=D0=B5=D0=BE=D1=80=D0=B8=D1=8F=
+</a> (22)
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-2437"><a href=3D"https://www.bestprog.net/r=
+u/category/python-ru/">Python</a> (96)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-4477"><a href=3D"https://www.bestprog.net/r=
+u/category/python-ru/ru/">=D0=9F=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D0=BA=D0=B0<=
+/a> (4)
+</li>
+	<li class=3D"cat-item cat-item-2443"><a href=3D"https://www.bestprog.net/r=
+u/category/python-ru/question-answer-python-ru/">=D0=A2=D0=B5=D0=BE=D1=80=
+=D0=B8=D1=8F</a> (92)
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-589"><a href=3D"https://www.bestprog.net/ru=
+/category/%d0%b1%d0%b0%d0%b7%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/">=
+=D0=91=D0=B0=D0=B7=D1=8B =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85</a> (49)
+<ul class=3D"children">
+	<li class=3D"cat-item cat-item-5165"><a href=3D"https://www.bestprog.net/r=
+u/category/%d0%b1%d0%b0%d0%b7%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/sq=
+l-%d0%b1%d0%b0%d0%b7%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85/">SQL</a> (=
+5)
+</li>
+</ul>
+</li>
+	<li class=3D"cat-item cat-item-552"><a href=3D"https://www.bestprog.net/ru=
+/category/%d0%ba%d0%be%d0%bc%d0%bf%d1%8c%d1%8e%d1%82%d0%b5%d1%80%d0%bd%d0%b=
+0%d1%8f-%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba%d0%b0/">=D0=9A=D0=BE=D0=BC=D0=
+=BF=D1=8C=D1=8E=D1=82=D0=B5=D1=80=D0=BD=D0=B0=D1=8F =D0=B3=D1=80=D0=B0=D1=
+=84=D0=B8=D0=BA=D0=B0</a> (3)
+</li>
+	<li class=3D"cat-item cat-item-614"><a href=3D"https://www.bestprog.net/ru=
+/category/%d0%ba%d1%83%d1%80%d1%81%d0%be%d0%b2%d1%8b%d0%b5-%d1%80%d0%b0%d0%=
+b1%d0%be%d1%82%d1%8b/">=D0=9A=D1=83=D1=80=D1=81=D0=BE=D0=B2=D1=8B=D0=B5 =D1=
+=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B</a> (7)
+</li>
+	<li class=3D"cat-item cat-item-429"><a href=3D"https://www.bestprog.net/ru=
+/category/%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%8=
+1%d0%ba%d0%be%d0%b5-%d0%bf%d0%be/">=D0=9C=D0=B0=D1=82=D0=B5=D0=BC=D0=B0=D1=
+=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B5 =D0=9F=D0=9E</a> (9)
+</li>
+	<li class=3D"cat-item cat-item-4225"><a href=3D"https://www.bestprog.net/r=
+u/category/patterns_ru/">=D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD=D1=8B</=
+a> (30)
+</li>
+</ul></aside><aside id=3D"block-6" class=3D"widget widget_block">
+<!-- Ad_160_600_Vertical -->
+<ins class=3D"adsbygoogle" style=3D"display:block" data-ad-client=3D"ca-pub=
+-9065892916791387" data-ad-slot=3D"6716172460" data-ad-format=3D"auto" data=
+-full-width-responsive=3D"true"></ins>
+</aside><aside id=3D"block-7" class=3D"widget widget_block widget_recent_en=
+tries"><ul class=3D"wp-block-latest-posts__list has-dates wp-block-latest-p=
+osts"><li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://ww=
+w.bestprog.net/ru/2023/11/30/patterns-the-command-pattern-implementation-in=
+-c-ru/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD Command. =D0=
+=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=8F =D1=81=D1=82=D1=
+=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D1=8B</a><time datetime=3D"2023-11-30T11:=
+15:13+04:00" class=3D"wp-block-latest-posts__post-date">30 =D0=BD=D0=BE=D1=
+=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/11/25/patterns-the-template-method-pattern-ru/">Patterns. =
+=D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD Template Method</a><time datetim=
+e=3D"2023-11-25T00:45:47+04:00" class=3D"wp-block-latest-posts__post-date">=
+25 =D0=BD=D0=BE=D1=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/11/19/patterns-the-state-pattern-structure-implementation-=
+in-c-ru/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD State (=D0=
+=A1=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D0=BD=D0=B8=D0=B5). =D0=A1=D1=82=D1=80=D1=
+=83=D0=BA=D1=82=D1=83=D1=80=D0=B0. =D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=
+=B0=D1=86=D0=B8=D1=8F =D0=BD=D0=B0 C++</a><time datetime=3D"2023-11-19T19:3=
+1:38+04:00" class=3D"wp-block-latest-posts__post-date">19 =D0=BD=D0=BE=D1=
+=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/10/07/patterns-the-abstract-factory-pattern-solving-the-pr=
+oblem-of-computer-components-ru/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=
+=D1=80=D0=BD Abstract Factory.&nbsp;=D0=A0=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=
+=B5 =D0=B7=D0=B0=D0=B4=D0=B0=D1=87=D0=B8 =D0=BE =D1=81=D0=BE=D1=81=D1=82=D0=
+=B0=D0=B2=D0=BB=D1=8F=D1=8E=D1=89=D0=B8=D1=85 =D0=BA=D0=BE=D0=BC=D0=BF=D1=
+=8C=D1=8E=D1=82=D0=B5=D1=80=D0=B0</a><time datetime=3D"2023-10-07T22:43:51+=
+04:00" class=3D"wp-block-latest-posts__post-date">7 =D0=BE=D0=BA=D1=82=D1=
+=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/09/22/patterns-the-prototype-pattern-implementation-of-str=
+ucture-in-c-ru/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD Proto=
+type. =D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=8F =D1=81=
+=D1=85=D0=B5=D0=BC=D1=8B =D0=BD=D0=B0 C++</a><time datetime=3D"2023-09-22T1=
+5:01:44+04:00" class=3D"wp-block-latest-posts__post-date">22 =D1=81=D0=B5=
+=D0=BD=D1=82=D1=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/09/18/patterns-the-composite-pattern-implementation-in-c-r=
+u/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD Composite (=D0=9A=
+=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=BE=D0=B2=D1=89=D0=B8=D0=BA). =D0=94=D0=B5=
+=D1=80=D0=B5=D0=B2=D0=BE. =D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=
+=D0=B8=D1=8F =D0=BD=D0=B0 C++</a><time datetime=3D"2023-09-18T22:30:58+04:0=
+0" class=3D"wp-block-latest-posts__post-date">18 =D1=81=D0=B5=D0=BD=D1=82=
+=D1=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/09/12/patterns-comparison-of-abstract-factory-factory-meth=
+od-and-prototype-patterns-ru/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=
+=80=D0=BD=D1=8B. =D0=A1=D1=80=D0=B0=D0=B2=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=BF=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD=D0=BE=D0=B2 Abstract Factory, Facto=
+ry Method =D0=B8 Prototype</a><time datetime=3D"2023-09-12T22:09:45+04:00" =
+class=3D"wp-block-latest-posts__post-date">12 =D1=81=D0=B5=D0=BD=D1=82=D1=
+=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/09/06/patterns-factory-method-pattern-implementation-of-th=
+e-structure-the-simplest-case-ru/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=
+=D1=80=D0=BD Factory Method (=D0=A4=D0=B0=D0=B1=D1=80=D0=B8=D1=87=D0=BD=D1=
+=8B=D0=B9 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4). =D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=
+=D0=B7=D0=B0=D1=86=D0=B8=D1=8F =D1=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=
+=D1=80=D1=8B, =D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=B5=D0=B9=D1=88=D0=B8=D0=B9 =
+=D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B9</a><time datetime=3D"2023-09-06T17:05:=
+18+04:00" class=3D"wp-block-latest-posts__post-date">6 =D1=81=D0=B5=D0=BD=
+=D1=82=D1=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/09/06/patterns-bridge-pattern-structure-implementation-in-=
+c-ru/">Patterns. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=D1=80=D0=BD Bridge. =D0=A0=
+=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=8F =D1=81=D1=82=D1=80=
+=D1=83=D0=BA=D1=82=D1=83=D1=80=D1=8B =D0=BD=D0=B0 C++</a><time datetime=3D"=
+2023-09-06T16:47:44+04:00" class=3D"wp-block-latest-posts__post-date">6 =D1=
+=81=D0=B5=D0=BD=D1=82=D1=8F=D0=B1=D1=80=D1=8F, 2023</time></li>
+<li><a class=3D"wp-block-latest-posts__post-title" href=3D"https://www.best=
+prog.net/ru/2023/08/29/patterns-the-facade-pattern-ru/">=D0=9F=D0=B0=D1=82=
+=D1=82=D0=B5=D1=80=D0=BD=D1=8B =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F. =D0=9F=D0=B0=D1=82=D1=82=D0=B5=
+=D1=80=D0=BD Facade (=D0=A4=D0=B0=D1=81=D0=B0=D0=B4)</a><time datetime=3D"2=
+023-08-29T23:33:27+04:00" class=3D"wp-block-latest-posts__post-date">29 =D0=
+=B0=D0=B2=D0=B3=D1=83=D1=81=D1=82=D0=B0, 2023</time></li>
+</ul></aside>	</div><!-- #primary-sidebar -->
+	</div><!-- #secondary -->
+
+		</div><!-- #main -->
+
+		<footer id=3D"colophon" class=3D"site-footer" role=3D"contentinfo">
+
+		=09
+<div id=3D"supplementary">
+	<div id=3D"footer-sidebar" class=3D"footer-sidebar widget-area" role=3D"co=
+mplementary">
+		<aside id=3D"text-7" class=3D"widget widget_text">			<div class=3D"textwi=
+dget"><p><a href=3D"https://www.bestprog.net/ru/privacy-policy-ru/" target=
+=3D"_blank" rel=3D"noopener">=D0=9F=D0=BE=D0=BB=D0=B8=D1=82=D0=B8=D0=BA=D0=
+=B0 =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B4=D0=B5=D0=BD=D1=86=D0=B8=D0=B0=D0=
+=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8</a></p>
+</div>
+		</aside><aside id=3D"text-10" class=3D"widget widget_text">			<div class=
+=3D"textwidget"><p>=D0=9F=D1=80=D0=B8 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=
+=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8 =D0=BC=D0=B0=D1=82=D0=B5=D1=80=
+=D0=B8=D0=B0=D0=BB=D0=BE=D0=B2 =D1=81=D0=B0=D0=B9=D1=82=D0=B0, =D1=81=D1=81=
+=D1=8B=D0=BB=D0=BA=D0=B0 =D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=D1=82 =D0=BE=D0=B1=
+=D1=8F=D0=B7=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=B0.</p>
+</div>
+		</aside>	</div><!-- #footer-sidebar -->
+</div><!-- #supplementary -->
+
+			<div class=3D"site-info">
+								<a href=3D"https://ru.wordpress.org/">=D0=A1=D0=B0=D0=B9=D1=82 =D1=
+=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D0=B5=D1=82 =D0=BD=D0=B0 WordPress</a>
+
+<!-- I.UA counter --><a href=3D"http://www.i.ua/" target=3D"_blank" title=
+=3D"Rated by I.UA">
+<img src=3D"https://r.i.ua/s?u207878&amp;p256&amp;n0.2222031937613076&amp;c=
+1&amp;d24&amp;w1536&amp;h864&amp;fwww.google.com/&amp;rwww.bestprog.net/ru/=
+2019/01/24/the-concept-of-er-model-the-concept-of-essence-and-communication=
+-attributes-attribute-types-ru/" border=3D"0" width=3D"88" height=3D"31"></=
+a><!-- End of I.UA counter -->	=09
+			=09
+
+			=09
+			</div><!-- .site-info -->
+
+
+<a><img src=3D"https://www.positivessl.com/images/seals/positivessl_trust_s=
+eal_sm_124x32.png" border=3D"0"></a><!----><div id=3D"tl_popupPOSDV" name=
+=3D"tl_popupPOSDV" style=3D"position:absolute;z-index:0;visibility: hidden;=
+background-color: transparent;overflow:hidden;">&nbsp;</div>		=09
+		=09
+		</footer><!-- #colophon -->
+	</div><iframe name=3D"googlefcPresent" style=3D"width: 0px; height: 0px; b=
+order: none; z-index: -1000; left: -1000px; top: -1000px; display: none;"><=
+/iframe><iframe name=3D"__tcfapiLocator" src=3D"cid:frame-DE8202AB3010835D2=
+0772D10481A525B@mhtml.blink" style=3D"display: none; width: 0px; height: 0p=
+x; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><if=
+rame name=3D"__uspapiLocator" src=3D"cid:frame-4BE158A2530256589AD7765DE85B=
+077B@mhtml.blink" style=3D"display: none; width: 0px; height: 0px; border: =
+none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name=
+=3D"__gppLocator" src=3D"cid:frame-DEA982FCD2A04715821FA5A68617A95A@mhtml.b=
+link" style=3D"display: none; width: 0px; height: 0px; border: none; z-inde=
+x: -1000; left: -1000px; top: -1000px;"></iframe><iframe name=3D"googlefcIn=
+active" src=3D"cid:frame-F64CA2551A4473247DE91B886231550F@mhtml.blink" styl=
+e=3D"display: none; width: 0px; height: 0px; border: none; z-index: -1000; =
+left: -1000px; top: -1000px;"></iframe><iframe name=3D"googlefcLoaded" src=
+=3D"cid:frame-71CE95E3DF8ED3B81BCED2BC46C939B0@mhtml.blink" style=3D"displa=
+y: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000=
+px; top: -1000px;"></iframe><!-- #page -->
+=09
+
+
+
+
+
+
+<table cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" class=3D"g=
+stl_50 gssb_c" style=3D"width: 1124px; display: none; top: 1110px; left: 8p=
+x; position: absolute;"><tbody><tr><td class=3D"gssb_f"></td><td class=3D"g=
+ssb_e" style=3D"width: 100%;"></td></tr></tbody></table></body></html>
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-998231b8-4856-4295-bbfc-942507361acf@mhtml.blink
+
+@charset "utf-8";
+
+img.wp-smiley, img.emoji { display: inline !important; border: none !import=
+ant; box-shadow: none !important; height: 1em !important; width: 1em !impor=
+tant; margin: 0px 0.07em !important; vertical-align: -0.1em !important; bac=
+kground: none !important; padding: 0px !important; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ecf7ef74-47d7-4a73-a184-8613a307e10d@mhtml.blink
+
+@charset "utf-8";
+
+.wp-block-button__link { color: rgb(255, 255, 255); background-color: rgb(5=
+0, 55, 60); border-radius: 9999px; box-shadow: none; text-decoration: none;=
+ padding: calc(0.667em + 2px) calc(1.333em + 2px); font-size: 1.125em; }
+
+.wp-block-file__button { background: rgb(50, 55, 60); color: rgb(255, 255, =
+255); text-decoration: none; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bbe0355a-53a6-4b1f-b0b1-88b8ae5b448d@mhtml.blink
+
+@charset "utf-8";
+
+body { --wp--preset--color--black: #000000; --wp--preset--color--cyan-bluis=
+h-gray: #abb8c3; --wp--preset--color--white: #ffffff; --wp--preset--color--=
+pale-pink: #f78da7; --wp--preset--color--vivid-red: #cf2e2e; --wp--preset--=
+color--luminous-vivid-orange: #ff6900; --wp--preset--color--luminous-vivid-=
+amber: #fcb900; --wp--preset--color--light-green-cyan: #7bdcb5; --wp--prese=
+t--color--vivid-green-cyan: #00d084; --wp--preset--color--pale-cyan-blue: #=
+8ed1fc; --wp--preset--color--vivid-cyan-blue: #0693e3; --wp--preset--color-=
+-vivid-purple: #9b51e0; --wp--preset--gradient--vivid-cyan-blue-to-vivid-pu=
+rple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%); --=
+wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient=
+(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%); --wp--preset--gradient--l=
+uminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(2=
+52,185,0,1) 0%,rgba(255,105,0,1) 100%); --wp--preset--gradient--luminous-vi=
+vid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(20=
+7,46,46) 100%); --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray=
+: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%); --wp--=
+preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,=
+220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(25=
+1,105,98) 80%,rgb(254,248,76) 100%); --wp--preset--gradient--blush-light-pu=
+rple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%); --=
+wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,16=
+5) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%); --wp--preset--gradient--lumin=
+ous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rg=
+b(65,88,208) 100%); --wp--preset--gradient--pale-ocean: linear-gradient(135=
+deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%); --wp--p=
+reset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%=
+,rgb(113,206,126) 100%); --wp--preset--gradient--midnight: linear-gradient(=
+135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%); --wp--preset--font-size--smal=
+l: 13px; --wp--preset--font-size--medium: 20px; --wp--preset--font-size--la=
+rge: 36px; --wp--preset--font-size--x-large: 42px; --wp--preset--spacing--2=
+0: 0.44rem; --wp--preset--spacing--30: 0.67rem; --wp--preset--spacing--40: =
+1rem; --wp--preset--spacing--50: 1.5rem; --wp--preset--spacing--60: 2.25rem=
+; --wp--preset--spacing--70: 3.38rem; --wp--preset--spacing--80: 5.06rem; -=
+-wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2); --wp--preset-=
+-shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4); --wp--preset--shadow--sha=
+rp: 6px 6px 0px rgba(0, 0, 0, 0.2); --wp--preset--shadow--outlined: 6px 6px=
+ 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1); --wp--preset--s=
+hadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1); }
+
+:where(.is-layout-flex) { gap: 0.5em; }
+
+:where(.is-layout-grid) { gap: 0.5em; }
+
+body .is-layout-flow > .alignleft { float: left; margin-inline: 0px 2em; }
+
+body .is-layout-flow > .alignright { float: right; margin-inline: 2em 0px; =
+}
+
+body .is-layout-flow > .aligncenter { margin-left: auto !important; margin-=
+right: auto !important; }
+
+body .is-layout-constrained > .alignleft { float: left; margin-inline: 0px =
+2em; }
+
+body .is-layout-constrained > .alignright { float: right; margin-inline: 2e=
+m 0px; }
+
+body .is-layout-constrained > .aligncenter { margin-left: auto !important; =
+margin-right: auto !important; }
+
+body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(=
+.alignfull)) { max-width: var(--wp--style--global--content-size); margin-le=
+ft: auto !important; margin-right: auto !important; }
+
+body .is-layout-constrained > .alignwide { max-width: var(--wp--style--glob=
+al--wide-size); }
+
+body .is-layout-flex { display: flex; }
+
+body .is-layout-flex { flex-wrap: wrap; align-items: center; }
+
+body .is-layout-flex > * { margin: 0px; }
+
+body .is-layout-grid { display: grid; }
+
+body .is-layout-grid > * { margin: 0px; }
+
+:where(.wp-block-columns.is-layout-flex) { gap: 2em; }
+
+:where(.wp-block-columns.is-layout-grid) { gap: 2em; }
+
+:where(.wp-block-post-template.is-layout-flex) { gap: 1.25em; }
+
+:where(.wp-block-post-template.is-layout-grid) { gap: 1.25em; }
+
+.has-black-color { color: var(--wp--preset--color--black) !important; }
+
+.has-cyan-bluish-gray-color { color: var(--wp--preset--color--cyan-bluish-g=
+ray) !important; }
+
+.has-white-color { color: var(--wp--preset--color--white) !important; }
+
+.has-pale-pink-color { color: var(--wp--preset--color--pale-pink) !importan=
+t; }
+
+.has-vivid-red-color { color: var(--wp--preset--color--vivid-red) !importan=
+t; }
+
+.has-luminous-vivid-orange-color { color: var(--wp--preset--color--luminous=
+-vivid-orange) !important; }
+
+.has-luminous-vivid-amber-color { color: var(--wp--preset--color--luminous-=
+vivid-amber) !important; }
+
+.has-light-green-cyan-color { color: var(--wp--preset--color--light-green-c=
+yan) !important; }
+
+.has-vivid-green-cyan-color { color: var(--wp--preset--color--vivid-green-c=
+yan) !important; }
+
+.has-pale-cyan-blue-color { color: var(--wp--preset--color--pale-cyan-blue)=
+ !important; }
+
+.has-vivid-cyan-blue-color { color: var(--wp--preset--color--vivid-cyan-blu=
+e) !important; }
+
+.has-vivid-purple-color { color: var(--wp--preset--color--vivid-purple) !im=
+portant; }
+
+.has-black-background-color { background-color: var(--wp--preset--color--bl=
+ack) !important; }
+
+.has-cyan-bluish-gray-background-color { background-color: var(--wp--preset=
+--color--cyan-bluish-gray) !important; }
+
+.has-white-background-color { background-color: var(--wp--preset--color--wh=
+ite) !important; }
+
+.has-pale-pink-background-color { background-color: var(--wp--preset--color=
+--pale-pink) !important; }
+
+.has-vivid-red-background-color { background-color: var(--wp--preset--color=
+--vivid-red) !important; }
+
+.has-luminous-vivid-orange-background-color { background-color: var(--wp--p=
+reset--color--luminous-vivid-orange) !important; }
+
+.has-luminous-vivid-amber-background-color { background-color: var(--wp--pr=
+eset--color--luminous-vivid-amber) !important; }
+
+.has-light-green-cyan-background-color { background-color: var(--wp--preset=
+--color--light-green-cyan) !important; }
+
+.has-vivid-green-cyan-background-color { background-color: var(--wp--preset=
+--color--vivid-green-cyan) !important; }
+
+.has-pale-cyan-blue-background-color { background-color: var(--wp--preset--=
+color--pale-cyan-blue) !important; }
+
+.has-vivid-cyan-blue-background-color { background-color: var(--wp--preset-=
+-color--vivid-cyan-blue) !important; }
+
+.has-vivid-purple-background-color { background-color: var(--wp--preset--co=
+lor--vivid-purple) !important; }
+
+.has-black-border-color { border-color: var(--wp--preset--color--black) !im=
+portant; }
+
+.has-cyan-bluish-gray-border-color { border-color: var(--wp--preset--color-=
+-cyan-bluish-gray) !important; }
+
+.has-white-border-color { border-color: var(--wp--preset--color--white) !im=
+portant; }
+
+.has-pale-pink-border-color { border-color: var(--wp--preset--color--pale-p=
+ink) !important; }
+
+.has-vivid-red-border-color { border-color: var(--wp--preset--color--vivid-=
+red) !important; }
+
+.has-luminous-vivid-orange-border-color { border-color: var(--wp--preset--c=
+olor--luminous-vivid-orange) !important; }
+
+.has-luminous-vivid-amber-border-color { border-color: var(--wp--preset--co=
+lor--luminous-vivid-amber) !important; }
+
+.has-light-green-cyan-border-color { border-color: var(--wp--preset--color-=
+-light-green-cyan) !important; }
+
+.has-vivid-green-cyan-border-color { border-color: var(--wp--preset--color-=
+-vivid-green-cyan) !important; }
+
+.has-pale-cyan-blue-border-color { border-color: var(--wp--preset--color--p=
+ale-cyan-blue) !important; }
+
+.has-vivid-cyan-blue-border-color { border-color: var(--wp--preset--color--=
+vivid-cyan-blue) !important; }
+
+.has-vivid-purple-border-color { border-color: var(--wp--preset--color--viv=
+id-purple) !important; }
+
+.has-vivid-cyan-blue-to-vivid-purple-gradient-background { background: var(=
+--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important; }
+
+.has-light-green-cyan-to-vivid-green-cyan-gradient-background { background:=
+ var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !importa=
+nt; }
+
+.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background { ba=
+ckground: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivi=
+d-orange) !important; }
+
+.has-luminous-vivid-orange-to-vivid-red-gradient-background { background: v=
+ar(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important; =
+}
+
+.has-very-light-gray-to-cyan-bluish-gray-gradient-background { background: =
+var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important=
+; }
+
+.has-cool-to-warm-spectrum-gradient-background { background: var(--wp--pres=
+et--gradient--cool-to-warm-spectrum) !important; }
+
+.has-blush-light-purple-gradient-background { background: var(--wp--preset-=
+-gradient--blush-light-purple) !important; }
+
+.has-blush-bordeaux-gradient-background { background: var(--wp--preset--gra=
+dient--blush-bordeaux) !important; }
+
+.has-luminous-dusk-gradient-background { background: var(--wp--preset--grad=
+ient--luminous-dusk) !important; }
+
+.has-pale-ocean-gradient-background { background: var(--wp--preset--gradien=
+t--pale-ocean) !important; }
+
+.has-electric-grass-gradient-background { background: var(--wp--preset--gra=
+dient--electric-grass) !important; }
+
+.has-midnight-gradient-background { background: var(--wp--preset--gradient-=
+-midnight) !important; }
+
+.has-small-font-size { font-size: var(--wp--preset--font-size--small) !impo=
+rtant; }
+
+.has-medium-font-size { font-size: var(--wp--preset--font-size--medium) !im=
+portant; }
+
+.has-large-font-size { font-size: var(--wp--preset--font-size--large) !impo=
+rtant; }
+
+.has-x-large-font-size { font-size: var(--wp--preset--font-size--x-large) !=
+important; }
+
+.wp-block-navigation a:where(:not(.wp-element-button)) { color: inherit; }
+
+:where(.wp-block-post-template.is-layout-flex) { gap: 1.25em; }
+
+:where(.wp-block-post-template.is-layout-grid) { gap: 1.25em; }
+
+:where(.wp-block-columns.is-layout-flex) { gap: 2em; }
+
+:where(.wp-block-columns.is-layout-grid) { gap: 2em; }
+
+.wp-block-pullquote { font-size: 1.5em; line-height: 1.6; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9d102d17-b1d3-4261-890d-d2ef00698c6a@mhtml.blink
+
+@charset "utf-8";
+
+.site-title a { color: rgb(129, 215, 66); }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-31b67828-0e19-455b-a204-759f323dffa0@mhtml.blink
+
+@charset "utf-8";
+
+body.custom-background { background-color: rgb(181, 181, 181); }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-de768dd1-11dc-46b9-8acd-778e0c8d76da@mhtml.blink
+
+@charset "utf-8";
+
+#comodoTL { display: block; font-size: 8px; padding-left: 18px; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cdff2459-3a0a-4399-80cb-e7b8da2b7149@mhtml.blink
+
+@charset "utf-8";
+
+#comodoTL { display: block; font-size: 8px; padding-left: 18px; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f89be40a-fe41-48e1-a366-385e23fb2713@mhtml.blink
+
+@charset "utf-8";
+
+.gsc-control-cse { font-family: arial, sans-serif; }
+
+.gsc-control-cse .gsc-table-result { font-family: arial, sans-serif; }
+
+.gsc-refinementsGradient { background: linear-gradient(to left, rgb(255, 25=
+5, 255), rgba(255, 255, 255, 0)); }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fa20f447-9269-4c21-8b4e-297db260fccb@mhtml.blink
+
+@charset "utf-8";
+
+.gscb_a { display: inline-block; font: 27px / 13px arial, sans-serif; }
+
+.gsst_a .gscb_a { color: rgb(161, 185, 237); cursor: pointer; }
+
+.gsst_a:hover .gscb_a, .gsst_a:focus .gscb_a { color: rgb(51, 102, 204); }
+
+.gsst_a { display: inline-block; }
+
+.gsst_a { cursor: pointer; padding: 0px 4px; }
+
+.gsst_a:hover { text-decoration: none !important; }
+
+.gsst_b { font-size: 16px; padding: 0px 2px; position: relative; user-selec=
+t: none; white-space: nowrap; }
+
+.gsst_e { vertical-align: middle; opacity: 0.55; }
+
+.gsst_a:hover .gsst_e, .gsst_a:focus .gsst_e { opacity: 0.72; }
+
+.gsst_a:active .gsst_e { opacity: 1; }
+
+.gsst_f { background: white; text-align: left; }
+
+.gsst_g { background-color: white; border-width: 1px; border-style: solid; =
+border-color: rgb(217, 217, 217) rgb(204, 204, 204) rgb(204, 204, 204); bor=
+der-image: initial; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px; margin: -1p=
+x -3px; padding: 0px 6px; }
+
+.gsst_h { background-color: white; height: 1px; margin-bottom: -1px; positi=
+on: relative; top: -1px; }
+
+.gsib_a { width: 100%; padding: 4px 6px 0px; }
+
+.gsib_a, .gsib_b { vertical-align: top; }
+
+.gssb_c { border: 0px; position: absolute; z-index: 989; }
+
+.gssb_e { border-width: 1px; border-style: solid; border-color: rgb(217, 21=
+7, 217) rgb(204, 204, 204) rgb(204, 204, 204); border-image: initial; box-s=
+hadow: rgba(0, 0, 0, 0.2) 0px 2px 4px; cursor: default; }
+
+.gssb_f { visibility: hidden; white-space: nowrap; }
+
+.gssb_k { border: 0px; display: block; position: absolute; top: 0px; z-inde=
+x: 988; }
+
+.gsdd_a { border: none !important; }
+
+.gsq_a { padding: 0px; }
+
+.gssb_a { padding: 0px 7px; }
+
+.gssb_a, .gssb_a td { white-space: nowrap; overflow: hidden; line-height: 2=
+2px; }
+
+#gssb_b { font-size: 11px; color: rgb(51, 102, 204); text-decoration: none;=
+ }
+
+#gssb_b:hover { font-size: 11px; color: rgb(51, 102, 204); text-decoration:=
+ underline; }
+
+.gssb_g { text-align: center; padding: 8px 0px 7px; position: relative; }
+
+.gssb_h { font-size: 15px; height: 28px; margin: 0.2em; appearance: button;=
+ }
+
+.gssb_i { background: rgb(238, 238, 238); }
+
+.gss_ifl { visibility: hidden; padding-left: 5px; }
+
+.gssb_i .gss_ifl { visibility: visible; }
+
+a.gssb_j { font-size: 13px; color: rgb(51, 102, 204); text-decoration: none=
+; line-height: 100%; }
+
+a.gssb_j:hover { text-decoration: underline; }
+
+.gssb_l { height: 1px; background-color: rgb(229, 229, 229); }
+
+.gssb_m { color: rgb(0, 0, 0); background: rgb(255, 255, 255); }
+
+.gssb_a { padding: 0px 9px; }
+
+.gsib_a { padding: 5px 9px 4px; }
+
+.gscb_a { line-height: 27px; }
+
+.gssb_e { border: 0px; }
+
+.gssb_l { margin: 5px 0px; }
+
+input.gsc-input::-webkit-input-placeholder { font-size: 14px; }
+
+input.gsc-input:focus::-webkit-input-placeholder { color: transparent; }
+
+.gssb_c .gsc-completion-container { position: static; }
+
+.gssb_c { z-index: 5000; }
+
+.gsc-completion-container table { background: transparent; font-size: inher=
+it; font-family: inherit; }
+
+.gssb_c > tbody > tr, .gssb_c > tbody > tr > td, .gssb_d, .gssb_d > tbody >=
+ tr, .gssb_d > tbody > tr > td, .gssb_e, .gssb_e > tbody > tr, .gssb_e > tb=
+ody > tr > td { padding: 0px; margin: 0px; border: 0px; }
+
+.gssb_a table, .gssb_a table tr, .gssb_a table tr td { padding: 0px; margin=
+: 0px; border: 0px; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-26486b86-04ed-44e2-90b6-144b975fe4d6@mhtml.blink
+
+@charset "utf-8";
+
+.wp-container-core-columns-layout-1.wp-container-core-columns-layout-1 { fl=
+ex-wrap: nowrap; }
+
+.wp-container-core-columns-layout-2.wp-container-core-columns-layout-2 { fl=
+ex-wrap: nowrap; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.bestprog.net/wp-includes/css/dist/block-library/style.min.css?ver=92b871aa215e047b7a61b08c082e2da2
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&subset=latin%2Clatin-ext
+
+@charset "utf-8";
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 300; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_FQft1dw.woff2=
+") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1=
+E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+=
+A720-A7FF; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 300; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_Gwft.woff2") =
+format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6,=
+ U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+=
+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 400; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAUi-qJCY.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 400; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAXC-q.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 700; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_FQft1dw.woff2=
+") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1=
+E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+=
+A720-A7FF; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 700; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_Gwft.woff2") =
+format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6,=
+ U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+=
+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 300; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGR_p.woff2") =
+format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F=
+, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A72=
+0-A7FF; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 300; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPGQ.woff2") fo=
+rmat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U=
++2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+21=
+91, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 400; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXjeu.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 400; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 700; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGR_p.woff2") =
+format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F=
+, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A72=
+0-A7FF; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 700; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2") fo=
+rmat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U=
++2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+21=
+91, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 900; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPGR_p.woff2") =
+format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F=
+, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A72=
+0-A7FF; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 900; src: =
+url("https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ.woff2") fo=
+rmat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U=
++2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+21=
+91, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.bestprog.net/wp-content/themes/twentyfourteen/genericons/genericons.css?ver=3.0.3
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.bestprog.net/wp-content/themes/twentyfourteen/style.css?ver=92b871aa215e047b7a61b08c082e2da2
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.google.com/cse/static/element/3bd4ac03c21554b3/default+en.css
+
+@charset "utf-8";
+
+.gsc-control { width: 300px; }
+
+.gsc-control div { position: static; }
+
+.gsc-control-cse { padding: 1em; }
+
+.gsc-control-cse, .gsc-control-cse .gsc-table-result { width: auto; font-fa=
+mily: Arial, sans-serif; font-size: 13px; }
+
+.gsc-control-wrapper-cse { width: 100%; }
+
+form.gsc-search-box { font-size: 13px; margin: 0px 0px 4px; width: 100%; }
+
+table.gsc-search-box { border-style: none; border-width: 0px; border-spacin=
+g: 0px; width: 100%; margin-bottom: 2px; }
+
+table.gsc-search-box td { vertical-align: middle; }
+
+table.gsc-search-box td.gsc-input { padding-right: 12px; }
+
+.gsc-search-button { width: 1%; }
+
+.gsc-search-button-v2 svg { fill: rgb(255, 255, 255); }
+
+.gsc-clear-button { width: 14px; }
+
+.gsc-branding, .gcsc-branding { display: flex; justify-content: flex-end; p=
+adding: 4px; }
+
+.gsc-branding-text, .gcsc-branding-text { vertical-align: top; padding-bott=
+om: 2px; text-align: right; font-size: 11px; margin-right: 2px; color: rgb(=
+102, 102, 102); }
+
+.gsc-branding-text:first-child, .gcsc-branding-text:first-child { flex-grow=
+: 1; }
+
+.gsc-branding-img-noclear, .gcsc-branding-img-noclear { width: 51px; vertic=
+al-align: bottom; }
+
+.gsc-branding-img, .gcsc-branding-img { width: 65px; vertical-align: bottom=
+; }
+
+.gsc-branding-youtube .gsc-branding-img-noclear { width: 55px; }
+
+.gsc-branding-youtube .gsc-branding-img { width: 69px; }
+
+.gsc-branding-vertical .gsc-branding-text .gsc-branding-text { margin-right=
+: 0px; text-align: center; }
+
+.gsc-branding-vertical .gsc-branding-img-noclear { text-align: center; }
+
+.gsc-branding-img, .gsc-branding-img-noclear, .gcsc-branding-img, .gcsc-bra=
+nding-img-noclear { position: relative; top: -1px; padding-left: 2px; paddi=
+ng-right: 2px; }
+
+.gsc-branding-img, .gsc-branding-img-noclear, .gcsc-branding-img, .gcsc-bra=
+nding-img-noclear { margin: 0px; padding-top: 0px; padding-bottom: 0px; bor=
+der: none; display: inline; }
+
+.gcsc-branding-text { white-space: nowrap; }
+
+.gcsc-branding-text { margin: 0px 2px; }
+
+.gcsc-branding-img-noclear { width: auto; }
+
+.gsc-branding-clickable { cursor: pointer; }
+
+.gsc-search-button { margin-left: 2px; }
+
+.gsc-clear-button { display: inline; text-align: right; margin-left: 4px; m=
+argin-right: 4px; padding-left: 10px; background-repeat: no-repeat; backgro=
+und-position: center center; background-image: url("//www.google.com/cse/st=
+atic/css/v2/clear.png"); cursor: pointer; }
+
+.gsc-clear-button:hover { background-image: url("//www.google.com/cse/stati=
+c/css/v2/clear-hover.png"); }
+
+.gsc-search-box-tools .gsc-clear-button { display: none; }
+
+.gsc-results-close-btn { background-image: url("//www.google.com/images/nav=
+_logo114.png"); background-repeat: no-repeat; background-position: -140px -=
+230px; float: right; display: none; opacity: 0; height: 12px; width: 12px; =
+top: 20px; right: 20px; cursor: pointer; position: absolute !important; }
+
+.gsc-results-close-btn-visible { display: block; opacity: 1; }
+
+.gsc-results-wrapper-overlay { border: none; margin: auto; border-radius: 1=
+px; overflow: auto; height: 80%; box-shadow: rgba(34, 25, 25, 0.4) 0px 3px =
+10px; border-collapse: separate; background: white; padding: 30px; width: 7=
+0%; top: 5%; left: 12%; opacity: 0; z-index: 100002; visibility: hidden; tr=
+ansition: all 0.25s linear 0s; position: fixed !important; }
+
+.gsc-results-wrapper-visible { opacity: 1 !important; visibility: visible !=
+important; }
+
+.gsc-modal-background-image { top: 0px; left: 0px; height: 130%; width: 100=
+%; z-index: 100001; background-color: white; opacity: 0; display: none; tra=
+nsition: all 0.25s linear 0s; position: fixed !important; }
+
+.gsc-modal-background-image-visible { opacity: 0.8; display: block; }
+
+.gsc-overflow-hidden { overflow: hidden; }
+
+input.gsc-input { padding: 1px 6px; border: 1px solid rgb(221, 221, 221); w=
+idth: 99%; }
+
+.gsc-search-box .gsc-input > input:hover, .gsc-input-box-hover { border-wid=
+th: 1px; border-style: solid; border-color: rgb(160, 160, 160) rgb(185, 185=
+, 185) rgb(185, 185, 185); border-image: initial; box-shadow: rgba(0, 0, 0,=
+ 0.1) 0px 1px 2px inset; outline: none; }
+
+.gsc-keeper { color: rgb(51, 102, 204); text-decoration: underline; font-si=
+ze: 13px; cursor: pointer; font-weight: normal; padding-left: 16px; backgro=
+und-repeat: no-repeat; background-position: 1px 3px; background-image: url(=
+"//www.google.com/cse/static/css/blue_check.gif"); }
+
+.gsc-positioningWrapper { position: relative; }
+
+.gsc-tabsArea { clear: both; margin-top: 6px; border-bottom: 1px solid rgb(=
+223, 225, 229); }
+
+.gsc-tabsArea .gs-spacer, .gsc-refinementsArea .gs-spacer { display: none; =
+}
+
+.gsc-tabsAreaInvisible, .gsc-refinementsAreaInvisible, .gsc-refinementBlock=
+Invisible { display: none; }
+
+.gsc-tabHeader { border: none; font-size: 13px; font-weight: bold; line-hei=
+ght: 27px; min-width: 54px; padding: 0px 8px 1px; text-align: center; }
+
+.gsc-tabHeader.gsc-tabhInactive { cursor: pointer; }
+
+.gsc-tabData.gsc-tabdActive { display: block; }
+
+.gsc-tabData.gsc-tabdInactive { display: none; }
+
+.gsc-tabData.gsc-tabdActive.gsc-resultsbox-invisible { display: none; }
+
+.gsc-refinementsArea { border-bottom: 1px solid rgb(223, 225, 229); clear: =
+both; margin: 6px 0px 4px; }
+
+.gsc-refinementHeader { position: static; margin-right: 2px; padding: 2px 8=
+px 0px; }
+
+.gsc-refinementHeader.gsc-refinementhInactive { cursor: pointer; padding-bo=
+ttom: 2px; }
+
+.gsc-tabData .gsc-resultsHeader .gsc-title { display: none; }
+
+.gsc-tabData .gsc-resultsHeader .gsc-stats { display: none; }
+
+.gsc-tabData .gsc-resultsHeader .gsc-results-selector { display: none; }
+
+.gsc-completion-selected { background: rgb(238, 238, 238); cursor: default;=
+ }
+
+.gsc-completion-selected .gsc-completion-promotion-table { cursor: pointer;=
+ }
+
+.gsc-completion-container { font-family: Arial, sans-serif; font-size: 13px=
+; background: white; border-width: 1px; border-style: solid; border-color: =
+rgb(217, 217, 217) rgb(221, 221, 221) rgb(221, 221, 221); border-image: ini=
+tial; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px; margin: 0px; }
+
+.gsc-completion-title { color: rgb(0, 0, 204); line-height: normal; white-s=
+pace: normal; }
+
+.gsc-completion-snippet { line-height: normal; white-space: normal; }
+
+.gsc-completion-container .gsc-completion-icon-cell { width: 42px; height: =
+42px; padding-right: 10px; }
+
+.gsc-completion-icon { margin-left: auto; margin-right: auto; display: bloc=
+k; border: 1px solid rgb(221, 221, 221); }
+
+.gsc-completion-container .gsc-completion-promotion-table { font-size: inhe=
+rit; background: inherit; margin: 5px 0px; width: 100%; }
+
+.gsc-resultsbox-visible { display: block; }
+
+.gsc-resultsbox-invisible { display: none; }
+
+.gsc-results { padding-bottom: 2px; width: 99%; }
+
+.gsc-result { margin-bottom: 10px; }
+
+.gsc-result .gs-title { height: auto; overflow: hidden; }
+
+.gsc-results .gsc-result .gs-ad-marker { display: none; }
+
+.gsc-wrapper { position: relative; display: block; }
+
+.gsc-adBlock { position: relative; display: block; border-bottom: 1px solid=
+ rgb(233, 233, 233); margin-bottom: 4px; padding-bottom: 5px; }
+
+.gsc-adBlock h2 { float: right; margin: 3px 5px 0px; font-weight: normal; f=
+ont-size: 0.9em; color: rgb(103, 103, 103); }
+
+.gsc-adBlock .gsc-ad { padding-left: 8px; padding-top: 5px; padding-right: =
+3px; }
+
+.gsc-adBlock .gsc-ad a { font-weight: bolder; color: rgb(0, 0, 204); line-h=
+eight: 1.4em; }
+
+.gsc-adBlock .gsc-ad cite { font-style: normal; color: green; }
+
+.gsc-adBlock .gsc-ad span { padding-left: 8px; }
+
+.gsc-adBlockNoHeight { height: 0px; }
+
+.gsc-adBlockInvisible { display: none; }
+
+.gsc-adBlockVertical { position: relative; display: block; float: right; cl=
+ear: right; width: 30%; }
+
+.gsc-adBlockBottom { position: relative; display: block; border-bottom: 1px=
+ solid rgb(233, 233, 233); border-top: 1px solid rgb(233, 233, 233); margin=
+-bottom: 4px; }
+
+.gsc-thinWrapper { width: 69%; float: left; overflow: hidden; }
+
+.gsc-wrapper.gsc-thinWrapper { border-right: 1px solid rgb(233, 233, 233); =
+}
+
+.gsc-adBlockVertical h2 { text-align: center; font-weight: normal; font-siz=
+e: 0.9em; color: rgb(103, 103, 103); margin-top: 6px; }
+
+.gsc-adBlockVertical .gsc-ad { padding-left: 8px; padding-top: 5px; }
+
+.gsc-adBlockVertical .gsc-ad a { font-weight: bolder; color: rgb(0, 0, 204)=
+; line-height: 1.4em; }
+
+.gsc-adBlockVertical .gsc-ad cite { font-style: normal; color: green; displ=
+ay: block; }
+
+.gsc-config { border: 1px solid rgb(233, 233, 233); margin-top: 0px; margin=
+-bottom: 10px; padding: 2px 6px 6px; }
+
+.gsc-config { margin-bottom: 0px; }
+
+.gsc-configSetting { margin-top: 6px; }
+
+.gsc-configSetting_Label { color: rgb(103, 103, 103); }
+
+.gsc-configSettingInput { color: rgb(103, 103, 103); border: 1px solid rgb(=
+233, 233, 233); width: 75%; }
+
+.gsc-configSettingCheckbox { color: rgb(103, 103, 103); margin-right: 6px; =
+}
+
+.gsc-configSettingCheckboxLabel { display: inline; color: rgb(103, 103, 103=
+); }
+
+.gsc-configSettingSubmit { margin-top: 8px; text-align: right; }
+
+.gsc-configSettingSubmit { display: inline; font-size: 11px; cursor: pointe=
+r; }
+
+.gsc-webResult::after { content: "."; display: block; height: 0px; clear: b=
+oth; visibility: hidden; }
+
+.gsc-webResult { zoom: 1; }
+
+.gsc-webResult.gsc-result { margin: 0px; padding: 10px 0px; border: 1px sol=
+id rgb(255, 255, 255); }
+
+.gs-webResult .gs-visibleUrl { color: rgb(0, 128, 0); text-decoration: none=
+; }
+
+.gsc-above-wrapper-area { border-bottom: 1px solid rgb(233, 233, 233); padd=
+ing: 5px 0px; }
+
+.gsc-above-wrapper-area-invisible { display: none; }
+
+.gsc-above-wrapper-area-container { width: 100%; }
+
+.gsc-result-info { color: rgb(103, 103, 103); font-size: 13px; margin: 0px;=
+ padding: 4px 4px 10px; text-align: left; }
+
+.gsc-result-info-container { text-align: left; }
+
+.gsc-result-info-invisible { display: none; }
+
+.gsc-orderby-container { text-align: right; background: transparent; }
+
+.gsc-orderby-invisible { display: none; }
+
+.gsc-orderby-label { color: rgb(103, 103, 103); padding: 5px 5px 6px 0px; }
+
+.gsc-selected-option-container { background-color: whitesmoke; border: 1px =
+solid rgba(0, 0, 0, 0.1); border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.1=
+) 0px 1px 1px; color: rgb(68, 68, 68); cursor: default; font-size: 11px; fo=
+nt-weight: bold; height: 27px; line-height: 27px; max-width: 90%; min-width=
+: 54px; outline: 0px; padding: 0px 28px 0px 6px; position: relative; text-a=
+lign: center; }
+
+.gsc-selected-option { position: relative; width: 100%; }
+
+.gsc-control-cse .gsc-option-selector { border: none; height: 11px; margin-=
+top: -4px; position: absolute; right: 5px; top: 12px; width: 7px; padding: =
+0px 5px; background: url("//ssl.gstatic.com/ui/v1/disclosure/small-grey-dis=
+closure-arrow-down.png") center center no-repeat; }
+
+.gsc-option-menu-invisible { display: none; }
+
+.gsc-control-cse .gsc-option-menu-container { color: rgb(0, 0, 0); font-siz=
+e: 80%; position: relative; }
+
+.gsc-control-cse .gsc-option-menu { background: rgb(255, 255, 255); border:=
+ 1px solid rgba(0, 0, 0, 0.2); box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px; =
+cursor: default; font-size: 13px; margin: 0px; max-height: 360px; outline: =
+none; padding: 6px 0px; position: absolute; right: 0px; top: 0px; z-index: =
+7; }
+
+.gsc-option-menu-item { color: rgb(119, 119, 119); cursor: pointer; list-st=
+yle: none; margin: 0px; padding: 0px 30px; white-space: nowrap; }
+
+.gsc-option-menu-item-highlighted { background-color: rgb(238, 238, 238); b=
+order-color: rgb(238, 238, 238); border-width: 1px 0px; color: rgb(51, 51, =
+51); }
+
+.gsc-option { cursor: pointer; list-style: none; white-space: nowrap; line-=
+height: 27px; text-align: left; }
+
+.gs-web-image-box, .gs-promotion-image-box { float: left; padding: 2px 8px =
+2px 0px; margin-right: 0px; margin-left: 0px; text-align: center; width: 62=
+px; }
+
+.gs-web-image-box .gs-image, .gs-promotion-image-box .gs-promotion-image { =
+border: 1px solid rgb(226, 226, 226); max-width: 60px; max-height: 120px; }
+
+.gs-action { display: inline; margin-right: 0.6em; }
+
+.gs-action .gs-action { color: rgb(119, 119, 204); }
+
+.gs-action.cart .gs-action, .gs-action.star .gs-action, .gs-action.rss .gs-=
+action, .gs-action.download .gs-action, .gs-action.email .gs-action, .gs-ac=
+tion.mobile .gs-action, .gs-action.share .gs-action, .gs-action.fullscreen =
+.gs-action, .gs-action.generic .gs-action, .gs-action.link .gs-action { pad=
+ding-left: 18px; background: url("//www.google.com/cse/images/action_icons_=
+sprite.gif") no-repeat transparent; }
+
+.gs-action.cart .gs-action { background-position: 0px 0px; }
+
+.gs-action.star .gs-action { background-position: -16px -34px; }
+
+.gs-action.rss .gs-action { background-position: -48px -98px; }
+
+.gs-action.download .gs-action { background-position: -64px -128px; }
+
+.gs-action.email .gs-action { background-position: -112px -224px; }
+
+.gs-action.mobile .gs-action { background-position: -131px -257px; }
+
+.gs-action.share .gs-action { background-position: -32px -64px; }
+
+.gs-action.fullscreen .gs-action { background-position: -79px -162px; }
+
+.gs-action.generic .gs-action { background-position: -144px -290px; }
+
+.gs-action.link .gs-action { background-position: -159px -321px; }
+
+.gs-ellipsis { overflow: hidden; text-align: left; text-overflow: ellipsis;=
+ white-space: nowrap; }
+
+.gsc-imageResult-column { margin-right: 70px; }
+
+.gs-imageResult { break-inside: avoid; overflow: hidden; }
+
+.gs-imageResult .gs-image-box { position: relative; }
+
+.gs-imageResult .gs-text-box { color: rgb(153, 153, 153); height: 4em; }
+
+.gs-imageResult .gs-title, .gs-imageResult .gs-snippet, .gs-imageResult .gs=
+-visibleUrl, .gs-imageResult .gs-visibleUrl-short, .gs-imageResult .gs-spel=
+ling { padding: 0px; }
+
+.gs-imageResult:not(.gs-no-results-result) .gs-snippet { overflow: hidden; =
+white-space: nowrap; color: rgb(238, 238, 238); }
+
+.gs-imageResult .gs-size { display: inline; }
+
+.gs-imageResult .gs-image-box { text-align: center; }
+
+.gs-imageResult .gs-image-box .gs-image { border: none; }
+
+.gs-image-scalable { height: 180px; }
+
+.gs-selectedImageResult { height: 540px; }
+
+.gs-imagePreview { display: block; max-height: 100%; max-width: 100%; }
+
+.gs-imagePreview:not([src$=3D".svg"]) { height: auto; width: auto; }
+
+.gs-imagePreviewArea { display: flex; justify-content: center; align-items:=
+ center; position: absolute; background: rgb(34, 34, 34); width: 100%; heig=
+ht: 350px; left: 0px; z-index: 100000; }
+
+.gs-imagePreviewArea-invisible { display: none; }
+
+.gs-previewSnippet { margin: 30px; }
+
+.gs-previewLink { color: rgb(238, 238, 238); font-size: 18px; text-decorati=
+on: none; }
+
+.gs-imagePreviewArea > .gs-previewLink { align-items: center; display: flex=
+; height: 100%; }
+
+.gs-previewTitle, .gs-previewUrl, .gs-previewSize { margin: 10px 0px; color=
+: rgb(238, 238, 238); }
+
+.gs-previewDescription { margin: 20px 0px; color: rgb(204, 204, 204); }
+
+.gsc-imageResult .gs-imageResult-popup { border: 0px; margin: 0px; width: a=
+uto; overflow: visible; position: relative; }
+
+.gs-imageResult-popup .gs-image-thumbnail-box { padding: 5px; }
+
+.gs-imageResult-popup .gs-image-box { width: auto; }
+
+.gs-imageResult-popup .gs-image-popup-box { width: calc(100% - 20px); posit=
+ion: absolute; padding: 5px; margin: 5px; left: 0px; bottom: 0px; backgroun=
+d: rgba(51, 51, 51, 0.8); display: none; }
+
+.gs-imageResult-popup .gs-image-popup-box .gs-image-box { display: none; }
+
+.gs-imageResult-popup .gs-image-popup-box .gs-text-box { height: auto; widt=
+h: auto; }
+
+.gs-imageResult-popup .gs-text-box .gs-title { display: none; }
+
+.gsc-videoResult .gs-videoResult .gs-title { line-height: 1.3em; height: 1.=
+3em; overflow: hidden; }
+
+.gsc-videoResult .gs-videoResult .gs-snippet { line-height: 1.3em; max-heig=
+ht: 2.6em; overflow: hidden; }
+
+.gsc-imageResult .gsc-trailing-more-results { clear: both; }
+
+.gsc-results .gsc-trailing-more-results { margin-bottom: 10px; }
+
+.gsc-results .gsc-trailing-more-results, .gsc-results .gsc-trailing-more-re=
+sults * { color: rgb(0, 0, 204); text-decoration: underline; }
+
+.gsc-imageResult .gsc-cursor-box { clear: both; }
+
+.gsc-results .gsc-cursor-box .gsc-trailing-more-results { margin-bottom: 0p=
+x; display: inline; }
+
+.gsc-results .gsc-cursor { color: rgb(51, 51, 51); display: inline; fill: r=
+gb(51, 51, 51); }
+
+.gsc-results .gsc-cursor-box { margin-bottom: 10px; }
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page { cursor: pointer; color: rgb=
+(0, 0, 0); margin-right: 8px; display: inline; }
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page { cursor: default; co=
+lor: rgb(169, 10, 8); font-weight: bold; text-decoration: none; }
+
+.gs-result .gs-title, .gs-result .gs-title * { color: rgb(0, 0, 204); text-=
+decoration: none; }
+
+a .gs-captcha-info-link { color: rgb(0, 0, 204); text-decoration: underline=
+; cursor: pointer; }
+
+.gsc-control-cse .gs-spelling, .gsc-control-cse .gs-result .gs-title, .gsc-=
+control-cse .gs-result .gs-title * { font-size: 16px; }
+
+.gsc-control-cse .gs-result .gs-spelling-original { font-size: 13px; }
+
+.gs-divider { padding-bottom: 8px; text-align: center; color: rgb(103, 103,=
+ 103); }
+
+.gs-relativePublishedDate, .gs-publishedDate { color: rgb(111, 111, 111); t=
+ext-decoration: none; }
+
+.gs-result .gs-clusterUrl { color: rgb(0, 128, 0); text-decoration: underli=
+ne; cursor: pointer; }
+
+.gs-newsResult .gs-publisher { color: rgb(111, 111, 111); display: inline; =
+text-decoration: none; }
+
+.gs-newsResult .gs-relativePublishedDate, .gs-newsResult .gs-publishedDate =
+{ display: inline; margin-left: 4px; }
+
+.gs-blogResult .gs-relativePublishedDate, .gs-newsResult .gs-relativePublis=
+hedDate { display: none; }
+
+.gsc-blogResult .gs-blogResult .gs-publishedDate, .gsc-newsResult .gs-newsR=
+esult .gs-publishedDate { display: none; }
+
+.gsc-blogResult .gs-blogResult .gs-relativePublishedDate, .gsc-newsResult .=
+gs-newsResult .gs-relativePublishedDate { display: inline; }
+
+.gs-newsResult .gs-location { color: rgb(111, 111, 111); display: inline; t=
+ext-decoration: none; }
+
+.gs-promotion .gs-title, .gs-promotion .gs-title * { text-decoration: none;=
+ }
+
+.gs-title .gs-promotion-title-right { color: rgb(0, 0, 0); }
+
+.gsc-webResult.gsc-result.gsc-promotion { background-color: rgb(255, 255, 2=
+55); }
+
+.gs-fileFormat { color: rgb(102, 102, 102); font-size: 12px; }
+
+.gs-fileFormatType { font-size: 12px; }
+
+.gs-promotion table { border: 0px none; border-spacing: 0px; margin: 0px; p=
+adding: 0px; }
+
+.gs-promotion table .gs-snippet a .gs-title, .gs-promotion table .gs-snippe=
+t a .gs-title * { font-size: 13px; }
+
+.gs-promotion em { font-style: normal; font-weight: bold; }
+
+.gs-promotion .gs-title em { color: inherit; text-decoration: inherit; }
+
+.gs-result .gs-image, .gs-result .gs-promotion-image { vertical-align: midd=
+le; border: 1px solid rgb(226, 226, 226); }
+
+.gs-result .gs-directions, .gs-result .gs-directions * { color: rgb(119, 11=
+9, 204); font-weight: normal; text-decoration: underline; cursor: pointer; =
+}
+
+.gs-secondary-link, .gs-secondary-link * { color: rgb(119, 119, 204); font-=
+weight: normal; text-decoration: underline; cursor: pointer; }
+
+.gs-result .gs-directions-to-from { display: none; margin-top: 4px; }
+
+.gs-result .gs-directions-to-from .gs-label { display: inline; margin-right=
+: 4px; }
+
+.gs-result .gs-directions-to-from .gs-secondary-link { display: inline; }
+
+.gs-result .gs-directions-to-from .gs-spacer { display: inline; margin-righ=
+t: 3px; margin-left: 3px; }
+
+.gs-videoResult .gs-publisher { color: rgb(0, 128, 0); text-decoration: non=
+e; }
+
+.gs-result a { cursor: pointer; }
+
+.gsc-loading-fade .gsc-result-info, .gsc-loading-fade .gsc-loading-resultsR=
+oot, .gsc-loading-resultsRoot, .gsc-loading-fade .gsc-loading-refinementsAr=
+ea, .gsc-loading-fade .gsc-adBlock, .gsc-loading-fade .gsc-adBlockVertical,=
+ .gsc-loading-fade .gsc-adBlockNoHeight { opacity: 0.333; }
+
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet { backgroun=
+d-color: rgb(255, 244, 194); border: 1px solid rgb(255, 204, 51); display: =
+inline-block; margin: 5px; padding: 5px; }
+
+.gs-backfill-message { padding: 8px 4px; }
+
+.gs-captcha-wrapper { margin-top: 12px; }
+
+span .gs-captcha-msg { color: rgb(51, 51, 51); margin-top: 1px; }
+
+#recaptcha-wrapper { display: inline-block; margin-top: 30px; }
+
+.gs-stylized-error-result { text-align: center; }
+
+.gs-stylized-error-message { font-size: 24px; margin: 0px 0px 20px; }
+
+.gs-stylized-error-submessage { margin: 0px 0px 20px; }
+
+.gs-stylized-error-link { background: rgb(26, 115, 232); border-radius: 15p=
+x; color: rgb(255, 255, 255); display: inline-block; padding: 5px 10px; tex=
+t-decoration: none; }
+
+.gs-stylized-error-link { text-decoration: none; }
+
+.gs-result .gs-watermark { font-size: 10px; color: rgb(119, 119, 204); }
+
+.gs-results-attribution { text-align: center; margin-bottom: 4px; }
+
+.gs-results-attribution, .gs-results-attribution * { font-size: 10px; color=
+: rgb(103, 103, 103); text-decoration: none; }
+
+.gs-results-attribution a { color: rgb(0, 0, 204); cursor: pointer; }
+
+.gs-results-attribution a:hover { text-decoration: underline; }
+
+.gs-result .gs-metadata { color: rgb(103, 103, 103); }
+
+.gs-localAd .gs-ad-marker, .gs-webAd .gs-ad-marker { padding-left: 4px; }
+
+.gs-webResult .gs-visibleUrl-short, .gs-promotion .gs-visibleUrl-short { di=
+splay: none; }
+
+.gs-webResult .gs-visibleUrl-long, .gs-promotion .gs-visibleUrl-long { over=
+flow: hidden; }
+
+.gs-webResult .gs-visibleUrl-long { display: none; }
+
+.gs-webResult .gs-per-result-labels .gs-label { text-decoration: underline;=
+ cursor: pointer; padding: 3px; color: black; }
+
+.gs-webResult .gs-per-result-labels .gs-label.gs-labelActive { cursor: defa=
+ult; text-decoration: none; }
+
+.gs-localAd .gs-address * { color: rgb(103, 103, 103); }
+
+.gs-localAd .gs-street { display: inline; }
+
+.gs-city { display: inline; }
+
+.gs-region { display: inline; }
+
+.gs-country { display: none; }
+
+.gs-infoWindow * { font-size: 11px; }
+
+.gs-videoResult * { font-size: 13px; }
+
+.gs-videoResult td .gs-image-box { width: 110px; height: 78px; }
+
+.gs-videoResult td .gs-text-box { vertical-align: top; margin-left: 4px; }
+
+.gs-book-image-box td, .gs-bookResult td { vertical-align: top; }
+
+.gs-book-image-box, .gs-book-image-box div { position: static; text-align: =
+start; }
+
+.gs-book-image-box { width: 75px; height: 90px; }
+
+.gs-bookResult td .gs-text-box { vertical-align: top; margin-left: 4px; }
+
+.gs-book-image-box img { border-spacing: 0px; border: none; }
+
+.gs-book-image-box .gs-row-1 { line-height: 7px; }
+
+.gs-book-image-box .gs-pages { height: 7px; width: 45px; }
+
+.gs-book-image-box .gs-page-edge { height: 7px; width: 11px; }
+
+.gs-book-image-box .gs-image { height: 80px; border: 1px solid rgb(160, 160=
+, 160); }
+
+.gs-bookResult .gs-author { display: inline; color: rgb(111, 111, 111); }
+
+.gs-bookResult .gs-publishedDate { display: inline; }
+
+.gs-bookResult .gs-pageCount { display: inline; color: rgb(111, 111, 111); =
+margin-left: 4px; }
+
+.gs-patentResult td { vertical-align: top; }
+
+.gs-patentResult .gs-patent-number, .gs-patentResult .gs-publishedDate, .gs=
+-patentResult .gs-author { display: inline; }
+
+.gs-patentResult .gs-image-box { padding-right: 8px; }
+
+.gs-patentResult .gs-image { border: 1px solid rgb(119, 119, 204); }
+
+.gs-spelling { color: rgb(51, 51, 51); padding-left: 7px; padding-right: 7p=
+x; }
+
+.gs-spelling a { color: rgb(0, 0, 204); cursor: pointer; }
+
+.gsc-control-cse::after { content: "."; display: block; height: 0px; clear:=
+ both; visibility: hidden; }
+
+.gs-bidi-start-align { text-align: left; }
+
+.gs-bidi-end-align { text-align: right; }
+
+.gs-snippet { color: rgb(51, 51, 51); margin-top: 1px; }
+
+.gsc-control-cse-zh_CN .gs-snippet b, .gsc-control-cse-zh_CN .gs-promotion =
+em, .gsc-control-cse-zh_TW .gs-snippet b, .gsc-control-cse-zh_TW .gs-promot=
+ion em { color: rgb(204, 0, 51); font-style: normal; font-weight: normal; }
+
+.gsc-snippet-metadata { vertical-align: top; }
+
+.gsc-snippet-metadata, .gsc-role, .gsc-tel, .gsc-org, .gsc-location, .gsc-r=
+eviewer, .gsc-author { color: rgb(102, 102, 102); }
+
+.gsc-rating-bar { vertical-align: top; display: inline-block; width: 64px; =
+height: 12px; background: url("/cse/static/css/cse_snippets_stars.png") -65=
+px 0px no-repeat transparent; overflow: hidden; margin: 3px 0px 0px; }
+
+.gsc-rating-bar span { vertical-align: top; display: inline-block; height: =
+12px; background: url("/cse/static/css/cse_snippets_stars.png") 0px 0px no-=
+repeat transparent; }
+
+.gsc-review-agregate-first-line { margin: 0px 40px 0px 0px; padding: 6px 0p=
+x; }
+
+.gsc-review-agregate-odd-lines, .gsc-review-agregate-even-lines { margin: 0=
+px 40px 0px 0px; padding: 6px 0px; border-top: 1px solid rgb(235, 235, 235)=
+; }
+
+.gsc-table-result, .gs-promotion-table { border-spacing: 0px; padding-left:=
+ 4px; padding-right: 4px; }
+
+.gsc-thumbnail-inside, .gsc-url-top { padding-left: 4px; padding-right: 4px=
+; }
+
+.gsc-table-cell-thumbnail, .gs-promotion-image-cell { vertical-align: top; =
+}
+
+.gsc-table-cell-snippet-close { padding: 1px 0px; }
+
+.gsc-table-cell-snippet-close, .gs-promotion-text-cell { vertical-align: to=
+p; width: 100%; }
+
+.gs-promotion-text-cell { margin-left: 8px; margin-right: 8px; }
+
+.gs-promotion-text-cell .gs-visibleUrl, .gs-promotion-text-cell .gs-snippet=
+ { font-size: 13px; }
+
+.gsc-table-cell-snippet-open { vertical-align: top; width: 100%; padding: 1=
+px 0px; }
+
+.gsc-preview-reviews { color: rgb(51, 51, 51); }
+
+.gsc-preview-reviews ul { padding-left: 0px; padding-right: 0px; }
+
+.gsc-preview-reviews li { list-style: none; width: 90%; }
+
+.gsc-zippy { margin: 2px 8px 0px 0px; float: right; outline: none; overflow=
+: hidden; height: 14px; width: 14px; background-position: -19px -5px; posit=
+ion: relative; top: -6px; }
+
+.gsc-table-cell-snippet-close .gsc-preview-reviews { display: none; }
+
+.gsc-table-cell-snippet-close .gsc-zippy { background: url("/cse/static/css=
+/plus_icons.png") -19px -5px no-repeat transparent; }
+
+.gsc-table-cell-snippet-open .gsc-zippy { background: url("/cse/static/css/=
+minus_icons.png") -19px -5px no-repeat transparent; }
+
+html > body .gsc-inline-block { display: inline-block; }
+
+.gsc-inline-block { display: inline-block; }
+
+.gsc-webResult .gsc-url-top { display: block; }
+
+.gsc-webResult .gsc-url-bottom { display: none; }
+
+.gsc-imageResult .gsc-url-top { display: none; }
+
+.gsc-imageResult .gsc-url-bottom { display: inline; }
+
+.gsc-thumbnail-left { display: none; }
+
+.gsc-label-result-main-box-visible { z-index: 100003; opacity: 1; display: =
+block; margin: auto; box-shadow: rgba(34, 25, 25, 0.4) 0px 3px 10px; border=
+-collapse: separate; background: white; padding: 30px; width: 28%; top: 30%=
+; left: 35%; border: 1px solid rgba(0, 0, 0, 0.333); position: fixed !impor=
+tant; }
+
+.gsc-label-result-main-box-invisible { display: none; opacity: 0; transitio=
+n: all 0.25s linear 0s; }
+
+.gsc-label-result-url { padding-bottom: 5px; white-space: nowrap; text-over=
+flow: ellipsis; overflow: hidden; width: 100%; color: rgb(0, 128, 0); margi=
+n-top: 5px; font-size: 13px; }
+
+.gsc-label-result-url-title { white-space: nowrap; margin-top: 10px; font-s=
+ize: 15px; color: rgb(0, 0, 204); text-decoration: underline; text-overflow=
+: ellipsis; overflow: hidden; display: block; }
+
+.gsc-label-result-url-heading { margin-bottom: 15px; }
+
+.gsc-label-result-labels { vertical-align: text-top; font-size: 13px; color=
+: rgb(0, 0, 0); }
+
+.gsc-label-box { margin-top: 5px; }
+
+.gsc-labels-box { margin-top: 15px; }
+
+.gsc-label-result-buttons { margin-top: 20px; }
+
+.gsc-labels-no-label-div-visible { margin-top: 20px; }
+
+.gsc-labels-no-label-div-invisible { display: none; }
+
+.gsc-labels-label-div-visible { margin-top: 10px; }
+
+.gsc-labels-label-div-invisible { display: none; }
+
+.gsc-label-result-form-label { margin-right: 20px; margin-left: 2px; font-s=
+ize: 13px; color: rgb(0, 0, 0); vertical-align: text-top; }
+
+.gsc-label-result-form-div { margin-top: 5px; }
+
+.gsc-label-result-label-prefix-visible { width: 90%; height: 20px; margin-t=
+op: 10px; }
+
+.gsc-label-result-label-prefix-invisible { display: none; }
+
+.gsc-label-result-label-prefix-error { color: red; margin-top: 10px; }
+
+.gsc-label-result-label-prefix-error-invisible { display: none; }
+
+.gsc-label-result-heading { font-size: 17px; color: black; }
+
+.gsc-result-label-button { background-color: rgb(245, 245, 245); font-weigh=
+t: bold; border-radius: 2px; text-align: center; padding: 0px 8px; backgrou=
+nd-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 24=
+1)); height: 29px; border: 1px solid rgba(0, 0, 0, 0.1); color: rgb(68, 68,=
+ 68); margin-right: 10px; width: 72px; }
+
+.gsc-result-label-save-button { color: rgb(255, 255, 255); background-image=
+: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(53, 122, 232)); }
+
+.gsc-add-label-error { color: red; padding-top: 20px; }
+
+.gsc-add-label-error-invisible { display: none; }
+
+.gsc-label-results-close-btn-visible { display: block; opacity: 0.7; }
+
+.gsc-label-result-saving-popup { font-size: 13px; transition: opacity 218ms=
+ ease 0s; border-width: 1px; height: 14px; opacity: 1; padding: 6px 16px; b=
+ackground-color: rgb(249, 237, 190); border-color: rgb(240, 195, 109); colo=
+r: rgb(51, 51, 51); top: 10%; left: 45%; border-style: solid; border-radius=
+: 2px; position: fixed !important; }
+
+.gsc-label-result-saving-popup-invisible { display: none; }
+
+.gsc-richsnippet-popup-box { z-index: 100003; opacity: 1; display: block; b=
+order: none; margin: auto; box-shadow: rgba(34, 25, 25, 0.4) 0px 3px 10px; =
+border-collapse: separate; background: white; top: 15%; left: 25%; overflow=
+: hidden auto; height: 65%; width: 50%; padding: 30px 30px 10px; position: =
+fixed !important; }
+
+.gsc-richsnippet-popup-box-invisible { display: none; }
+
+.gsc-richsnippet-showsnippet-label { color: rgb(0, 0, 153); text-decoration=
+: underline; cursor: pointer; font-size: 13px; }
+
+.gsc-richsnippet-individual-snippet-box { border: 1px solid rgb(235, 235, 2=
+35); padding: 15px; margin-bottom: 20px; }
+
+.gsc-richsnippet-individual-snippet-key { font-size: 14px; padding: 1px 0px=
+ 6px; color: rgb(0, 0, 153); }
+
+.gsc-richsnippet-individual-snippet-data { display: flex; flex-direction: c=
+olumn; }
+
+.gsc-richsnippet-popup-box-title { padding-bottom: 20px; font-size: 15px; }
+
+.gsc-richsnippet-popup-box-title-text { color: rgb(64, 64, 64); display: in=
+line; }
+
+.gsc-richsnippet-popup-box-title-url { font-weight: bold; color: black; dis=
+play: inline; }
+
+.gsc-richsnippet-individual-snippet-keyvalue { display: flex; margin-bottom=
+: 6px; }
+
+.gsc-richsnippet-individual-snippet-keyelem { font-weight: bold; white-spac=
+e: nowrap; }
+
+.gsc-richsnippet-individual-snippet-valueelem { margin-left: 6px; }
+
+.gsc-richsnippet-popup-close-button { background-image: url("//www.google.c=
+om/images/nav_logo114.png"); background-repeat: no-repeat; background-posit=
+ion: -140px -230px; float: right; height: 12px; width: 12px; top: 20px; rig=
+ht: 20px; cursor: pointer; }
+
+.gsc-richsnippet-popup-box-contents { overflow: hidden auto; height: 88%; }
+
+.gcsc-find-more-on-google { display: inline-block; margin-left: 10px; paddi=
+ng-top: 2px; }
+
+.gcsc-find-more-on-google-magnifier { margin-right: 10px; vertical-align: m=
+iddle; }
+
+.gcsc-find-more-on-google-text { vertical-align: middle; }
+
+.gcsc-find-more-on-google-query { max-width: 200px; text-overflow: ellipsis=
+; overflow: hidden; white-space: nowrap; display: inline-block; vertical-al=
+ign: middle; font-weight: bold; }
+
+.gcsc-find-more-on-google-branding { display: inline-block; float: right; }
+
+.gsc-imageResult > .gsc-expansionArea { display: flex; flex-wrap: wrap; jus=
+tify-content: space-around; }
+
+.gsc-context-box { font-size: 83%; margin-top: 3px; border-collapse: collap=
+se; }
+
+.gsc-context-box .gsc-col { padding: 1px 0px; white-space: nowrap; vertical=
+-align: middle; }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.google.com/cse/static/css/v2/clear.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNl
+SUQ9InhtcC5paWQ6MjlFQzUyOEI0MUIyMTFFMTk3OURDRDgxOTNEMUU3NTYiIHhtcE1NOkRvY3Vt
+ZW50SUQ9InhtcC5kaWQ6MjlFQzUyOEM0MUIyMTFFMTk3OURDRDgxOTNEMUU3NTYiPiA8eG1wTU06
+RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOUVDNTI4OTQxQjIxMUUxOTc5
+RENEODE5M0QxRTc1NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOUVDNTI4QTQxQjIxMUUx
+OTc5RENEODE5M0QxRTc1NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w
+bWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqNWQQ8AAABuSURBVHjaYkxLS0tgYGDoB2LHWbNmXWBA
+AkA5AyC1H4gLmaCKBEACUAl0RSC5fkY0gQ8gk6FqUcQYsej+AFUIVwRyEiMOqxiQFYE4TAxEAuKt
+JtYzTOgCIN1QdzlCxcBBB1JYiO5wEEBTXAgQYADPAj2hXB7gKwAAAABJRU5ErkJggg==
+
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.google.com/cse/static/style/look/v4/default.css
+
+@charset "utf-8";
+
+.gsc-control-cse { background-color: rgb(255, 255, 255); border: 1px solid =
+rgb(255, 255, 255); }
+
+.gsc-control-cse .gsc-table-result { width: auto; }
+
+.gsc-resultsHeader { }
+
+.gsc-input { font-size: 16px; }
+
+.gsc-input-box { border: 1px solid rgb(223, 225, 229); background: rgb(255,=
+ 255, 255); }
+
+.gsc-search-box .gsc-input > input:focus, .gsc-input-box-focus { border: 1p=
+x solid rgb(77, 144, 254); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px inset=
+; outline: none; }
+
+.gsc-search-button-v2 { font-size: 0px; padding: 6px 27px; width: auto; ver=
+tical-align: middle; border: 1px solid rgb(48, 121, 237); border-radius: 2p=
+x; background-color: rgb(77, 144, 254); }
+
+.gsc-search-button-v2:hover { border-color: rgb(47, 91, 183); background-co=
+lor: rgb(53, 122, 232); }
+
+.gsc-search-button-v2 svg { fill: rgb(255, 255, 255); }
+
+.gsc-tabHeader.gsc-tabhInactive { color: rgb(102, 102, 102); }
+
+.gsc-tabHeader.gsc-tabhActive { border-bottom: 2px solid rgb(26, 115, 232);=
+ color: rgb(26, 115, 232); }
+
+.gsc-refinementHeader { text-decoration: none; color: rgb(102, 102, 102); f=
+ont-weight: bold; line-height: 27px; margin-right: 0px; }
+
+.gsc-refinementHeader.gsc-refinementhActive { border-bottom: 2px solid rgb(=
+26, 115, 232); color: rgb(26, 115, 232); }
+
+.gsc-webResult.gsc-result { border: 1px solid rgb(255, 255, 255); }
+
+.gs-result .gs-title *, .gsc-cursor-page, .gs-spelling a { color: rgb(17, 8=
+5, 204); }
+
+.gs-webResult .gs-snippet, .gs-fileFormatType { color: rgb(51, 51, 51); }
+
+.gsc-webResult.gsc-result.gsc-promotion { background-color: rgb(246, 246, 2=
+46); border-color: rgb(246, 246, 246); }
+
+.gs-promotion .gs-title:link, .gs-promotion .gs-title:link *, .gs-promotion=
+ .gs-snippet a:link { color: rgb(17, 85, 204); }
+
+.gs-promotion .gs-title:visited, .gs-promotion .gs-title:visited *, .gs-pro=
+motion .gs-snippet a:visited { color: rgb(17, 85, 204); }
+
+.gs-promotion .gs-title:hover, .gs-promotion .gs-title:hover *, .gs-promoti=
+on .gs-snippet a:hover { color: rgb(17, 85, 204); }
+
+.gs-promotion .gs-title:active, .gs-promotion .gs-title:active *, .gs-promo=
+tion .gs-snippet a:active { color: rgb(17, 85, 204); }
+
+.gs-promotion .gs-snippet, .gs-promotion .gs-title .gs-promotion-title-righ=
+t, .gs-promotion .gs-title .gs-promotion-title-right * { color: rgb(0, 0, 0=
+); }
+
+.gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl { color: rgb(0, =
+153, 51); }
+
+.gsc-completion-selected { background: rgb(238, 238, 238); }
+
+.gsc-completion-container { font-family: Roboto, sans-serif; font-size: 16p=
+x; background: white; border: 1px solid rgb(204, 204, 204); }
+
+.gsc-completion-title { color: rgb(17, 85, 204); }
+
+.gsc-completion-snippet { color: rgb(0, 0, 0); }
+
+.gsc-results .gsc-cursor-box { margin: 10px; }
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page { text-decoration: none; colo=
+r: rgb(102, 102, 102); }
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page:hover { text-decoration: unde=
+rline; }
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page { color: rgb(26, 115,=
+ 232); }
+
+.gsc-context-box .gsc-facet-label { width: 65px; padding-left: 2px; text-de=
+coration: underline; color: rgb(17, 85, 204); cursor: pointer; }
+
+.gsc-context-box .gsc-chart { width: 32em; padding: 3px; border-left: 1px s=
+olid rgb(17, 85, 204); border-right: 1px solid rgb(17, 85, 204); }
+
+.gsc-context-box .gsc-top { border-top: 1px solid rgb(17, 85, 204); }
+
+.gsc-context-box .gsc-bottom { border-bottom: 1px solid rgb(17, 85, 204); }
+
+.gsc-context-box .gsc-chart div { background: rgb(17, 85, 204); height: 9px=
+; }
+
+.gsc-context-box .gsc-facet-result { color: rgb(17, 85, 204); width: 30px; =
+text-align: right; padding-right: 5px; }
+
+.gs-webResult .gs-title .gs-title.gsc-usr-group-heading { color: rgb(17, 85=
+, 204); cursor: pointer; }
+
+.gs-webResult .gs-title .gs-title.gsc-usr-group-heading b { color: rgb(17, =
+85, 204); }
+
+.gcsc-find-more-on-google { color: rgb(17, 85, 204); }
+
+.gcsc-find-more-on-google-magnifier { fill: rgb(17, 85, 204); }
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.google.com/cse/static/images/1x/en/branding.png
+
+iVBORw0KGgoAAAANSUhEUgAAAHwAAAAPCAYAAAAmqKvRAAAFI0lEQVR4AWKgDIwCQDvmADRLEsPx
+s23btm3bd7vT2zPfYM+2bdu2bdu2bZv51XXq9de182ae2VWp7kmnM9n800lmGzZdwsTFZVGcfyz0
+fRRnLzVtfmirtfWE/dMOE+ebyPtP3LDdHmMoKv1mDBvFxSHi5H+E/hR6JErya2R+W+hfoU8beT5R
+/zJG3ncm7+1HgTZ0NG22gwP2kVarmK7bXpJtIPztWQ90gG9WFONGaTq9T/CMMaOwZvZlrd1qMtbM
+utaxRdyewZdXOc7pc5Ve/5ykx+WZq2wN+XV/Kzao3Z1shNcR7OaW48vt/kkc/MHmm289Vu/D1P8B
+JxrXRlDmI5RMUiyCE+CbJN/Nl2Wftcr6upDnXDcHozvO2sqr0stAXm36fy626JmtPp85svmNYQCF
+5yX9vtCM8+ewh/exBmiVY78M8MhmTfRIQO5UF5ANN9xweNG5jYmLx+TsW2LjJY2kPasvQ4BLIN0q
+++82bX63yK7j7yMve1eJzDsie5Po21H0XMlvDQFvtNKF5TfdjC6hWxo2W6CbE1RpCIxz+Fy9A7jq
+9p1ZpRcA2VPA9JnzZbb6fOTEGbvL8+HlchpY+dmAzRkAZp819rIuT+f5AehptIqlfT5BLHSfT6J3
+TwfmhS5IXiIgZf2r0I+mqz0P+8LbXJ7/FvoCUIU+RN7YbOsefsu+FX2/COA3iI2vqR+tLWb2AZd5
+caHfhb4RuYsd6D8b3qVOCFOiAoNTFLAQ8CgpzvLPhYAThUQtzgS4Wnp1HQDFbSuzVflhsIblxT9v
+TDqnDywzz2QT7A3P+oOAQo+JszW78ZPsWOF/4tE/InutBi23kWbPBdu8wvtD9m/n9jv5DygX7NNt
+ExwEhrV2TLHpIvQBJvtpmo4owD/YGfDsHln/EMdbTs0zwc8eN76HEzzyncYtBDgcEQIenlPA/fMA
+xVmCo45enKnrYJTYWg44c9V5zSQAjD3wNDjLRrNVrICc/KZTw8593333HQ4yJp+GGysgH0+DV5IR
+7hP+18ZkM7qAOKpTY8inH8FAIHbbj4soBHyLNJ2Uz0NXsi6Q9W+8Q4LjSJrLypTOrGsipW5K17rI
+GcBW8GvoXRt5v4EKb3hlqiaY6shhI+8N9yvGMvvuO4LIvSL0J2CUNFEnuiywiji/YN3sytcIZJ4S
++pSgYx/QOpUO6q/Mb4g/3/P3Sfch4EmSTCzzZ07f4wSFn61qAe6nsTqA+3VQgdXbXKUXvn/zKAm9
+UsMJDAIGfVWA8+7eAZwh9XBB6im1ET3caGO2G4dUTfpFj8x3cuu5WaRvfNJqtaeEp0FAaXPPT0fo
+s+2VtOniZgq9T4BpRuXWI+/89G7HlG6zc1gbmxt08U4aN5Nkq3VMc/BCYLzGphJwUmJYBwGOZqVK
+L4PA8O3RFFtma8hHF3qrSgLvxY7eAFybvoW4eU7fP4Cquk2cX0cdDr48/iIr8EmnDRw128tKXzo9
+P7oG7geRWYp96rg8P8M5zjtdv3YCnD98xNeverJ/YhuN4TCaZn3S73DWvfMd3mnP0zdOz/T6vOD7
+uNRW5Yfy4fDleF/Zfl3AtXmieePvVOq1ALRPWQ9AlyyOP0joFAkIGwblpmk6ATcYPXT8myfJFKEP
+JXul7BtbbCcy+wFqI02nIiNwUZBxdo1mbN4l7zlOQN9fPwGHjkFkUP9p8jRQaQwF7HuFvtl6661H
+HuqhwWyYpFjSpeXPZT7XNXz/cnuHemcwHdRz/oEToD+m/9AGrld0/Ae3DhPG3B1sGQAAAABJRU5E
+rkJggg==
+
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.positivessl.com/images/seals/positivessl_trust_seal_sm_124x32.png
+
+iVBORw0KGgoAAAANSUhEUgAAAHwAAAAgCAYAAADQUhwyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAACHZJREFUeNrsm11sFFUUx+/UEg0KRQMa5aM1SiQYAySQyAuoMaI+gEYg
+Piig8IKJGItRH7Qi5UGMrbEk8kLFog8GMAoPKkaF9kFMaAKNgWDQWAQ1CtEWhGiIHe/v7D3Ts+O0
+dBeR7mZPMtndO3funbn/c/7n485GLiVxHC/zH0v9cYerSCnLHn+0RVH0tm2MDNB1/uMDf0yvrFVZ
+yQF/POiB704AD2Dv98eYyvqUpfT4YwagK+D78yz73AkXn9zu4j86nfv7TGW5Skkuu9JFV8100diF
+zo0Yl2fpHvAZUfDZm5Pmv466vh/WVoAuA+CrJjU4d3mtbX0MwHcnAZq37L7u53NgoylX3+eikVOd
+46jI8Jezh1zM8fvHCYZVda9YS98D4HESuP280cW97QNpR0VKRQxLRzVzXXT9yuRUVV5Khs8mkvOW
+XQG7hMVjJxgaTFWqk299ZxO/HQ1C4T2nTrvVa9a7Ldt2JG1LFi1wTWuec2NGjxrwuhETb3Pnjn2d
+13b0+E/uoRVPuZ7eU66h/gm5vt6PXTdxvIzJ77Wvb5S+rU2Nbuenu+X7nNtnukbfTp+1zW9KG9fP
+n3eXmzx7npt26xQ3beot8qnn39/0hvxGlte/4LoOfSPz0t7S+q6bO3uW3E/3sR9da/O6ksccDIW6
+U7FYdWbvAQAH7LsXP+66Dh52tRNuEGBYIMBnAT/b+tagoKelfe8+6Q+YCICy8ADJ580evM+3bZY5
+mJv+Lz690nV81ZkAtHTxA3IvnOOz1t8TfQB3gweS8zV+DkBVILmOOXbu+kLGXeAVpY1n8M/VuWt7
+eVj5FXWZzf2UXjXyvGNsCYuCJX27d5cAzCeLRzsLXIhghYwlVu4X/oAfAwFQBQYQUQoABHhVMgW5
+beuHwjgwDEpHX67vDQoCG/Cd66yi0abjzfHKA/goRCEKO6xlADyrChmDRUGa/eJaaQq/WchCBLru
+CiAj9rsohAcZ6kYhkDE1o13LpndkHizcWiQApq9X9tnh7xulVCWygvVzLUAzZrlLXpTed/jhnBZM
+eS+zM3TOYqd9sfpoFgyrH6oPVyXBytRiVRirJ4AI8ACS/m2Bh8qPBupXZVEF0P7qltLttHGt+vhy
+kSw8hwQ4VqbBz1CEAAo/OhTAh5PAYPj6VcsfEVeTJbiPbs8SDSFOKDXAq4dEvQWArf2hUKy2lIQM
+AcqHAU4c/FLcAb+hfZQARmkJccp0MoH/AnCfMyeRNIFW2vfa8zaY1naKKvkl1EGlutj7hEo5WIQs
+362BVSnJqhWPipWrLwdcwOc3gAMwlo/Pn3/PnRdofmddfPw1qYzZcihFEmrhUjzx56l+9tPkOFc1
+4RnJs5PCytiFubr5xQScBWh66VlJo/hc/fKrBQdseQUfNmp6213kHyj2Dxh5TZfCQUZ62BjycvX/
+WJ+lV/xxo2cYInYEgADLZhoEcYCGQiqQWDJtPJvm+errGZPr6D89zEMAqfeibIaC9IYYApfG9bRZ
+llBlkqpmAJtqmHxn0+qXNgE8ATtshkgBJWxqSeXMskIBUhTgLKKCzKF0V4yWo6kUCapuXO/i3z4S
+0Dn6ft2Sq+X7xbBRfJZ76fBzH/HpIULhRQM3VQoCMjIJ/G9LKnUEyM5Ptsk1tkhj52FefT4tOGHh
+2gewAZLxVQFgCs0ubIxAUEvf+PS+BGyxamrgJ00NIFh2dO2S3BpQ8uZA/uzuD8IKoPOC0zK7ABrU
+KK0XZdkAzFaefyh8lzwwD4UCTGrI/TaUZlMqFpXgUC2QxWTBFWwAttTMtQlY/t5tNgFTae6vAOrY
+Oha/dX7Gtf6bdtJFG7TWB/DJAlAgdW+qcFrNhNmwdmnzz8yh9C3nveJz0F/Oj1/tYvy3KaNedMBZ
+OIomWuZsKbDgkgAOjV9z/4CFA3yT7PyoogWallJr8zqZ2y66AooywDo2UyCmqAmpWUcIvhiDzIF+
+nFeA0sGYUrYqtoJnYxQ7N2Opckh6aO5bKT+6bmlCx6wDTAewyePjqwHdUzeG0ffdk7mNLWvhBdJ5
+0YAj5M5osq1gFVwEwGd7X0X6oCkEvsz+tvSllbisYFAVUO8tq8iilqaMQE2dw/ZVsHUuFIDDjqXj
+6yfVPmUWFM32RUmg/vS9YJlsXUYAq8B7YJ1aL+dv2pDz18ba8+i+iA2uoqN0KIzAxW6iFFvz1Rfr
+JHAhSBngQTSI0oW2c1urZFME2REqgwpYB/mzV1KUQ2MQxsDS1XpVcdIKoAygrGbdWZrqLbjMR3+1
+cur2MdbsnxV2Ex9NzPJ9qF56i1ZlTyJwvyYYhgRqYc/b0v7/A/h5aHwoOSoRuVBXyD1j/6CArX5M
+fPioWf/y4SzyzHsXJQrAQmvgpLlyu/fJep50ywZlWGGXYQsLUK2yQwCY8YgNUO70s6WZRl0ItXmt
+4DGn3hdtUuI9M67foj2DxanUS3a69EUGPtXqPfAWZIncTVqX+P+CKd3mhkFLCxHd6jwvpXsN14Al
+qyAhPj5E6TYwZGwLmO6CkSIqCAnYwZfrDpwqa0+on0PztgavFq61d40d0hSfBlzrEtrHbhfrvRMs
+0ob/ToK2kI5pDi6Aq3/Hf3M+FFjkpRSrHCiLvuXC9vYgGGaXVo8sLyqZvxARwMm9zXxxyDe1yKD0
+rf7WRthZGx66wFqjT7sF9bd6re6Dp+vu2pdxcBOqJJa9BpvL1u2zzgt4CmDWlrRW07BsdXMAa+Ia
+W7SxEbvUNmBI3l6a3JoN+CV7xcm+h6V+ncKLoS9bzx/uNflLLoO84lR5ibFcJFj+UF5iXOYqrymX
+nwz0mrJQeeWPCGUF9KB/RAiAk/lX/mpUvpL81UjSsvBHsxku98ezipSXHFCw8/Jw+aOZN3l43uX+
+alqR0pY94rOh8QA28o8AAwCFnWIv8ldwJQAAAABJRU5ErkJggg==
+
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/html
+Content-ID: <frame-53B77CF68B704E22B58FE61F6AE7FF0B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/html
+Content-ID: <frame-DE8202AB3010835D20772D10481A525B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/html
+Content-ID: <frame-4BE158A2530256589AD7765DE85B077B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/html
+Content-ID: <frame-DEA982FCD2A04715821FA5A68617A95A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/html
+Content-ID: <frame-F64CA2551A4473247DE91B886231550F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa----
+Content-Type: text/html
+Content-ID: <frame-71CE95E3DF8ED3B81BCED2BC46C939B0@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--63Bc9rDcF4OCz2BBEFKfBg9V8XIeTE1JD1wdiE6Uoa------
