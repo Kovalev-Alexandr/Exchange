@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/ -->
+<html dir="ltr" lang="ru-RU" prefix="og: https://ogp.me/ns#" class=" js "><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=10">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://analytics.infozone.pro/xmlrpc.php">
+	<title>Введение в проектирование баз данных | Бизнес-Анализ в России</title>
+
+		<!-- All in One SEO 4.4.3 - aioseo.com -->
+		<meta name="description" content="Статья про проектирование баз данных. Разобраны основные этапы проектирования баз данных. В основе лежит разбор принципов проектирования реляционной базы данных">
+		<meta name="robots" content="max-image-preview:large">
+		<link rel="canonical" href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/">
+		<meta name="generator" content="All in One SEO (AIOSEO) 4.4.3">
+		<meta property="og:locale" content="ru_RU">
+		<meta property="og:site_name" content="Бизнес-Анализ в России | Первый профессиональный блог бизнес-аналитика">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="Введение в проектирование баз данных | Бизнес-Анализ в России">
+		<meta property="og:description" content="Статья про проектирование баз данных. Разобраны основные этапы проектирования баз данных. В основе лежит разбор принципов проектирования реляционной базы данных">
+		<meta property="og:url" content="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/">
+		<meta property="article:published_time" content="2016-02-16T15:19:23+00:00">
+		<meta property="article:modified_time" content="2016-02-29T13:44:03+00:00">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Введение в проектирование баз данных | Бизнес-Анализ в России">
+		<meta name="twitter:description" content="Статья про проектирование баз данных. Разобраны основные этапы проектирования баз данных. В основе лежит разбор принципов проектирования реляционной базы данных">
+		<script async="" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/tag.js.Без названия"></script><script type="text/javascript" async="" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/top100.js.Без названия"></script><script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#article","name":"\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445 | \u0411\u0438\u0437\u043d\u0435\u0441-\u0410\u043d\u0430\u043b\u0438\u0437 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438","headline":"\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445","author":{"@id":"https:\/\/analytics.infozone.pro\/author\/ivan-shamaev\/#author"},"publisher":{"@id":"https:\/\/analytics.infozone.pro\/#organization"},"image":{"@type":"ImageObject","url":"https:\/\/analytics.infozone.pro\/wp-content\/uploads\/2016\/02\/tretiya_normalnaya_forma.png","width":645,"height":363},"datePublished":"2016-02-16T15:19:23+04:00","dateModified":"2016-02-29T13:44:03+04:00","inLanguage":"ru-RU","commentCount":3,"mainEntityOfPage":{"@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#webpage"},"isPartOf":{"@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#webpage"},"articleSection":"\u041f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435"},{"@type":"BreadcrumbList","@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/analytics.infozone.pro\/#listItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/analytics.infozone.pro\/","name":"\u0413\u043b\u0430\u0432\u043d\u0430\u044f","description":"\u041f\u0435\u0440\u0432\u044b\u0439 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u043b\u043e\u0433 \u0431\u0438\u0437\u043d\u0435\u0441-\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430","url":"https:\/\/analytics.infozone.pro\/"},"nextItem":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#listItem"},{"@type":"ListItem","@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#listItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/","name":"\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445","description":"\u0421\u0442\u0430\u0442\u044c\u044f \u043f\u0440\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445. \u0420\u0430\u0437\u043e\u0431\u0440\u0430\u043d\u044b \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u044d\u0442\u0430\u043f\u044b \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445. \u0412 \u043e\u0441\u043d\u043e\u0432\u0435 \u043b\u0435\u0436\u0438\u0442 \u0440\u0430\u0437\u0431\u043e\u0440 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445","url":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/"},"previousItem":"https:\/\/analytics.infozone.pro\/#listItem"}]},{"@type":"Organization","@id":"https:\/\/analytics.infozone.pro\/#organization","name":"\u0411\u0438\u0437\u043d\u0435\u0441-\u0410\u043d\u0430\u043b\u0438\u0437 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438","url":"https:\/\/analytics.infozone.pro\/"},{"@type":"Person","@id":"https:\/\/analytics.infozone.pro\/author\/ivan-shamaev\/#author","url":"https:\/\/analytics.infozone.pro\/author\/ivan-shamaev\/","name":"\u0418\u0432\u0430\u043d \u0428\u0430\u043c\u0430\u0435\u0432","image":{"@type":"ImageObject","@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#authorImage","url":"https:\/\/secure.gravatar.com\/avatar\/50573e167fe77861ce1369f86a81f42f?s=96&d=monsterid&r=g","width":96,"height":96,"caption":"\u0418\u0432\u0430\u043d \u0428\u0430\u043c\u0430\u0435\u0432"}},{"@type":"WebPage","@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#webpage","url":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/","name":"\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445 | \u0411\u0438\u0437\u043d\u0435\u0441-\u0410\u043d\u0430\u043b\u0438\u0437 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438","description":"\u0421\u0442\u0430\u0442\u044c\u044f \u043f\u0440\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445. \u0420\u0430\u0437\u043e\u0431\u0440\u0430\u043d\u044b \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u044d\u0442\u0430\u043f\u044b \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0431\u0430\u0437 \u0434\u0430\u043d\u043d\u044b\u0445. \u0412 \u043e\u0441\u043d\u043e\u0432\u0435 \u043b\u0435\u0436\u0438\u0442 \u0440\u0430\u0437\u0431\u043e\u0440 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445","inLanguage":"ru-RU","isPartOf":{"@id":"https:\/\/analytics.infozone.pro\/#website"},"breadcrumb":{"@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#breadcrumblist"},"author":{"@id":"https:\/\/analytics.infozone.pro\/author\/ivan-shamaev\/#author"},"creator":{"@id":"https:\/\/analytics.infozone.pro\/author\/ivan-shamaev\/#author"},"image":{"@type":"ImageObject","url":"https:\/\/analytics.infozone.pro\/wp-content\/uploads\/2016\/02\/tretiya_normalnaya_forma.png","@id":"https:\/\/analytics.infozone.pro\/#mainImage","width":645,"height":363},"primaryImageOfPage":{"@id":"https:\/\/analytics.infozone.pro\/vvedenie-v-proektirovanie-baz-dannih\/#mainImage"},"datePublished":"2016-02-16T15:19:23+04:00","dateModified":"2016-02-29T13:44:03+04:00"},{"@type":"WebSite","@id":"https:\/\/analytics.infozone.pro\/#website","url":"https:\/\/analytics.infozone.pro\/","name":"\u0411\u0438\u0437\u043d\u0435\u0441-\u0410\u043d\u0430\u043b\u0438\u0437 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438","description":"\u041f\u0435\u0440\u0432\u044b\u0439 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u043b\u043e\u0433 \u0431\u0438\u0437\u043d\u0435\u0441-\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430","inLanguage":"ru-RU","publisher":{"@id":"https:\/\/analytics.infozone.pro\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/analytics.infozone.pro\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<!-- analytics.infozone.pro is managing ads with Advanced Ads --><script data-wpfc-render="false" id="advads-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<!-- <link rel='stylesheet' id='wp-block-library-css' href='https://analytics.infozone.pro/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/c49k9.css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<!-- <link rel='stylesheet' id='rbuilder-styling-css' href='https://analytics.infozone.pro/wp-content/plugins/resume-builder/dist/main.css?ver=3.1.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='toc-screen-css' href='https://analytics.infozone.pro/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2302' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='hamburger.css-css' href='https://analytics.infozone.pro/wp-content/plugins/wp-responsive-menu/assets/css/wpr-hamburger.css?ver=3.1.8' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wprmenu.css-css' href='https://analytics.infozone.pro/wp-content/plugins/wp-responsive-menu/assets/css/wprmenu.css?ver=3.1.8' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/c49k9(1).css" media="all">
+<style id="wprmenu.css-inline-css" type="text/css">
+@media only screen and ( max-width: 800px ) {html body div.wprm-wrapper {overflow: scroll;}#wprmenu_bar {background-image: url();background-size:;background-repeat: ;}#wprmenu_bar {background-color: #343538;}html body div#mg-wprm-wrap .wpr_submit .icon.icon-search {color: ;}#wprmenu_bar .menu_title,#wprmenu_bar .wprmenu_icon_menu,#wprmenu_bar .menu_title a {color: #F2F2F2;}#wprmenu_bar .menu_title a {font-size: px;font-weight: ;}#mg-wprm-wrap li.menu-item a {font-size: px;text-transform: ;font-weight: ;}#mg-wprm-wrap li.menu-item-has-children ul.sub-menu a {font-size: px;text-transform: ;font-weight: ;}#mg-wprm-wrap li.current-menu-item > a {background: ;}#mg-wprm-wrap li.current-menu-item > a,#mg-wprm-wrap li.current-menu-item span.wprmenu_icon{color:!important;}#mg-wprm-wrap {background-color: #2E2E2E;}.cbp-spmenu-push-toright,.cbp-spmenu-push-toright .mm-slideout {left: 60% ;}.cbp-spmenu-push-toleft {left: -60% ;}#mg-wprm-wrap.cbp-spmenu-right,#mg-wprm-wrap.cbp-spmenu-left,#mg-wprm-wrap.cbp-spmenu-right.custom,#mg-wprm-wrap.cbp-spmenu-left.custom,.cbp-spmenu-vertical {width: 60%;max-width: px;}#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item a,div#mg-wprm-wrap ul li span.wprmenu_icon {color: #CFCFCF;}#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item:valid ~ a{color: ;}#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item a:hover {background: ;color: #606060 !important;}div#mg-wprm-wrap ul>li:hover>span.wprmenu_icon {color: #606060 !important;}.wprmenu_bar .hamburger-inner,.wprmenu_bar .hamburger-inner::before,.wprmenu_bar .hamburger-inner::after {background: #FFFFFF;}.wprmenu_bar .hamburger:hover .hamburger-inner,.wprmenu_bar .hamburger:hover .hamburger-inner::before,.wprmenu_bar .hamburger:hover .hamburger-inner::after {background: ;}div.wprmenu_bar div.hamburger{padding-right: 6px !important;}#wprmenu_menu.left {width:60%;left: -60%;right: auto;}#wprmenu_menu.right {width:60%;right: -60%;left: auto;}.wprmenu_bar .hamburger {float: left;}.wprmenu_bar #custom_menu_icon.hamburger {top: px;left: px;float: left !important;background-color: ;}#masthead .main-navigation{ display: none !important; }.wpr_custom_menu #custom_menu_icon {display: block;}html { padding-top: 42px !important; }#wprmenu_bar,#mg-wprm-wrap { display: block; }div#wpadminbar { position: fixed; }}
+</style>
+<!-- <link rel='stylesheet' id='wpr_icons-css' href='https://analytics.infozone.pro/wp-content/plugins/wp-responsive-menu/inc/assets/icons/wpr-icons.css?ver=3.1.8' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpdiscuz-frontend-css-css' href='https://analytics.infozone.pro/wp-content/plugins/wpdiscuz/themes/default/style.css?ver=7.6.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/c49k9(2).css" media="all">
+<style id="wpdiscuz-frontend-css-inline-css" type="text/css">
+ #wpdcom .wpd-blog-administrator .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-administrator .wpd-comment-author, #wpdcom .wpd-blog-administrator .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-administrator{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-administrator .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-administrator .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-editor .wpd-comment-author, #wpdcom .wpd-blog-editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-editor{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-author .wpd-comment-author, #wpdcom .wpd-blog-author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-contributor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-contributor .wpd-comment-author, #wpdcom .wpd-blog-contributor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-contributor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-contributor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-subscriber .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-subscriber .wpd-comment-author, #wpdcom .wpd-blog-subscriber .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-subscriber .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-subscriber .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom .wpd-blog-post_author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-post_author .wpd-comment-author, #wpdcom .wpd-blog-post_author .wpd-comment-author a{color:#00B38F}#wpdcom .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-post_author{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-post_author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-post_author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-guest .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-guest .wpd-comment-author, #wpdcom .wpd-blog-guest .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-guest .wpd-comment-subheader{border-top:1px dashed #00B38F}#comments, #respond, .comments-area, #wpdcom{}#wpdcom .ql-editor > *{color:#777777}#wpdcom .ql-editor::before{}#wpdcom .ql-toolbar{border:1px solid #DDDDDD;border-top:none}#wpdcom .ql-container{border:1px solid #DDDDDD;border-bottom:none}#wpdcom .wpd-form-row .wpdiscuz-item input[type="text"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="email"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="url"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="color"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="date"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime-local"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="month"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="number"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="time"], #wpdcom textarea, #wpdcom select{border:1px solid #DDDDDD;color:#777777}#wpdcom .wpd-form-row .wpdiscuz-item textarea{border:1px solid #DDDDDD}#wpdcom input::placeholder, #wpdcom textarea::placeholder, #wpdcom input::-moz-placeholder, #wpdcom textarea::-webkit-input-placeholder{}#wpdcom .wpd-comment-text{color:#777777}#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpd-thread-info.wpd-reviews-tab svg{fill:#00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings:hover{color:#00B38F}#wpdcom .wpd-comment .wpd-follow-link:hover{color:#00B38F}#wpdcom .wpd-comment-status .wpd-sticky{color:#00B38F}#wpdcom .wpd-thread-filter .wpdf-active{color:#00B38F;border-bottom-color:#00B38F}#wpdcom .wpd-comment-info-bar{border:1px dashed #33c3a6;background:#e6f8f4}#wpdcom .wpd-comment-info-bar .wpd-current-view i{color:#00B38F}#wpdcom .wpd-filter-view-all:hover{background:#00B38F}#wpdcom .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}#wpdcom .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover, .wpdiscuz-rating:not(:checked) > label:hover ~ label{}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color:#FFED85}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-active-star, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{color:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts:hover svg .wpd-star{fill:#FFED85}#wpd-post-rating.wpd-not-rated .wpd-rating-wrap .wpd-rate-starts svg:hover ~ svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpdcom .wpd-comment .wpd-follow-active{color:#ff7a00}#wpdcom .page-numbers{color:#555;border:#555 1px solid}#wpdcom span.current{background:#555}#wpdcom.wpd-layout-1 .wpd-new-loaded-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap > .wpd-comment-right{background:transparent}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap{background:#FFFAD6}#wpdcom.wpd-layout-3 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom .wpd-follow:hover i, #wpdcom .wpd-unfollow:hover i, #wpdcom .wpd-comment .wpd-follow-active:hover i{color:#00B38F}#wpdcom .wpdiscuz-readmore{cursor:pointer;color:#00B38F}.wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}.wpd-wrapper .wpd-list-item.wpd-active{border-top:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-wrap{border-left:3px solid #FFFAD6}#wpdcom.wpd-layout-3 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-right{border-left:1px solid #FFFAD6}#wpdcom .wpd-prim-button{background-color:#555555;color:#FFFFFF}#wpdcom .wpd_label__check i.wpdicon-on{color:#555555;border:1px solid #aaaaaa}#wpd-bubble-wrapper #wpd-bubble-all-comments-count{color:#1DB99A}#wpd-bubble-wrapper > div{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}#wpd-bubble-wrapper.wpd-right-corner > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}.wpd-inline-icon-wrapper path.wpd-inline-icon-first{fill:#1DB99A}.wpd-inline-icon-count{background-color:#1DB99A}.wpd-inline-icon-count::before{border-right-color:#1DB99A}.wpd-inline-form-wrapper::before{border-bottom-color:#1DB99A}.wpd-inline-form-question{background-color:#1DB99A}.wpd-inline-form{background-color:#1DB99A}.wpd-last-inline-comments-wrapper{border-color:#1DB99A}.wpd-last-inline-comments-wrapper::before{border-bottom-color:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments{background:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:hover,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:active,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:focus{background-color:#1DB99A}#wpdcom .ql-snow .ql-tooltip[data-mode="link"]::before{content:"Введите ссылку:"}#wpdcom .ql-snow .ql-tooltip.ql-editing a.ql-action::after{content:"Сохранить"}.comments-area{width:auto}
+</style>
+<!-- <link rel='stylesheet' id='wpdiscuz-fa-css' href='https://analytics.infozone.pro/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=7.6.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wpdiscuz-combo-css-css' href='https://analytics.infozone.pro/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz-combo.min.css?ver=6.3.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='vantage-style-css' href='https://analytics.infozone.pro/wp-content/themes/vantage/style.css?ver=1.19.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='font-awesome-css' href='https://analytics.infozone.pro/wp-content/themes/vantage/fontawesome/css/font-awesome.css?ver=4.6.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='siteorigin-mobilenav-css' href='https://analytics.infozone.pro/wp-content/themes/vantage/inc/mobilenav/css/mobilenav.css?ver=1.19.0' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/c49k9(3).css" media="all">
+<!--n2css--><script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/jquery.min.js.Без названия" id="jquery-core-js"></script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/jquery-migrate.min.js.Без названия" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/modernizr.custom.js.Без названия" id="modernizr-js"></script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/touchSwipe.js.Без названия" id="touchSwipe-js"></script>
+<script type="text/javascript" id="wprmenu.js-js-extra">
+/* <![CDATA[ */
+var wprmenu = {"zooming":"yes","from_width":"800","push_width":"","menu_width":"60","parent_click":"","swipe":"no","enable_overlay":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/wprmenu.js.Без названия" id="wprmenu.js-js"></script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/jquery.flexslider.min.js.Без названия" id="jquery-flexslider-js"></script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/jquery.touchSwipe.min.js.Без названия" id="jquery-touchswipe-js"></script>
+<script type="text/javascript" id="vantage-main-js-extra">
+/* <![CDATA[ */
+var vantage = {"fitvids":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/jquery.theme-main.min.js.Без названия" id="vantage-main-js"></script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/jquery.fitvids.min.js.Без названия" id="jquery-fitvids-js"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://analytics.infozone.pro/wp-content/themes/vantage/js/html5.min.js?ver=3.7.3' id='vantage-html5-js'></script>
+<![endif]-->
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type='text/javascript' src='https://analytics.infozone.pro/wp-content/themes/vantage/js/selectivizr.min.js?ver=1.0.3b' id='vantage-selectivizr-js'></script>
+<![endif]-->
+<script type="text/javascript" id="siteorigin-mobilenav-js-extra">
+/* <![CDATA[ */
+var mobileNav = {"search":{"url":"https:\/\/analytics.infozone.pro","placeholder":"Search"},"text":{"navigate":"Menu","back":"Back","close":"Close"},"nextIconUrl":"https:\/\/analytics.infozone.pro\/wp-content\/themes\/vantage\/inc\/mobilenav\/images\/next.png","mobileMenuClose":"<i class=\"fa fa-times\"><\/i>"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/mobilenav.min.js.Без названия" id="siteorigin-mobilenav-js"></script>
+<link rel="https://api.w.org/" href="https://analytics.infozone.pro/wp-json/"><link rel="alternate" type="application/json" href="https://analytics.infozone.pro/wp-json/wp/v2/posts/1082"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://analytics.infozone.pro/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.3.2">
+<link rel="shortlink" href="https://analytics.infozone.pro/?p=1082">
+<link rel="alternate" type="application/json+oembed" href="https://analytics.infozone.pro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanalytics.infozone.pro%2Fvvedenie-v-proektirovanie-baz-dannih%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://analytics.infozone.pro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanalytics.infozone.pro%2Fvvedenie-v-proektirovanie-baz-dannih%2F&amp;format=xml">
+<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, minimum-scale=1">		<style type="text/css">
+			.so-mobilenav-mobile + * { display: none; }
+			@media screen and (max-width: 480px) { .so-mobilenav-mobile + * { display: block; } .so-mobilenav-standard + * { display: none; } .site-navigation #search-icon { display: none; } }
+		</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<style type="text/css" media="screen">
+		#footer-widgets .widget { width: 100%; }
+		#masthead-widgets .widget { width: 100%; }
+	</style>
+	<style type="text/css" id="customizer-css">body,button,input,select,textarea { font-family: "Verdana", Verdana, Geneva, sans-serif; font-weight: 400 } #masthead.site-header .hgroup .site-title, #masthead.masthead-logo-in-menu .logo > .site-title { font-size: 36px } #masthead.site-header .hgroup .site-title, #masthead.site-header.masthead-logo-in-menu .logo > .site-title { color: #3d3d3d } #masthead .hgroup .support-text, #masthead .hgroup .site-description { color: #3d3d3d } #page-title, article.post .entry-header h1.entry-title, article.page .entry-header h1.entry-title { color: #3d3d3d } .entry-content { font-size: 14px } .entry-content, #comments .commentlist article .comment-meta a { color: #262626 } #masthead .hgroup { padding-top: 15px; padding-bottom: 15px } .main-navigation ul { text-align: center } .main-navigation a { color: #ffffff } .main-navigation ul li:hover > a, .main-navigation ul li:focus > a, #search-icon #search-icon-icon:hover, #search-icon #search-icon-icon:focus { background-color: #cc7a00 } .main-navigation ul ul li:hover > a { background-color: #d69d00 } .main-navigation [class^="fa fa-"], .main-navigation .mobile-nav-icon { color: #ffffff } #search-icon #search-icon-icon .vantage-icon-search { color: #ffffff } #search-icon .searchform input[name=s] { color: #ffffff } .main-navigation ul li a { padding-top: 15px; padding-bottom: 15px } .main-navigation ul li a, #masthead.masthead-logo-in-menu .logo { padding-left: 15px; padding-right: 15px } #header-sidebar .widget_nav_menu ul.menu > li > ul.sub-menu { border-top-color: #ba6f00 } a.button, button, html input[type="button"], input[type="reset"], input[type="submit"], .post-navigation a, #image-navigation a, article.post .more-link, article.page .more-link, .paging-navigation a, .woocommerce #page-wrapper .button, .woocommerce a.button, .woocommerce .checkout-button, .woocommerce input.button, #infinite-handle span { background: #ffc775; border-color: #161616 } a.button:hover, button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .post-navigation a:hover, #image-navigation a:hover, article.post .more-link:hover, article.page .more-link:hover, .paging-navigation a:hover, .woocommerce #page-wrapper .button:hover, .woocommerce a.button:hover, .woocommerce .checkout-button:hover, .woocommerce input.button:hover, .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover, #infinite-handle span:hover { background: #ffc775 } a.button:hover, button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .post-navigation a:hover, #image-navigation a:hover, article.post .more-link:hover, article.page .more-link:hover, .paging-navigation a:hover, .woocommerce #page-wrapper .button:hover, .woocommerce a.button:hover, .woocommerce .checkout-button:hover, .woocommerce input.button:hover, #infinite-handle span:hover { opacity: 0.75; border-color: #161616 } a.button:focus, button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .post-navigation a:focus, #image-navigation a:focus, article.post .more-link:focus, article.page .more-link:focus, .paging-navigation a:focus, .woocommerce #page-wrapper .button:focus, .woocommerce a.button:focus, .woocommerce .checkout-button:focus, .woocommerce input.button:focus, .woocommerce input.button:disabled:focus, .woocommerce input.button:disabled[disabled]:focus, #infinite-handle span:focus { background: #ffc775 } a.button:focus, button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .post-navigation a:focus, #image-navigation a:focus, article.post .more-link:focus, article.page .more-link:focus, .paging-navigation a:focus, .woocommerce #page-wrapper .button:focus, .woocommerce a.button:focus, .woocommerce .checkout-button:focus, .woocommerce input.button:focus, #infinite-handle span:focus { opacity: 0.75; border-color: #161616 } a.button, button, html input[type="button"], input[type="reset"], input[type="submit"], .post-navigation a, #image-navigation a, article.post .more-link, article.page .more-link, .paging-navigation a, .woocommerce #page-wrapper .button, .woocommerce a.button, .woocommerce .checkout-button, .woocommerce input.button, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled], .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover, #infinite-handle span button { color: #161616 } a.button, button, html input[type="button"], input[type="reset"], input[type="submit"], .post-navigation a, #image-navigation a, article.post .more-link, article.page .more-link, .paging-navigation a, .woocommerce #page-wrapper .button, .woocommerce a.button, .woocommerce .checkout-button, .woocommerce input.button, #infinite-handle span button { text-shadow: none } a.button, button, html input[type="button"], input[type="reset"], input[type="submit"], .post-navigation a, #image-navigation a, article.post .more-link, article.page .more-link, .paging-navigation a, .woocommerce #page-wrapper .button, .woocommerce a.button, .woocommerce .checkout-button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, #infinite-handle span { -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none } #masthead { background-color: #ffffff } #main { background-color: #ffffff } #footer-widgets .widget { color: #ffffff } #colophon .widget_nav_menu .menu-item a { border-color: #ffffff } #scroll-to-top { background: #f78e16 } </style><link rel="icon" href="https://analytics.infozone.pro/wp-content/uploads/2016/01/business_analysis_iiba_ru_babok-150x150.png" sizes="32x32">
+<link rel="icon" href="https://analytics.infozone.pro/wp-content/uploads/2016/01/business_analysis_iiba_ru_babok.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://analytics.infozone.pro/wp-content/uploads/2016/01/business_analysis_iiba_ru_babok.png">
+<meta name="msapplication-TileImage" content="https://analytics.infozone.pro/wp-content/uploads/2016/01/business_analysis_iiba_ru_babok.png">
+
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/context.js.Без названия" async=""></script>
+
+<script src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/wp-emoji-release.min.js.Без названия" defer=""></script><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+<body class="post-template-default single single-post postid-1082 single-format-standard responsive layout-full has-sidebar has-menu-search page-layout-default mobilenav aa-prefix-advads- wpdiscuz_7.6.2 sticky-menu">
+
+
+<div id="page-wrapper">
+
+	<a class="skip-link screen-reader-text" href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#content">Skip to content</a>
+
+	
+	
+		<header id="masthead" class="site-header" role="banner" style="padding-bottom: 43px;">
+
+	<div class="hgroup full-container masthead-sidebar">
+
+		
+							<div id="masthead-widgets" class="full-container">
+					<aside id="advads_ad_widget-5" class="widget advads-widget"><!-- Yandex.RTB R-A-2551977-7 -->
+<div id="yandex_rtb_R-A-2551977-7"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2551977-7",
+		"renderTo": "yandex_rtb_R-A-2551977-7"
+	})
+})
+</script></aside>				</div>
+			
+		
+	</div><!-- .hgroup.full-container -->
+
+	
+<nav role="navigation" class="site-navigation main-navigation primary use-sticky-menu sticky">
+
+	<div class="full-container">
+		
+					<div id="so-mobilenav-standard-1" data-id="1" class="so-mobilenav-standard"></div><div class="menu-responsivemenu-container"><ul id="menu-responsivemenu" class="menu"><li id="menu-item-714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-714"><a href="http://analytics.infozone.pro/"><span class="icon"></span>Главная</a></li>
+<li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764"><a href="https://analytics.infozone.pro/sitemap-iiba-babok/">Карта сайта</a></li>
+<li id="menu-item-1792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1792"><a href="https://analytics.infozone.pro/about-us/">О нас</a>
+<ul class="sub-menu">
+	<li id="menu-item-2163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="https://ivan-shamaev.ru/cv"><span class="icon"></span>Ivan Shamaev CV in Enslish — Owner of this website</a></li>
+	<li id="menu-item-2165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2165"><a href="https://analytics.infozone.pro/resume/ivan-shamaev-business-analyst/"><span class="icon"></span>Шамаев Иван (бизнес-аналитик)</a></li>
+	<li id="menu-item-2164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2164"><a href="https://analytics.infozone.pro/resume/anna-gasratalieva-business-analyst/"><span class="icon"></span>Гасраталиева Анна — участник сообщества analytics.infozone.pro</a></li>
+	<li id="menu-item-1046" class="menu-item menu-item-type-post_type menu-item-object-rb_resume menu-item-1046"><a href="https://analytics.infozone.pro/resume/sokolovskij-nikolaj-biznes-analitik/">Соколовский Николай — участник сообщества analytics.infozone.pro</a></li>
+</ul>
+</li>
+<li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-716"><a href="https://analytics.infozone.pro/babok/"><span class="fa fa-book"></span>BABOK</a>
+<ul class="sub-menu">
+	<li id="menu-item-717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a href="https://analytics.infozone.pro/babok/chapters-of-babok-version-2/">Разделы BABOK v2.0</a></li>
+	<li id="menu-item-718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a href="https://analytics.infozone.pro/babok/chapters-of-babok-version-3/">Разделы BABOK v3</a></li>
+</ul>
+</li>
+<li id="menu-item-719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-719"><a href="https://analytics.infozone.pro/requirements-analysis/">Вигерс</a>
+<ul class="sub-menu">
+	<li id="menu-item-720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="https://analytics.infozone.pro/requirements-analysis/analysis-of-requirements-wiegers-2004/">Анализ требований по Вигерсу (2004). Этапы сбора требований.</a></li>
+	<li id="menu-item-721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-721"><a href="https://analytics.infozone.pro/requirements-analysis/template-specification-requirements/">Шаблон спецификации требований к ПО</a></li>
+	<li id="menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="https://analytics.infozone.pro/requirements-analysis/agile-software-development/">Проекты гибкой разработки (agile) — К.Вигерс и Дж.Битти</a></li>
+	<li id="menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-723"><a href="https://analytics.infozone.pro/requirements-analysis/requirements-management-methods/">Приемы управления требованиями к ПО</a></li>
+	<li id="menu-item-724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-724"><a href="https://analytics.infozone.pro/requirements-analysis/glossary-requirements-development-wiegers-2013/">Словарь терминов (глоссарий) по разработке требований (Вигерс, 2013)</a></li>
+</ul>
+</li>
+<li id="menu-item-1783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1783"><a href="https://analytics.infozone.pro/news/">Новости</a>
+<ul class="sub-menu">
+	<li id="menu-item-1166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="https://analytics.infozone.pro/ba-vacancies/">Вакансии</a></li>
+</ul>
+</li>
+<li id="menu-item-726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="https://analytics.infozone.pro/articles-for-business-analyst/">Статьи</a></li>
+<li id="menu-item-728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728"><a href="https://analytics.infozone.pro/library-business-analytic/">Библиотека</a></li>
+</ul></div><div id="so-mobilenav-mobile-1" data-id="1" class="so-mobilenav-mobile"></div><div class="menu-mobilenav-container"><ul id="mobile-nav-item-wrap-1" class="menu"><li><a href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#" class="mobilenav-main-link" data-id="1"><span class="mobile-nav-icon"></span>Menu</a></li></ul></div>		
+					<div id="search-icon">
+				<div id="search-icon-icon" tabindex="0" aria-label="Open the search"><div class="vantage-icon-search"></div></div>
+				
+<form method="get" class="searchform" action="https://analytics.infozone.pro/" role="search" style="width: 1400px;">
+	<label for="search-form" class="screen-reader-text">Search for:</label>
+	<input type="search" name="s" class="field" id="search-form" value="" placeholder="Search">
+</form>
+			</div>
+			</div>
+</nav><!-- .site-navigation .main-navigation -->
+
+</header><!-- #masthead .site-header -->
+
+	
+	
+	
+	
+	<div id="main" class="site-main">
+		<div class="full-container">
+			
+<div id="primary" class="content-area">
+	<div id="content" class="site-content" role="main">
+
+	
+		
+<article id="post-1082" class="post post-1082 type-post status-publish format-standard has-post-thumbnail hentry category-40">
+
+	<div class="entry-main">
+
+		
+					<header class="entry-header">
+
+				
+									<h1 class="entry-title">Введение в проектирование баз данных</h1>
+				
+									<div class="entry-meta">
+						  					</div><!-- .entry-meta -->
+				
+			</header><!-- .entry-header -->
+		
+		<div class="entry-content">
+			<div id="toc_container" class="no_bullets"><p class="toc_title">Contents <span class="toc_toggle"><span class="toc_brackets">[</span><a href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#">hide</a><span class="toc_brackets">]</span></span></p><ul class="toc_list"><li></li><li><ul><li></li><li></li><li></li><li><ul><li></li><li></li><li></li><li></li></ul></li><li><ul><li></li><li></li><li></li></ul></li><li><ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></li><li></li><li></li></ul></li></ul></div>
+<h1><span id="i">Основные сведения</span></h1>
+<p>Термин «реляционный» означает «основанный на отношениях». Реляционная база данных состоит из сущностей (таблиц), находящихся в некотором отношении друг с другом. Название произошло от английского слова relation—отношение.<br>
+Проектирование базы данных состоит из двух основных фаз: логического и физического моделирования.<br>
+Во время логического моделирования вы собираете требования и разрабатываете модель базы данных, не зависящую от конкретной СУБД (системы управления реляционными базами данных). Это похоже на то, как если бы вы создавали чертежи вашего дома. Вы могли бы продумать и начертить все: где будет кухня, спальни, гостиная. Но это все на бумаге и в макетах.<br>
+Во время физического моделирования вы создаете модель, оптимизированную для конкретного приложения и СУБД. Именно эта модель реализуется на практике. Если вернуться к дому из предыдущего абзаца, на этом этапе вам придется строить где-нибудь дом — таскать бревна, кирпичи…</p><div class="advads-%d0%ba%d0%be%d0%bd%d1%82%d0%b5%d0%bd%d1%82" id="advads-952517651"><!-- Yandex.RTB R-A-2551977-1 -->
+<div id="yandex_rtb_R-A-2551977-1"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2551977-1",
+		"renderTo": "yandex_rtb_R-A-2551977-1"
+	})
+})
+</script></div>
+<p><strong>Процесс проектирования базы данных состоит из следующих этапов:</strong></p>
+<ul>
+<li>сбор информации;</li>
+<li>определение сущностей;</li>
+<li>определение атрибутов для каждой сущности;</li>
+<li>определение связей между сущностями;</li>
+<li>нормализация;</li>
+<li>преобразование к физической модели;</li>
+<li>создание базы данных.</li>
+</ul>
+<p>Первые 5 этапов образуют фазу логического проектирования, а остальные два — фазу физического моделирования.</p>
+<h1><span id="i-2">Логическая фаза</span></h1>
+<p>Логическая фаза состоит из нескольких этапов. Далее они все рассмотрены.</p><div class="advads-4-%d0%b0%d0%b1%d0%b7%d0%b0%d1%86" id="advads-165822625"><!-- Yandex.RTB R-A-2551977-2 -->
+<div id="yandex_rtb_R-A-2551977-2"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2551977-2",
+		"renderTo": "yandex_rtb_R-A-2551977-2"
+	})
+})
+</script></div>
+<h2><span id="i-3">Сбор требований</span></h2>
+<p>На этом этапе вам необходимо точно определить, как будет использоваться база данных и какая информация будет в ней храниться. Соберите как можно больше сведений о том, что система должна делать и чего не должна.</p>
+<h2><span id="i-4">Определение сущностей</span></h2>
+<p>На этом этапе вам необходимо определить сущности, из которых будет состоять база данных.</p>
+<p>Сущность — это объект в базе данных, в котором хранятся данные. Сущность может представлять собой нечто вещественное (дом, человек, предмет, место) или абстрактное (банковская операция, отдел компании, маршрут автобуса). В физической модели сущность называется таблицей.</p>
+<p>Сущности состоят из атрибутов (столбцов таблицы) и записей (строк в таблице).</p>
+<p>Обычно базы данных состоят из нескольких основных сущностей, связанных с большим количеством подчиненных сущностей. Основные сущности называются независимыми: они не зависят ни от какой-либо другой сущности. Подчиненные сущности называются зависимыми: для того чтобы существовала одна из них, должна существовать связанная с ней основная таблица.<br>
+На диаграммах сущности обычно представляются в виде прямоугольников. Имя сущности указывается внутри прямоугольника:<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/baza_dannih_doma_sushnosti.png"><img decoding="async" fetchpriority="high" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/baza_dannih_doma_sushnosti.png" alt="baza_dannih_doma_sushnosti" width="880" height="130" class="alignnone size-full wp-image-1086" srcset="https://analytics.infozone.pro/wp-content/uploads/2016/02/baza_dannih_doma_sushnosti.png 880w, https://analytics.infozone.pro/wp-content/uploads/2016/02/baza_dannih_doma_sushnosti-300x44.png 300w" sizes="(max-width: 880px) 100vw, 880px"></a></p><div class="advads-9-%d0%b0%d0%b1%d0%b7%d0%b0%d1%86" id="advads-898812678"><!-- Yandex.RTB R-A-2551977-3 -->
+<div id="yandex_rtb_R-A-2551977-3"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2551977-3",
+		"renderTo": "yandex_rtb_R-A-2551977-3"
+	})
+})
+</script></div>
+<p><strong>Любая таблица имеет следующие характеристики:</strong></p>
+<ul>
+<li>в ней нет одинаковых строк;</li>
+<li>все столбцы (атрибуты) в таблице должны иметь разные имена;</li>
+<li>элементы в пределах одной колонки имеют одинаковый тип (строка, число, дата);</li>
+<li>порядок следования строк в таблице может быть произвольным.</li>
+</ul>
+<p>На этом этапе вам необходимо выявить все категории информации (сущности), которые будут храниться в базе данных.</p>
+<h2><span id="i-5">Определение атрибутов</span></h2>
+<p>Атрибут представляет свойство, описывающее сущность. Атрибуты часто бывают числом, датой или текстом. Все данные, хранящиеся в атрибуте, должны иметь одинаковый тип и обладать одинаковыми свойствами.<br>
+В физической модели атрибуты называют колонками.<br>
+После определения сущностей необходимо определить все атрибуты этих сущностей.<br>
+На диаграммах атрибуты обычно перечисляются внутри прямоугольника сущности. На рисунке вы найдете пример базы данных «Дома», только теперь для сущностей из этой базы определены некоторые атрибуты.<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/baza_dannih_doma_sushnosti_i_atributi.png"><img decoding="async" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/baza_dannih_doma_sushnosti_i_atributi.png" alt="baza_dannih_doma_sushnosti_i_atributi" width="844" height="168" class="alignnone size-full wp-image-1087" srcset="https://analytics.infozone.pro/wp-content/uploads/2016/02/baza_dannih_doma_sushnosti_i_atributi.png 844w, https://analytics.infozone.pro/wp-content/uploads/2016/02/baza_dannih_doma_sushnosti_i_atributi-300x60.png 300w" sizes="(max-width: 844px) 100vw, 844px"></a><br>
+Для каждого атрибута определяется тип данных, их размер, допустимые значения и любые другие правила. К их числу относятся правила обязательности заполнения, изменяемости и уникальности.<br>
+Правило обязательности заполнения определяет, является ли атрибут обязательной частью сущности. Если атрибут является необязательной частью сущности, то он может принимать NULL-значение, иначе — нет.<br>
+Также вы должны определить, является ли атрибут изменяемым. Значения некоторых атрибутов не могут измениться после создания записи.<br>
+И, наконец, вам нужно определить, является ли атрибут уникальным. Если это так, то значения атрибута не могут повторяться.</p>
+<h2><span id="i-6">Ключи</span></h2>
+<p>Ключом (key) называется набор атрибутов, однозначно определяющий запись. Ключи делятся на два класса: простые и составные.<br>
+Простой ключ состоит только из одного атрибута. Например, в базе «Паспорта граждан страны» номер паспорта будет простым ключом: ведь не бывает двух паспортов с одинаковым номером.<br>
+Составной ключ состоит из нескольких атрибутов. В той же базе «Паспорта граждан страны» может быть составной ключ со следующими атрибутами:<br>
+фамилия, имя, отчество, дата рождения. Это — как пример, т. к. этот составной ключ, теоретически, не обеспечивает гарантированной уникальности записи.<br>
+Также существует несколько типов ключей, о которых рассказано далее.</p>
+<h3><span id="i-7">Возможный ключ</span></h3>
+<p>Возможный ключ представляет собой любой набор атрибутов, однозначно идентифицирующих запись в таблице. Возможный ключ может быть простым или составным.<br>
+Каждая сущность должна иметь, по крайней мере, один возможный ключ, хотя таких ключей может быть и несколько. Ни один из атрибутов первичного ключа не может принимать неопределенное (NULL) значение.<br>
+Возможный ключ называется также суррогатным.</p>
+<h3><span id="i-8">Первичные ключи</span></h3>
+<p>Первичным ключом называется совокупность атрибутов, однозначно идентифицирующих запись в таблице (сущности). Один из возможных ключей становится первичным ключом. На диаграммах первичные ключи часто изображаются выше основного списка атрибутов или выделяются специальными символами. Сущность на рисунке имеет как ключевые, так и обычные атрибуты.<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/sushnosti_s_pervichnim_kluchem.png"><img decoding="async" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/sushnosti_s_pervichnim_kluchem.png" alt="sushnosti_s_pervichnim_kluchem" width="304" height="217" class="alignnone size-full wp-image-1088" srcset="https://analytics.infozone.pro/wp-content/uploads/2016/02/sushnosti_s_pervichnim_kluchem.png 304w, https://analytics.infozone.pro/wp-content/uploads/2016/02/sushnosti_s_pervichnim_kluchem-300x214.png 300w" sizes="(max-width: 304px) 100vw, 304px"></a></p>
+<h3><span id="i-9">Альтернативные ключи</span></h3>
+<p>Любой возможный ключ, не являющийся первичным, называется альтернативным ключом. Сущность может иметь несколько альтернативных ключей.</p>
+<h3><span id="i-10">Внешние ключи</span></h3>
+<p>Внешним ключом называется совокупность атрибутов, ссылающихся на первичный или альтернативный ключ другой сущности. Если внешний ключ не связан с первичной сущностью, то он может содержать только неопределенные значения. Если при этом ключ является составным, то все атрибуты внешнего ключа должны быть неопределенными.<br>
+На диаграммах атрибуты, объединяемые во внешние ключи, обозначаются специальными символами. На рисунке изображены две связанные сущности (Дома и их Хозяева) и образованные ими внешние ключи (ведь один человек может владеть больше, чем одним домом).<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/sushnosti_s_vneshnim_kluchom.png"><img decoding="async" loading="lazy" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/sushnosti_s_vneshnim_kluchom.png" alt="sushnosti_s_vneshnim_kluchom" width="943" height="217" class="alignnone size-full wp-image-1089" srcset="https://analytics.infozone.pro/wp-content/uploads/2016/02/sushnosti_s_vneshnim_kluchom.png 943w, https://analytics.infozone.pro/wp-content/uploads/2016/02/sushnosti_s_vneshnim_kluchom-300x69.png 300w" sizes="(max-width: 943px) 100vw, 943px"></a></p>
+<p>Ключи являются логическими конструкциями, а не физическими объектами. В реляционных базах данных предусмотрены механизмы, обеспечивающие сохранение ключей.</p><div class="advads-18-%d0%b0%d0%b1%d0%b7%d0%b0%d1%86" id="advads-827595534"><!-- Yandex.RTB R-A-2551977-4 -->
+<div id="yandex_rtb_R-A-2551977-4"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2551977-4",
+		"renderTo": "yandex_rtb_R-A-2551977-4"
+	})
+})
+</script></div>
+<h2><span id="i-11">Определение связей между сущностями</span></h2>
+<p>Реляционные базы данных позволяют объединять информацию, принадлежащую разным сущностям.<br>
+Отношение — это ситуация, при которой одна сущность ссылается на первичный ключ второй сущности. Как, например, сущности Дом и Хозяин на предыдущем рисунке.<br>
+Отношения определяются в процессе проектирования базы. Для этого следует проанализировать сущности и выявить логические связи, существующие между ними.<br>
+Тип отношения определяет количество записей сущности, связанных с записью другой сущности. Отношения делятся на три основных типа, о которых рассказано далее.</p>
+<h3><span id="i-12">Один-к-одному</span></h3>
+<p>Каждой записи первой сущности соответствует только одна запись из второй сущности. А каждой записи второй сущности соответствует только одна запись из первой сущности. Например, есть две сущности: Люди и Свидетельства о рождении. И у одного человека может быть только одно свидетельство о рождении.</p>
+<h3><span id="i-13">Один-ко-многим</span></h3>
+<p>Каждой записи первой сущности могут соответствовать несколько записей из второй сущности. Однако каждой записи второй сущности соответствует только одна запись из первой сущности. Например, есть две сущности: Заказ и Позиция заказа. И в одном заказе может быть много товаров.</p>
+<h3><span id="i-14">Многие-ко-многим</span></h3>
+<p>Каждой записи первой сущности могут соответствовать несколько записей из второй сущности. Однако и каждой записи второй сущности может соответствовать несколько записей из первой сущности. Например, есть две сущности: Автор и Книга. Один автор может написать много книг. Но у книги может быть несколько авторов.<br>
+По критерию обязательности отношения делятся на обязательные и необязательные.</p>
+<ul>
+<li>Обязательное отношение означает, что для каждой записи из первой сущности непременно должны присутствовать связанные записи во второй сущности.</li>
+<li>Необязательное отношение означает, что для записи из первой сущности может и не существовать записи во второй сущности.</li>
+</ul>
+<h2><span id="i-15">Нормализация</span></h2>
+<p>Нормализацией называется процесс удаления избыточных данных из базы данных. Каждый элемент данных должен храниться в базе в одном и только в одном экземпляре. Существует пять распространенных форм нормализации. Как правило, база данных приводится к третьей нормальной форме.<br>
+В процессе нормализации выполняются определенные действия по удалению избыточных данных. Нормализация повышает быстродействие, ускоряет сортировку и построение индекса, уменьшает количество индексов на сущность, ускоряет операции вставки и обновления.<br>
+Нормализованная база данных обычно отличается большей гибкостью. При модификации запросов или сохраняемых данных в нормализованную базу обычно приходится вносить меньше изменений, а внесение изменений имеет меньше последствий.</p>
+<h3><span id="i-16">Первая нормальная форма</span></h3>
+<p>Чтобы преобразовать сущность в первую нормальную форму, следует исключить повторяющиеся группы значений и добиться того, чтобы каждый атрибут содержал только одно значение, списки значений не допускаются.<br>
+Другими словами, каждый атрибут в сущности должен храниться только в одном экземпляре.<br>
+Например, на рисунке сущность Дом не нормализована. Она содержит несколько атрибутов для хранения данных о владельцах дома (сущность Дом не соответствует первой нормальной форме).<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/dom_sushnost.png"><img decoding="async" loading="lazy" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/dom_sushnost.png" alt="dom_sushnost" width="272" height="257" class="alignnone size-full wp-image-1091"></a></p>
+<p>Для приведения сущности Дом в первую нормальную форму необходимо удалить повторяющиеся группы значений, т. е. удалить атрибуты Владелец 1—3, поместив их в отдельную сущность. Результат (Сущность Дом, приведенная к первой нормальной форме):<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/pervaya_normalnaya_forma.png"><img decoding="async" loading="lazy" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/pervaya_normalnaya_forma.png" alt="pervaya_normalnaya_forma" width="842" height="247" class="alignnone size-full wp-image-1093" srcset="https://analytics.infozone.pro/wp-content/uploads/2016/02/pervaya_normalnaya_forma.png 842w, https://analytics.infozone.pro/wp-content/uploads/2016/02/pervaya_normalnaya_forma-300x88.png 300w" sizes="(max-width: 842px) 100vw, 842px"></a></p>
+<h3><span id="i-17">Вторая нормальная форма</span></h3>
+<p>Таблица во второй нормальной форме содержит только те данные, которые к ней относятся. Значения не ключевых атрибутов сущности зависят от первичного ключа. Если более точно, то атрибуты зависят от первичного ключа, от всего первичного ключа и только от первичного ключа.<br>
+Для соответствия второй нормальной форме сущности должны быть в первой нормальной форме.<br>
+Например, у сущности Дом на рисунке есть атрибут Цена литра бензина, который не имеет ничего общего с домами. Этот атрибут удаляется (или вы можете перенести его в другую сущность). А также мы переносим атрибут Мэр в отдельную сущность — этот атрибут зависит от города, где находится дом, а не от дома.<br>
+На рисунке изображена сущность Дом во второй нормальной форме (Сущность Дом, приведенная ко второй нормальной форме).<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/vtoraya_normalnaya_forma.png"><img decoding="async" loading="lazy" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/vtoraya_normalnaya_forma.png" alt="vtoraya_normalnaya_forma" width="841" height="486" class="alignnone size-full wp-image-1094" srcset="https://analytics.infozone.pro/wp-content/uploads/2016/02/vtoraya_normalnaya_forma.png 841w, https://analytics.infozone.pro/wp-content/uploads/2016/02/vtoraya_normalnaya_forma-300x173.png 300w" sizes="(max-width: 841px) 100vw, 841px"></a></p>
+<h3><span id="i-18">Третья нормальная форма</span></h3>
+<p>В третьей нормальной форме исключаются атрибуты, не зависящие от всего ключа. Любая сущность, находящаяся в третьей нормальной форме, находится также и во второй. Это самая распространенная форма базы данных.<br>
+В третьей нормальной форме каждый атрибут зависит от ключа, от всего ключа и ни от чего, кроме ключа.<br>
+Например, у сущности Владелец дома на рисунке есть атрибут Знак зодиака, который зависит от даты рождения владельца дома, а не от его имени (которое является ключом).<br>
+Для приведения сущности Владелец дома необходимо создать сущность Знаки зодиака и перенести туда атрибут Знак зодиака (Сущность Владелец дома, приведенная к третьей нормальной форме):<br>
+<a href="http://analytics.infozone.pro/wp-content/uploads/2016/02/tretiya_normalnaya_forma.png"><img decoding="async" loading="lazy" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/tretiya_normalnaya_forma.png" alt="tretiya_normalnaya_forma" width="645" height="363" class="alignnone size-full wp-image-1095" srcset="https://analytics.infozone.pro/wp-content/uploads/2016/02/tretiya_normalnaya_forma.png 645w, https://analytics.infozone.pro/wp-content/uploads/2016/02/tretiya_normalnaya_forma-300x169.png 300w" sizes="(max-width: 645px) 100vw, 645px"></a></p>
+<h3><span id="i-19">Ограничения</span></h3>
+<p><strong>Ограничения (constrains)</strong> — это правила, за соблюдением которых следит система управления базы данных. Ограничения определяют множество значений, которые можно вводить в столбец или столбцы.<br>
+Например, вы не хотите, чтобы сумма заказа в вашем очень крутом магазине была бы меньше 500 рублей. Вы просто устанавливаете ограничение на колонку Сумма заказа.</p>
+<h3><span id="i-20">Хранимые процедуры</span></h3>
+<p>Хранимые процедуры (stored procedures) — это предварительно откомпилированные процедуры, хранящиеся в базе данных. Хранимые процедуры можно использовать для определения деловых правил, с их помощью можно осуществлять более сложные вычисления, чем с помощью одних лишь ограничений.<br>
+Хранимые процедуры могут содержать логику хода выполнения программы, а также запросы к базе данных. Они могут принимать параметры и возвращать результаты в виде таблиц или одиночных значений.<br>
+Хранимые процедуры похожи на обычные процедуры или функции в любой программе.</p>
+<blockquote><p><strong>ПРИМЕЧАНИЕ</strong><br>
+Хранимые процедуры находятся в базе данных и выполняются на сервере базы данных. Как правило, они быстрее операторов SQL, поскольку хранятся в компилированном виде.</p></blockquote>
+<h3><span id="i-21">Целостность данных</span></h3>
+<p>Организовав данные в таблицы и определив связи между ними, можно считать, что была создана модель, правильным образом отражающая бизнес-среду. Теперь нужно обеспечить, чтобы данные, вводимые в базу, давали правильное представление о состоянии дела. Иными словами, нужно обеспечить выполнение деловых правил и поддержку целостности (integrity) базы данных.<br>
+Например, ваша компания занимается доставкой книг. Вы вряд ли примете заказ от неизвестного клиента, ведь тогда вы даже не сможете доставить заказ. Отсюда бизнес-правило: заказы принимаются только от клиентов, информация о которых есть в базе данных.<br>
+Корректность данных в реляционных базах обеспечивается набором правил. Правила целостности данных делятся на четыре категории.</p>
+<ul>
+<li><strong>Целостность сущностей</strong> — каждая запись сущности должна обладать уникальным идентификатором и содержать данные. Ведь надо же вам как-то различать все эти записи в базе данных.</li>
+<li><strong>Целостность атрибутов</strong> — каждый атрибут принимает лишь допустимые значения. Например, сумма покупки, определенно, не может быть меньше нуля.</li>
+<li><strong>Ссылочная целостность</strong> — набор правил, обеспечивающих логическую согласованность первичных и внешних ключей при вставке, обновлении и удалении записей. Ссылочная целостность обеспечивает, чтобы для каждого внешнего ключа существовал соответствующий первичный ключ. Возьмем предыдущий пример с сущностями Владелец дома и Дом. Допустим, вы Вася Иванов и владеете домом. Вы сменили фамилию на Сидоров и внесли соответствующие изменения в сущность Владелец дома. Определенно вы бы хотели, чтобы ваш дом продолжал числиться за вами под вашим новым именем, а не принадлежал некоему Васе Иванову, которого уже не существует.</li>
+<li><strong>Пользовательские правила целостности</strong> — любые правила целостности, неотносящиеся ни к одной из перечисленных категорий.</li>
+</ul>
+<h3><span id="i-22">Триггеры</span></h3>
+<p><strong>Триггер</strong> — это аналог хранимой процедуры, который вызывается автоматически при изменении данных в таблице.<br>
+Триггеры являются мощным механизмом для поддержания целостности базы данных. Триггеры вызываются до или после изменения данных в таблице.<br>
+С помощью триггеров вы можете не только отменить эти изменения, но и изменить данные в любой другой таблице.<br>
+Например, вы создаете интернет-форум, и вам необходимо сделать так, чтобы в списке форумов показывалось последнее сообщение форума. Конечно, вы можете брать сообщение из сущности Сообщения форума, но это увеличит сложность вашего запроса и время его выполнения. Проще добавить триггер к сущности Сообщения форума, который бы записывал последнее добавленное сообщение в сущность Форумы, в атрибут Последнее сообщение. Это сильно упростит запрос.</p>
+<h3><span id="i-23">Деловые правила</span></h3>
+<p>Деловые правила определяют ограничения, накладываемые на данные в соответствии с требованиями бизнеса (тех, для кого вы создаете базу). Деловые правила могут состоять из набора шагов, необходимых для выполнения определенной задачи, или же они могут быть просто проверками, которые контролируют правильность введенных данных. Деловые правила могут включать правила целостности данных. В отличие от других правил, их главная цель — обеспечить правильное ведение деловых операций.<br>
+Например, в компании «Очень крутые парни» может быть так принято, что закупаются для служебных нужд только белые, синие и черные автомобили.<br>
+Тогда деловое правило для атрибута Цвет автомобиля сущности Служебные автомобили будет гласить, что автомобиль может быть только белым, синим или черным.<br>
+<strong>Большинство СУБД предоставляют средства:</strong></p>
+<ul>
+<li>для указания значений по умолчанию;</li>
+<li>для проверки данных перед занесением их в базу;</li>
+<li>для поддержания связей между таблицами;</li>
+<li>для обеспечения уникальности значений;</li>
+<li>для хранения хранимых процедур непосредственно в базе.</li>
+</ul>
+<p>Все эти возможности можно применять для реализации деловых правил в базе данных.</p>
+<h2><span id="i-24">Физическая модель</span></h2>
+<p>Следующим шагом, после создания логической модели, является построение физической модели. Физическая модель — это практическая реализация базы данных. Физическая модель определяет все объекты, которые вам предстоит реализовать.<br>
+При переходе от логической модели к физической сущности преобразуются в таблицы, а атрибуты в столбцы.<br>
+Отношения между сущностями можно преобразовать в таблицы или оставить как внешние ключи.<br>
+Первичные ключи преобразуются в ограничения первичных ключей. Возможные ключи — в ограничения уникальности.</p>
+<h2><span id="i-25">Денормализация</span></h2>
+<p><strong>Денормализация</strong> — это умышленное изменение структуры базы, нарушающее правила нормальных форм. Обычно это делается с целью улучшения производительности базы данных.<br>
+Теоретически, надо всегда стремиться к полностью нормализованной базе, однако на практике полная нормализация базы почти всегда означает падение производительности. Чрезмерная нормализация базы данных может привести к тому, что при каждом извлечении данных придется обращаться к нескольким таблицам. Обычно в запросе должны участвовать четыре таблицы или менее.<br>
+Стандартными приемами денормализации являются: объединение нескольких таблиц в одну, сохранение одинаковых атрибутов в нескольких таблицах, а также хранение в таблице сводных или вычисляемых данных.</p>
+<div id="wpd-post-rating" class="wpd-not-rated">
+            <div class="wpd-rating-wrap">
+            <div class="wpd-rating-left"></div>
+            <div class="wpd-rating-data">
+                <div class="wpd-rating-value">
+                    <span class="wpdrv">4.7</span>
+                    <span class="wpdrc">21</span>
+                    <span class="wpdrt">Голоса</span></div>
+                <div class="wpd-rating-title">Рейтинг статьи</div>
+                <div class="wpd-rating-stars"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star wpd-active" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star wpd-active" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star wpd-active" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star wpd-active" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"></path></defs><clippath id="b"><use xlink:href="#a" overflow="visible"></use></clippath><path class="wpd-star wpd-active" clip-path="url(#b)" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg></div><div class="wpd-rate-starts"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path class="wpd-star" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></div></div>
+            <div class="wpd-rating-right"></div></div></div><div class="advads-end" id="advads-1223283904"><!-- Yandex.RTB R-A-2551977-5 -->
+<div id="yandex_rtb_R-A-2551977-5"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2551977-5",
+		"renderTo": "yandex_rtb_R-A-2551977-5"
+	})
+})
+</script></div>					</div><!-- .entry-content -->
+
+					<div class="entry-categories">
+				Posted in <a href="https://analytics.infozone.pro/category/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/" rel="category tag">Проектирование</a>.			</div>
+		
+		
+		
+	</div>
+
+</article><!-- #post-1082 -->
+
+			<nav role="navigation" id="nav-below" class="site-navigation post-navigation">
+		<h2 class="assistive-text">Post navigation</h2>
+
+	
+		<div class="single-nav-wrapper">
+			<div class="nav-previous"><a href="https://analytics.infozone.pro/chapter-4-elicitation-and-collaboration/" rel="prev"><span class="meta-nav">←</span> Глава 4. Обследование и сотрудничество</a></div>			<div class="nav-next"><a href="https://analytics.infozone.pro/decision-making-process/" rel="next">Процесс подготовки и принятия решений <span class="meta-nav">→</span></a></div>		</div>
+
+	
+	</nav><!-- #nav-below -->
+	
+		
+					    <div class="wpdiscuz_top_clearing"></div>
+    <div id="comments" class="comments-area"><div id="respond" style="width: 0;height: 0;clear: both;margin: 0;padding: 0;"></div>    <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-1 wpd-comments-open">
+                    <div class="wc_social_plugin_wrapper">
+                            </div>
+            <div class="wpd-form-wrap">
+                <div class="wpd-form-head">
+                                            <div class="wpd-sbs-toggle">
+                            <i class="far fa-envelope"></i> <span class="wpd-sbs-title">Подписаться</span> <i class="fas fa-caret-down"></i>
+                        </div>
+                                            <div class="wpd-auth">
+                        <div class="wpd-social-login"><span class="wpd-connect-with">Соединить с</span><div class="wpdiscuz-social-login-spinner"><i class="fas fa-spinner fa-pulse"></i></div><div class="wpd-clear"></div></div>                        <div class="wpd-login">
+                                                    </div>
+                    </div>
+                </div>
+                            <div class="wpd-social-login-agreement" style="display: none;">
+                <div class="wpd-agreement-title">Я разрешаю создать мне учетную запись</div>
+                <div class="wpd-agreement">Когда вы первый раз заходите с помощью соцсетей, мы получаем публичную информацию из вашей учетной записи, предоставляемой провайдером услуги соцсети в рамках ваших настроек конфиденциальности. Мы также автоматически получаем ваш e-mail адрес для создания вашей учетной записи на нашем веб сайте. Когда она будет создана, вы будете авторизованы под этой учетной записью.</div>
+                <div class="wpd-agreement-buttons">
+                    <div class="wpd-agreement-buttons-right"><span class="wpd-agreement-button wpd-agreement-button-disagree">Не согласен</span><span class="wpd-agreement-button wpd-agreement-button-agree">Согласен</span></div>
+                    <div class="wpd-clear"></div>
+                </div>
+            </div>
+                                                <div class="wpdiscuz-subscribe-bar wpdiscuz-hidden">
+                                                    <form action="https://analytics.infozone.pro/wp-admin/admin-ajax.php?action=wpdAddSubscription" method="post" id="wpdiscuz-subscribe-form">
+                                <div class="wpdiscuz-subscribe-form-intro">Уведомление о </div>
+                                <div class="wpdiscuz-subscribe-form-option" style="width:40%;">
+                                    <select class="wpdiscuz_select" name="wpdiscuzSubscriptionType">
+                                                                                    <option value="post">новые последующие комментарии</option>
+                                                                                                                                <option value="all_comment">новые ответы на мои комментарии</option>
+                                                                                </select>
+                                </div>
+                                                                    <div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+                                        <input class="email" type="email" name="wpdiscuzSubscriptionEmail" required="required" value="" placeholder="Email">
+                                    </div>
+                                                                    <div class="wpdiscuz-subscribe-form-button">
+                                    <input id="wpdiscuz_subscription_button" class="wpd-prim-button wpd_not_clicked" type="submit" value="›" name="wpdiscuz_subscription_button">
+                                </div> 
+                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="d4bbc31788"><input type="hidden" name="_wp_http_referer" value="/vvedenie-v-proektirovanie-baz-dannih/?ysclid=loh7jep4ny39102913">                            </form>
+                                                </div>
+                            <div class="wpd-form wpd-form-wrapper wpd-main-form-wrapper" id="wpd-main-form-wrapper-0_0">
+						                <form method="post" enctype="multipart/form-data" data-uploading="false" class="wpd_comm_form wpd_main_comm_form">
+					                    <div class="wpd-field-comment">
+                        <div class="wpdiscuz-item wc-field-textarea">
+                            <div class="wpdiscuz-textarea-wrap ">
+																	                                    <div class="wpd-avatar">
+										<img alt="guest" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/a0491384c471a3cf1a0b1445d89a7043" srcset="https://secure.gravatar.com/avatar/a0491384c471a3cf1a0b1445d89a7043?s=112&amp;d=monsterid&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy" decoding="async">                                    </div>
+									            <div id="wpd-editor-wraper-0_0" style="">
+                
+                <label style="display: none;" for="wc-textarea-0_0">Label</label>
+                
+                <div id="wpd-editor-0_0" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true" data-placeholder="Присоединиться к обсуждению"><p><br></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div><div class="ql-tooltip ql-hidden"><a class="ql-preview" target="_blank" href="about:blank"></a><input type="text" data-formula="e=mc^2" data-link="https://example.com" data-video="Embed URL"><a class="ql-action"></a><a class="ql-remove"></a></div><div class="ql-texteditor"><textarea id="wc-textarea-0_0" name="wc_comment" class="wc_comment wpd-field" style="display: none;"></textarea></div></div>
+				        <div id="wpd-editor-toolbar-0_0" class="ql-toolbar ql-snow">
+			                <button title="Жирный" class="ql-bold" type="button"><svg viewBox="0 0 18 18"> <path class="ql-stroke" d="M5,4H9.5A2.5,2.5,0,0,1,12,6.5v0A2.5,2.5,0,0,1,9.5,9H5A0,0,0,0,1,5,9V4A0,0,0,0,1,5,4Z"></path> <path class="ql-stroke" d="M5,9h5.5A2.5,2.5,0,0,1,13,11.5v0A2.5,2.5,0,0,1,10.5,14H5a0,0,0,0,1,0,0V9A0,0,0,0,1,5,9Z"></path> </svg></button>
+				                <button title="Курсив" class="ql-italic" type="button"><svg viewBox="0 0 18 18"> <line class="ql-stroke" x1="7" x2="13" y1="4" y2="4"></line> <line class="ql-stroke" x1="5" x2="11" y1="14" y2="14"></line> <line class="ql-stroke" x1="8" x2="10" y1="14" y2="4"></line> </svg></button>
+				                <button title="Подчеркивание" class="ql-underline" type="button"><svg viewBox="0 0 18 18"> <path class="ql-stroke" d="M5,3V9a4.012,4.012,0,0,0,4,4H9a4.012,4.012,0,0,0,4-4V3"></path> <rect class="ql-fill" height="1" rx="0.5" ry="0.5" width="12" x="3" y="15"></rect> </svg></button>
+				                <button title="Зачеркивание" class="ql-strike" type="button"><svg viewBox="0 0 18 18"> <line class="ql-stroke ql-thin" x1="15.5" x2="2.5" y1="8.5" y2="9.5"></line> <path class="ql-fill" d="M9.007,8C6.542,7.791,6,7.519,6,6.5,6,5.792,7.283,5,9,5c1.571,0,2.765.679,2.969,1.309a1,1,0,0,0,1.9-.617C13.356,4.106,11.354,3,9,3,6.2,3,4,4.538,4,6.5a3.2,3.2,0,0,0,.5,1.843Z"></path> <path class="ql-fill" d="M8.984,10C11.457,10.208,12,10.479,12,11.5c0,0.708-1.283,1.5-3,1.5-1.571,0-2.765-.679-2.969-1.309a1,1,0,1,0-1.9.617C4.644,13.894,6.646,15,9,15c2.8,0,5-1.538,5-3.5a3.2,3.2,0,0,0-.5-1.843Z"></path> </svg></button>
+				                <button title="Упорядоченный список" class="ql-list" value="ordered" type="button"><svg viewBox="0 0 18 18"> <line class="ql-stroke" x1="7" x2="15" y1="4" y2="4"></line> <line class="ql-stroke" x1="7" x2="15" y1="9" y2="9"></line> <line class="ql-stroke" x1="7" x2="15" y1="14" y2="14"></line> <line class="ql-stroke ql-thin" x1="2.5" x2="4.5" y1="5.5" y2="5.5"></line> <path class="ql-fill" d="M3.5,6A0.5,0.5,0,0,1,3,5.5V3.085l-0.276.138A0.5,0.5,0,0,1,2.053,3c-0.124-.247-0.023-0.324.224-0.447l1-.5A0.5,0.5,0,0,1,4,2.5v3A0.5,0.5,0,0,1,3.5,6Z"></path> <path class="ql-stroke ql-thin" d="M4.5,10.5h-2c0-.234,1.85-1.076,1.85-2.234A0.959,0.959,0,0,0,2.5,8.156"></path> <path class="ql-stroke ql-thin" d="M2.5,14.846a0.959,0.959,0,0,0,1.85-.109A0.7,0.7,0,0,0,3.75,14a0.688,0.688,0,0,0,.6-0.736,0.959,0.959,0,0,0-1.85-.109"></path> </svg></button>
+				                <button title="Неупорядоченный список" class="ql-list" value="bullet" type="button"><svg viewBox="0 0 18 18"> <line class="ql-stroke" x1="6" x2="15" y1="4" y2="4"></line> <line class="ql-stroke" x1="6" x2="15" y1="9" y2="9"></line> <line class="ql-stroke" x1="6" x2="15" y1="14" y2="14"></line> <line class="ql-stroke" x1="3" x2="3" y1="4" y2="4"></line> <line class="ql-stroke" x1="3" x2="3" y1="9" y2="9"></line> <line class="ql-stroke" x1="3" x2="3" y1="14" y2="14"></line> </svg></button>
+				                <button title="Цитата" class="ql-blockquote" type="button"><svg viewBox="0 0 18 18"> <rect class="ql-fill ql-stroke" height="3" width="3" x="4" y="5"></rect> <rect class="ql-fill ql-stroke" height="3" width="3" x="11" y="5"></rect> <path class="ql-even ql-fill ql-stroke" d="M7,8c0,4.031-3,5-3,5"></path> <path class="ql-even ql-fill ql-stroke" d="M14,8c0,4.031-3,5-3,5"></path> </svg></button>
+				                <button title="Блок кода" class="ql-code-block" type="button"><svg viewBox="0 0 18 18"> <polyline class="ql-even ql-stroke" points="5 7 3 9 5 11"></polyline> <polyline class="ql-even ql-stroke" points="13 7 15 9 13 11"></polyline> <line class="ql-stroke" x1="10" x2="8" y1="5" y2="13"></line> </svg></button>
+				                <button title="Ссылка" class="ql-link" type="button"><svg viewBox="0 0 18 18"> <line class="ql-stroke" x1="7" x2="11" y1="7" y2="11"></line> <path class="ql-even ql-stroke" d="M8.9,4.577a3.476,3.476,0,0,1,.36,4.679A3.476,3.476,0,0,1,4.577,8.9C3.185,7.5,2.035,6.4,4.217,4.217S7.5,3.185,8.9,4.577Z"></path> <path class="ql-even ql-stroke" d="M13.423,9.1a3.476,3.476,0,0,0-4.679-.36,3.476,3.476,0,0,0,.36,4.679c1.392,1.392,2.5,2.542,4.679.36S14.815,10.5,13.423,9.1Z"></path> </svg></button>
+				                <button title="Исходный код" class="ql-sourcecode" data-wpde_button_name="sourcecode" type="button">{}</button>
+				                <button title="Спойлер" class="ql-spoiler" data-wpde_button_name="spoiler" type="button">[+]</button>
+				            <div class="wpd-editor-buttons-right">
+				<span class="wmu-upload-wrap" wpd-tooltip="Attach an image to this comment" wpd-tooltip-position="left"><label class="wmu-add"><i class="far fa-image"></i><input style="display:none;" class="wmu-add-files" type="file" name="wmu_files[]" accept="image/*"></label></span>            </div>
+        </div>
+		            </div>
+			                            </div>
+                        </div>
+                    </div>
+                    <div class="wpd-form-foot" style="display:none;">
+                        <div class="wpdiscuz-textarea-foot">
+							                            <div class="wpdiscuz-button-actions"><div class="wmu-action-wrap"><div class="wmu-tabs wmu-images-tab wmu-hide"></div></div></div>
+                        </div>
+						        <div class="wpd-form-row">
+                    <div class="wpd-form-col-left">
+                        <div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+                                    <input id="wc_name-0_0" value="" required="required" aria-required="true" class="wc_name wpd-field" type="text" name="wc_name" placeholder="Имя*" maxlength="50" pattern=".{3,50}" title="">
+                <label for="wc_name-0_0" class="wpdlb">Имя*</label>
+                            </div>
+                        <div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+                                    <input id="wc_email-0_0" value="" required="required" aria-required="true" class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*">
+                <label for="wc_email-0_0" class="wpdlb">Email*</label>
+                            </div>
+                            <div class="wpdiscuz-item wc_website-wrapper wpd-has-icon">
+                                            <div class="wpd-field-icon"><i class="fas fa-link"></i></div>
+                                        <input id="wc_website-0_0" value="" class="wc_website wpd-field" type="text" name="wc_website" placeholder="Веб-сайт">
+                    <label for="wc_website-0_0" class="wpdlb">Веб-сайт</label>
+                                    </div>
+                        </div>
+                <div class="wpd-form-col-right">
+                    <div class="wc-field-submit">
+                                            
+                                            <label class="wpd_label" wpd-tooltip="Сообщать о всех новых ответах на мои комментарии">
+                            <input id="wc_notification_new_comment-0_0" class="wc_notification_new_comment-0_0 wpd_label__checkbox" value="comment" type="checkbox" name="wpdiscuz_notification_type">
+                            <span class="wpd_label__text">
+                                <span class="wpd_label__check">
+                                    <i class="fas fa-bell wpdicon wpdicon-on"></i>
+                                    <i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+                                </span>
+                            </span>
+                        </label>
+                                                                <input id="wpd-field-submit-0_0" class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit" name="submit" value="Оставить комментарий">
+        </div>
+                </div>
+                    <div class="clearfix"></div>
+        </div>
+                            </div>
+					                    <input type="hidden" class="wpdiscuz_unique_id" value="0_0" name="wpdiscuz_unique_id">
+					<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e513362cba"></p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1701845879966"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>                </form>
+				        </div>
+		        <div id="wpdiscuz_hidden_secondary_form" style="display: none;">
+			        <div class="wpd-form wpd-form-wrapper wpd-secondary-form-wrapper" id="wpd-secondary-form-wrapper-wpdiscuzuniqueid" style="display: none;">
+			                <div class="wpd-secondary-forms-social-content"><div class="wpd-social-login"><span class="wpd-connect-with">Соединить с</span><div class="wpdiscuz-social-login-spinner"><i class="fas fa-spinner fa-pulse"></i></div><div class="wpd-clear"></div></div>            <div class="wpd-social-login-agreement" style="display: none;">
+                <div class="wpd-agreement-title">Я разрешаю создать мне учетную запись</div>
+                <div class="wpd-agreement">Когда вы первый раз заходите с помощью соцсетей, мы получаем публичную информацию из вашей учетной записи, предоставляемой провайдером услуги соцсети в рамках ваших настроек конфиденциальности. Мы также автоматически получаем ваш e-mail адрес для создания вашей учетной записи на нашем веб сайте. Когда она будет создана, вы будете авторизованы под этой учетной записью.</div>
+                <div class="wpd-agreement-buttons">
+                    <div class="wpd-agreement-buttons-right"><span class="wpd-agreement-button wpd-agreement-button-disagree">Не согласен</span><span class="wpd-agreement-button wpd-agreement-button-agree">Согласен</span></div>
+                    <div class="wpd-clear"></div>
+                </div>
+            </div>
+            </div>
+                <div class="clearfix"></div>
+						                <form method="post" enctype="multipart/form-data" data-uploading="false" class="wpd_comm_form wpd-secondary-form-wrapper">
+					                    <div class="wpd-field-comment">
+                        <div class="wpdiscuz-item wc-field-textarea">
+                            <div class="wpdiscuz-textarea-wrap ">
+																	                                    <div class="wpd-avatar">
+										<img alt="guest" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/2cc97c20f05258ea5797e4fd51d0e8e3" srcset="https://secure.gravatar.com/avatar/2cc97c20f05258ea5797e4fd51d0e8e3?s=112&amp;d=monsterid&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy" decoding="async">                                    </div>
+									            <div id="wpd-editor-wraper-wpdiscuzuniqueid" style="display: none;">
+                <div id="wpd-editor-char-counter-wpdiscuzuniqueid" class="wpd-editor-char-counter"></div>
+                <label style="display: none;" for="wc-textarea-wpdiscuzuniqueid">Label</label>
+                <textarea id="wc-textarea-wpdiscuzuniqueid" name="wc_comment" class="wc_comment wpd-field"></textarea>
+                <div id="wpd-editor-wpdiscuzuniqueid"></div>
+				        <div id="wpd-editor-toolbar-wpdiscuzuniqueid">
+			                <button title="Жирный" class="ql-bold"></button>
+				                <button title="Курсив" class="ql-italic"></button>
+				                <button title="Подчеркивание" class="ql-underline"></button>
+				                <button title="Зачеркивание" class="ql-strike"></button>
+				                <button title="Упорядоченный список" class="ql-list" value="ordered"></button>
+				                <button title="Неупорядоченный список" class="ql-list" value="bullet"></button>
+				                <button title="Цитата" class="ql-blockquote"></button>
+				                <button title="Блок кода" class="ql-code-block"></button>
+				                <button title="Ссылка" class="ql-link"></button>
+				                <button title="Исходный код" class="ql-sourcecode" data-wpde_button_name="sourcecode">{}</button>
+				                <button title="Спойлер" class="ql-spoiler" data-wpde_button_name="spoiler">[+]</button>
+				            <div class="wpd-editor-buttons-right">
+				<span class="wmu-upload-wrap" wpd-tooltip="Attach an image to this comment" wpd-tooltip-position="left"><label class="wmu-add"><i class="far fa-image"></i><input style="display:none;" class="wmu-add-files" type="file" name="wmu_files[]" accept="image/*"></label></span>            </div>
+        </div>
+		            </div>
+			                            </div>
+                        </div>
+                    </div>
+                    <div class="wpd-form-foot" style="display:none;">
+                        <div class="wpdiscuz-textarea-foot">
+							                            <div class="wpdiscuz-button-actions"><div class="wmu-action-wrap"><div class="wmu-tabs wmu-images-tab wmu-hide"></div></div></div>
+                        </div>
+						        <div class="wpd-form-row">
+                    <div class="wpd-form-col-left">
+                        <div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+                                    <input id="wc_name-wpdiscuzuniqueid" value="" required="required" aria-required="true" class="wc_name wpd-field" type="text" name="wc_name" placeholder="Имя*" maxlength="50" pattern=".{3,50}" title="">
+                <label for="wc_name-wpdiscuzuniqueid" class="wpdlb">Имя*</label>
+                            </div>
+                        <div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+                                    <input id="wc_email-wpdiscuzuniqueid" value="" required="required" aria-required="true" class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*">
+                <label for="wc_email-wpdiscuzuniqueid" class="wpdlb">Email*</label>
+                            </div>
+                            <div class="wpdiscuz-item wc_website-wrapper wpd-has-icon">
+                                            <div class="wpd-field-icon"><i class="fas fa-link"></i></div>
+                                        <input id="wc_website-wpdiscuzuniqueid" value="" class="wc_website wpd-field" type="text" name="wc_website" placeholder="Веб-сайт">
+                    <label for="wc_website-wpdiscuzuniqueid" class="wpdlb">Веб-сайт</label>
+                                    </div>
+                        </div>
+                <div class="wpd-form-col-right">
+                    <div class="wc-field-submit">
+                                            
+                                            <label class="wpd_label" wpd-tooltip="Сообщать о всех новых ответах на мои комментарии">
+                            <input id="wc_notification_new_comment-wpdiscuzuniqueid" class="wc_notification_new_comment-wpdiscuzuniqueid wpd_label__checkbox" value="comment" type="checkbox" name="wpdiscuz_notification_type">
+                            <span class="wpd_label__text">
+                                <span class="wpd_label__check">
+                                    <i class="fas fa-bell wpdicon wpdicon-on"></i>
+                                    <i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+                                </span>
+                            </span>
+                        </label>
+                                                                <input id="wpd-field-submit-wpdiscuzuniqueid" class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit" name="submit" value="Оставить комментарий">
+        </div>
+                </div>
+                    <div class="clearfix"></div>
+        </div>
+                            </div>
+					                    <input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid" name="wpdiscuz_unique_id">
+					<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e513362cba"></p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="1701845879967"><script>document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>                </form>
+				        </div>
+		        </div>
+		            </div>
+                        <div id="wpd-threads" class="wpd-thread-wrapper">
+                <div class="wpd-thread-head">
+                    <div class="wpd-thread-info " data-comments-count="3">
+                        <span class="wpdtc" title="3">3</span> комментариев                    </div>
+                                        <div class="wpd-space"></div>
+                    <div class="wpd-thread-filter">
+                                                    <div class="wpd-filter wpdf-reacted wpd_not_clicked" wpd-tooltip="Популярнейший комментарий "><i class="fas fa-bolt"></i></div>
+                                                        <div class="wpd-filter wpdf-hottest wpd_not_clicked" wpd-tooltip="Цепочка актуального комментария"><i class="fas fa-fire"></i></div>
+                                                        <div class="wpd-filter wpdf-sorting">
+                                                                        <span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc wpdiscuz-sort-button-active" data-sorting="oldest">Oldest</span>
+                                                                        <i class="fas fa-sort-down"></i>
+                                <div class="wpdiscuz-sort-buttons" style="display: none;">
+                                                                            <span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc" data-sorting="newest">Newest</span>
+                                                                                <span class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" data-sorting="by_vote">Most Voted</span>
+                                                                        </div>
+                            </div>
+                                                </div>
+                </div>
+                <div class="wpd-comment-info-bar">
+                    <div class="wpd-current-view"><i class="fas fa-quote-left"></i> Встроенные Обратные Связи</div>
+                    <div class="wpd-filter-view-all">Просмотр всех комментариев</div>
+                </div>
+                                <div class="wpd-thread-list">
+                    <div id="wpd-comm-745_0" class="comment even thread-even depth-1 wpd-comment wpd_comment_level-1"><div class="wpd-comment-wrap wpd-blog-guest">
+    <div class="wpd-comment-left ">
+    <div class="wpd-avatar ">
+    <img alt="artem" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/beb793eca2ee7b69f308b0e094521bdf" srcset="https://secure.gravatar.com/avatar/beb793eca2ee7b69f308b0e094521bdf?s=128&amp;d=monsterid&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64" loading="lazy" decoding="async">
+</div>
+    
+    
+</div>
+    <div id="comment-745" class="wpd-comment-right">
+    <div class="wpd-comment-header">
+    <div class="wpd-comment-author ">
+    artem
+</div>
+    <div class="wpd-comment-date" title="09.02.2022 13:57">
+    <i class="far fa-clock" aria-hidden="true"></i>
+    1 год назад
+</div>
+    
+    <div class="wpd-comment-share wpd-hidden wpd-tooltip wpd-top">
+    <i class="fas fa-share-alt" aria-hidden="true"></i>
+    <div class="wpd-tooltip-content">
+        <a class="wc_tw" rel="noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=%D0%9E%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D0%B0%D1%8F%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F)&amp;url=https%3A%2F%2Fanalytics.infozone.pro%2Fvvedenie-v-proektirovanie-baz-dannih%2F%23comment-745" title="Поделиться через Twitter"><i class="fab fa-twitter wpf-cta" aria-hidden="true"></i></a><a class="wc_vk" rel="noreferrer" target="_blank" href="https://vk.com/share.php?url=https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/" title="Поделиться через Вконтакте"><i class="fab fa-vk wpf-cta" aria-hidden="true"></i></a><a class="wc_ok" rel="noreferrer" target="_blank" href="https://connect.ok.ru/offer?url=https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/" title="Поделиться через Одноклассники"><i class="fab fa-odnoklassniki wpf-cta" aria-hidden="true"></i></a>
+    </div>
+</div>
+    <div class="wpd-space"></div>
+    <div class="wpd-comment-link wpd-hidden">
+    <span wpd-tooltip="Ссылка Для Комментариев" wpd-tooltip-position="left"><i class="fas fa-link" aria-hidden="true" data-wpd-clipboard="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#comment-745"></i></span>
+</div>
+</div>
+    
+    <div class="wpd-comment-text">
+    <p>Отличная статья)</p>
+
+</div>
+    <div class="wpd-comment-footer">
+    <div class="wpd-vote">
+    <div class="wpd-vote-up wpd_not_clicked">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus fa-w-14" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+    </div>
+    <div class="wpd-vote-result wpd-up" title="7">7</div>
+    <div class="wpd-vote-down wpd_not_clicked">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus fa-w-14" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+    </div>
+</div>
+    <div class="wpd-reply-button">
+    <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+    <span>Ответить</span>
+</div>
+    <div class="wpd-space"></div>
+    
+    
+</div>
+</div>
+</div><div id="wpdiscuz_form_anchor-745_0"></div></div><div id="wpd-comm-747_0" class="comment odd alt thread-odd thread-alt depth-1 wpd-comment wpd_comment_level-1"><div class="wpd-comment-wrap wpd-blog-guest">
+    <div class="wpd-comment-left ">
+    <div class="wpd-avatar ">
+    <img alt="И" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/e6dec8df4dbf42fdf1ede93c8688e7ad" srcset="https://secure.gravatar.com/avatar/e6dec8df4dbf42fdf1ede93c8688e7ad?s=128&amp;d=monsterid&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64" loading="lazy" decoding="async">
+</div>
+    
+    
+</div>
+    <div id="comment-747" class="wpd-comment-right">
+    <div class="wpd-comment-header">
+    <div class="wpd-comment-author ">
+    И
+</div>
+    <div class="wpd-comment-date" title="22.02.2022 13:47">
+    <i class="far fa-clock" aria-hidden="true"></i>
+    1 год назад
+</div>
+    
+    <div class="wpd-comment-share wpd-hidden wpd-tooltip wpd-top">
+    <i class="fas fa-share-alt" aria-hidden="true"></i>
+    <div class="wpd-tooltip-content">
+        <a class="wc_tw" rel="noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=%D0%9E%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB,%20%D1%81%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE&amp;url=https%3A%2F%2Fanalytics.infozone.pro%2Fvvedenie-v-proektirovanie-baz-dannih%2F%23comment-747" title="Поделиться через Twitter"><i class="fab fa-twitter wpf-cta" aria-hidden="true"></i></a><a class="wc_vk" rel="noreferrer" target="_blank" href="https://vk.com/share.php?url=https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/" title="Поделиться через Вконтакте"><i class="fab fa-vk wpf-cta" aria-hidden="true"></i></a><a class="wc_ok" rel="noreferrer" target="_blank" href="https://connect.ok.ru/offer?url=https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/" title="Поделиться через Одноклассники"><i class="fab fa-odnoklassniki wpf-cta" aria-hidden="true"></i></a>
+    </div>
+</div>
+    <div class="wpd-space"></div>
+    <div class="wpd-comment-link wpd-hidden">
+    <span wpd-tooltip="Ссылка Для Комментариев" wpd-tooltip-position="left"><i class="fas fa-link" aria-hidden="true" data-wpd-clipboard="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#comment-747"></i></span>
+</div>
+</div>
+    
+    <div class="wpd-comment-text">
+    <p>Отличный материал, спасибо</p>
+
+</div>
+    <div class="wpd-comment-footer">
+    <div class="wpd-vote">
+    <div class="wpd-vote-up wpd_not_clicked">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus fa-w-14" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+    </div>
+    <div class="wpd-vote-result wpd-up" title="5">5</div>
+    <div class="wpd-vote-down wpd_not_clicked">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus fa-w-14" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+    </div>
+</div>
+    <div class="wpd-reply-button">
+    <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+    <span>Ответить</span>
+</div>
+    <div class="wpd-space"></div>
+    
+    
+</div>
+</div>
+</div><div id="wpdiscuz_form_anchor-747_0"></div></div><div id="wpd-comm-776_0" class="comment even thread-even depth-1 wpd-comment wpd_comment_level-1"><div class="wpd-comment-wrap wpd-blog-guest">
+    <div class="wpd-comment-left ">
+    <div class="wpd-avatar ">
+    <img alt="Сергей" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/2fc881317abe75a040e625380e2673c1" srcset="https://secure.gravatar.com/avatar/2fc881317abe75a040e625380e2673c1?s=128&amp;d=monsterid&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64" loading="lazy" decoding="async">
+</div>
+    
+    
+</div>
+    <div id="comment-776" class="wpd-comment-right">
+    <div class="wpd-comment-header">
+    <div class="wpd-comment-author ">
+    Сергей
+</div>
+    <div class="wpd-comment-date" title="29.05.2023 08:06">
+    <i class="far fa-clock" aria-hidden="true"></i>
+    5 месяцев назад
+</div>
+    
+    <div class="wpd-comment-share wpd-hidden wpd-tooltip wpd-top">
+    <i class="fas fa-share-alt" aria-hidden="true"></i>
+    <div class="wpd-tooltip-content">
+        <a class="wc_tw" rel="noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=%D0%A1%D1%83%D0%BF%D0%B5%D1%80!!!&amp;url=https%3A%2F%2Fanalytics.infozone.pro%2Fvvedenie-v-proektirovanie-baz-dannih%2F%23comment-776" title="Поделиться через Twitter"><i class="fab fa-twitter wpf-cta" aria-hidden="true"></i></a><a class="wc_vk" rel="noreferrer" target="_blank" href="https://vk.com/share.php?url=https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/" title="Поделиться через Вконтакте"><i class="fab fa-vk wpf-cta" aria-hidden="true"></i></a><a class="wc_ok" rel="noreferrer" target="_blank" href="https://connect.ok.ru/offer?url=https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/" title="Поделиться через Одноклассники"><i class="fab fa-odnoklassniki wpf-cta" aria-hidden="true"></i></a>
+    </div>
+</div>
+    <div class="wpd-space"></div>
+    <div class="wpd-comment-link wpd-hidden">
+    <span wpd-tooltip="Ссылка Для Комментариев" wpd-tooltip-position="left"><i class="fas fa-link" aria-hidden="true" data-wpd-clipboard="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#comment-776"></i></span>
+</div>
+</div>
+    
+    <div class="wpd-comment-text">
+    <p>Супер!!!</p>
+
+</div>
+    <div class="wpd-comment-footer">
+    <div class="wpd-vote">
+    <div class="wpd-vote-up wpd_not_clicked">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus fa-w-14" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+    </div>
+    <div class="wpd-vote-result wpd-up" title="1">1</div>
+    <div class="wpd-vote-down wpd_not_clicked">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus fa-w-14" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+    </div>
+</div>
+    <div class="wpd-reply-button">
+    <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+    <span>Ответить</span>
+</div>
+    <div class="wpd-space"></div>
+    
+    
+</div>
+</div>
+</div><div id="wpdiscuz_form_anchor-776_0"></div></div>                    <div class="wpdiscuz-comment-pagination">
+                                            </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    <div id="wpdiscuz-loading-bar" class="wpdiscuz-loading-bar-unauth"></div>
+    <div id="wpdiscuz-comment-message" class="wpdiscuz-comment-message-unauth"></div>
+    		
+	
+	</div><!-- #content .site-content -->
+</div><!-- #primary .content-area -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+		<aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">РУБРИКИ</h3>
+			<ul>
+					<li class="cat-item cat-item-1"><a href="https://analytics.infozone.pro/category/babok/">BABOK</a> (26)
+<ul class="children">
+	<li class="cat-item cat-item-11"><a href="https://analytics.infozone.pro/category/babok/babok-v-2/">BABOK v2.0</a> (5)
+</li>
+	<li class="cat-item cat-item-10"><a href="https://analytics.infozone.pro/category/babok/babok-v-3/">BABOK v3</a> (8)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://analytics.infozone.pro/category/library/">Библиотека</a> (37)
+</li>
+	<li class="cat-item cat-item-93"><a href="https://analytics.infozone.pro/category/%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81-%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d1%82%d0%b8%d0%ba/">Бизнес-аналитик</a> (10)
+</li>
+	<li class="cat-item cat-item-69"><a href="https://analytics.infozone.pro/category/%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d1%8c/">Бизнес-модель</a> (8)
+</li>
+	<li class="cat-item cat-item-54"><a href="https://analytics.infozone.pro/category/%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d1%8b%d0%b5-%d1%82%d0%b5%d1%85%d0%bd%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d0%b8/">Информационные технологии</a> (20)
+</li>
+	<li class="cat-item cat-item-5"><a href="https://analytics.infozone.pro/category/%d0%bb%d1%83%d1%87%d1%88%d0%b8%d0%b5-%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b8-%d0%bf%d0%be-%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81-%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d0%b7%d1%83/">Лучшие практики по бизнес-анализу</a> (14)
+</li>
+	<li class="cat-item cat-item-75"><a href="https://analytics.infozone.pro/category/%d0%bc%d0%b5%d1%82%d0%be%d0%b4%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d0%b8-%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b8/">Методологии разработки</a> (4)
+</li>
+	<li class="cat-item cat-item-9"><a href="https://analytics.infozone.pro/category/overview-of-all-methods-of-work-with-requirements/">Обзор всех методик работы с требованиями</a> (19)
+</li>
+	<li class="cat-item cat-item-40"><a href="https://analytics.infozone.pro/category/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/">Проектирование</a> (8)
+</li>
+	<li class="cat-item cat-item-59"><a href="https://analytics.infozone.pro/category/%d1%80%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b4%d1%81%d1%82%d0%b2%d0%be/">руководство</a> (4)
+</li>
+	<li class="cat-item cat-item-4"><a href="https://analytics.infozone.pro/category/certification-business-analysis/">Сертификация по бизнес-анализу</a> (1)
+</li>
+	<li class="cat-item cat-item-8"><a href="https://analytics.infozone.pro/category/articles-on-business-analysis/">Статьи</a> (39)
+</li>
+	<li class="cat-item cat-item-85"><a href="https://analytics.infozone.pro/category/%d1%81%d1%82%d1%80%d0%b0%d1%82%d0%b5%d0%b3%d0%b8%d1%8f/">Стратегия</a> (1)
+</li>
+	<li class="cat-item cat-item-58"><a href="https://analytics.infozone.pro/category/%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5/">Управление</a> (5)
+</li>
+			</ul>
+
+			</aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widget-title">СВЕЖИЕ ЗАПИСИ</h3>
+		<ul>
+											<li>
+					<a href="https://analytics.infozone.pro/free-training-course-product-manager/">Курс Product Manager. Управление продуктом. Продакт Менеджер</a>
+									</li>
+											<li>
+					<a href="https://analytics.infozone.pro/most-required-technical-skills-for-data-analysts/">Наиболее востребованные технические навыки для аналитиков данных</a>
+									</li>
+											<li>
+					<a href="https://analytics.infozone.pro/why-you-should-be-data-informed-and-not-data-driven/">Почему вы должны быть информированы, а не управляемы данными</a>
+									</li>
+											<li>
+					<a href="https://analytics.infozone.pro/learn-blockchain-technology/">Что такое технология Blockchain — руководство для начинающих</a>
+									</li>
+											<li>
+					<a href="https://analytics.infozone.pro/big-data-and-ai/">Как большие данные и ИИ меняют мир бизнеса?</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">СВЕЖИЕ КОММЕНТАРИИ</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Сергей</span> к записи <a href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#comment-776">Введение в проектирование баз данных</a></li><li class="recentcomments"><span class="comment-author-link">Александр Дулесов</span> к записи <a href="https://analytics.infozone.pro/korporativnye-informacionnye-sistemy-teoriya-ogranichenij/#comment-775">Корпоративные информационные системы. Теория ограничений. Корпоративные базы данных</a></li><li class="recentcomments"><span class="comment-author-link">Санекс</span> к записи <a href="https://analytics.infozone.pro/requirements-analysis/template-specification-requirements/#comment-772">Шаблон спецификации требований к ПО</a></li><li class="recentcomments"><span class="comment-author-link">Арина</span> к записи <a href="https://analytics.infozone.pro/document-template-with-business-requirements/#comment-771">Шаблон документа с бизнес-требованиями.doc</a></li><li class="recentcomments"><span class="comment-author-link">Михаил</span> к записи <a href="https://analytics.infozone.pro/document-template-with-business-requirements/#comment-769">Шаблон документа с бизнес-требованиями.doc</a></li></ul></aside><aside class="widget advads-widget"><h3 class="widget-title">ads</h3><!-- Yandex.RTB R-A-2551977-8 -->
+<div id="yandex_rtb_R-A-2551977-8"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-2551977-8",
+		"renderTo": "yandex_rtb_R-A-2551977-8"
+	})
+})
+</script></aside>	</div><!-- #secondary .widget-area -->
+
+					</div><!-- .full-container -->
+	</div><!-- #main .site-main -->
+
+	
+	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+			<div id="footer-widgets" class="full-container">
+					</div><!-- #footer-widgets -->
+	
+	
+	<div id="theme-attribution">A <a href="https://siteorigin.com/">SiteOrigin</a> Theme</div>
+</footer><!-- #colophon .site-footer -->
+
+	
+</div><!-- #page-wrapper -->
+
+
+
+			<div class="wprm-wrapper">
+        
+        <!-- Overlay Starts here -->
+			         <!-- Overlay Ends here -->
+			
+			         <div id="wprmenu_bar" class="wprmenu_bar  left">
+  <div class="hamburger hamburger--slider">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </div>
+  <div class="menu_title">
+      <a href="https://analytics.infozone.pro/">
+      Меню сайта    </a>
+      </div>
+</div>			 
+			<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left  " id="mg-wprm-wrap">
+				
+				
+				<ul id="wprmenu_menu_ul">
+  
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-714"><a href="http://analytics.infozone.pro/">Главная</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764"><a href="https://analytics.infozone.pro/sitemap-iiba-babok/">Карта сайта</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1792 wprmenu_parent_item_li"><span class="wprmenu_icon wprmenu_icon_par icon_default"></span> <a href="https://analytics.infozone.pro/about-us/" class="wprmenu_parent_item">О нас</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="https://ivan-shamaev.ru/cv">Ivan Shamaev CV in Enslish — Owner of this website</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2165"><a href="https://analytics.infozone.pro/resume/ivan-shamaev-business-analyst/">Шамаев Иван (бизнес-аналитик)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2164"><a href="https://analytics.infozone.pro/resume/anna-gasratalieva-business-analyst/">Гасраталиева Анна — участник сообщества analytics.infozone.pro</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-rb_resume menu-item-1046"><a href="https://analytics.infozone.pro/resume/sokolovskij-nikolaj-biznes-analitik/">Соколовский Николай — участник сообщества analytics.infozone.pro</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-716 wprmenu_parent_item_li"><span class="wprmenu_icon wprmenu_icon_par icon_default"></span> <a href="https://analytics.infozone.pro/babok/" class="wprmenu_parent_item">BABOK</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a href="https://analytics.infozone.pro/babok/chapters-of-babok-version-2/">Разделы BABOK v2.0</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a href="https://analytics.infozone.pro/babok/chapters-of-babok-version-3/">Разделы BABOK v3</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-719 wprmenu_parent_item_li"><span class="wprmenu_icon wprmenu_icon_par icon_default"></span> <a href="https://analytics.infozone.pro/requirements-analysis/" class="wprmenu_parent_item">Вигерс</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="https://analytics.infozone.pro/requirements-analysis/analysis-of-requirements-wiegers-2004/">Анализ требований по Вигерсу (2004). Этапы сбора требований.</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-721"><a href="https://analytics.infozone.pro/requirements-analysis/template-specification-requirements/">Шаблон спецификации требований к ПО</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="https://analytics.infozone.pro/requirements-analysis/agile-software-development/">Проекты гибкой разработки (agile) — К.Вигерс и Дж.Битти</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-723"><a href="https://analytics.infozone.pro/requirements-analysis/requirements-management-methods/">Приемы управления требованиями к ПО</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-724"><a href="https://analytics.infozone.pro/requirements-analysis/glossary-requirements-development-wiegers-2013/">Словарь терминов (глоссарий) по разработке требований (Вигерс, 2013)</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1783 wprmenu_parent_item_li"><span class="wprmenu_icon wprmenu_icon_par icon_default"></span> <a href="https://analytics.infozone.pro/news/" class="wprmenu_parent_item">Новости</a>
+<ul class="sub-menu" style="display: none;">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="https://analytics.infozone.pro/ba-vacancies/">Вакансии</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="https://analytics.infozone.pro/articles-for-business-analyst/">Статьи</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728"><a href="https://analytics.infozone.pro/library-business-analytic/">Библиотека</a></li>
+
+     
+</ul>
+				
+				</div>
+			</div>
+			<a nofollow="" noindex="" href="javascript:void(0);" id="wpdUserContentInfoAnchor" style="display:none;" rel="#wpdUserContentInfo" data-wpd-lity="">wpDiscuz</a><div id="wpdUserContentInfo" style="overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;" class="lity-hide"></div><div id="wpd-bubble-wrapper" class="wpd-left-content" style="left: 25px; display: block;"><span id="wpd-bubble-all-comments-count" title="3">3</span><div id="wpd-bubble-count"><svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path class="wpd-bubble-count-first" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path><path class="wpd-bubble-count-second" d="M0 0h24v24H0z"></path></svg><span class="wpd-new-comments-count">0</span></div><div id="wpd-bubble"><svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path class="wpd-bubble-plus-first" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path><path class="wpd-bubble-plus-second" d="M0 0h24v24H0z"></path></svg><div id="wpd-bubble-add-message">Оставьте, пожалуйста, свой комментарий!<span id="wpd-bubble-add-message-close"><a href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#">x</a></span></div></div><div id="wpd-bubble-notification"><svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path class="wpd-bubble-notification-first" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path><path class="wpd-bubble-notification-second" d="M0 0h24v24H0z"></path></svg><div id="wpd-bubble-notification-message"><div id="wpd-bubble-author"><div><span id="wpd-bubble-author-avatar"></span><span id="wpd-bubble-author-name"></span><span id="wpd-bubble-comment-date">(<span class="wpd-bubble-spans"></span>)</span></div><span id="wpd-bubble-comment-close"><a href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#">x</a></span></div><div id="wpd-bubble-comment"><span id="wpd-bubble-comment-text"></span><span id="wpd-bubble-comment-reply-link">| <a href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#">Ответить</a></span></div></div></div></div><div id="wpd-editor-source-code-wrapper-bg"></div><div id="wpd-editor-source-code-wrapper"><textarea id="wpd-editor-source-code"></textarea><button id="wpd-insert-source-code">Insert</button><input type="hidden" id="wpd-editor-uid"></div><a href="https://analytics.infozone.pro/vvedenie-v-proektirovanie-baz-dannih/#" id="scroll-to-top" class="scroll-to-top displayed" title="Back To Top"><span class="vantage-icon-arrow-up"></span></a><script type="text/javascript" id="toc-front-js-extra">
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/front.min.js.Без названия" id="toc-front-js"></script>
+<script type="text/javascript" id="wpdiscuz-combo-js-js-extra">
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"wc_hide_replies_text":"\u0421\u043f\u0440\u044f\u0442\u0430\u0442\u044c \u043e\u0442\u0432\u0435\u0442\u044b","wc_show_replies_text":"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u043e\u0442\u0432\u0435\u0442\u043e\u0432","wc_msg_required_fields":"\u0417\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043f\u043e\u043b\u044f","wc_invalid_field":"\u041d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u043e\u043b\u044f \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u044b \u043d\u0435\u0432\u0435\u0440\u043d\u043e","wc_error_empty_text":"\u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0437\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u044d\u0442\u043e \u043f\u043e\u043b\u0435, \u0447\u0442\u043e\u0431\u044b \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c","wc_error_url_text":"url \u043d\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439","wc_error_email_text":"\u0430\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b \u043d\u0435\u0432\u0435\u0440\u0435\u043d","wc_invalid_captcha":"\u041d\u0435\u0432\u0435\u0440\u043d\u043e \u0432\u0432\u0435\u0434\u0435\u043d \u043a\u043e\u0434","wc_login_to_vote":"\u0412\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u0432\u043e\u0439\u0442\u0438 , \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u043e\u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c","wc_deny_voting_from_same_ip":"\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c \u0437\u0430 \u044d\u0442\u043e\u0442 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_self_vote":"\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c \u0437\u0430 \u0441\u0432\u043e\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_vote_only_one_time":"\u0412\u044b \u0443\u0436\u0435 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043b\u0438 \u0437\u0430 \u044d\u0442\u043e\u0442 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","wc_voting_error":"\u041e\u0448\u0438\u0431\u043a\u0430 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u044f","wc_comment_edit_not_possible":"Sorry, this comment is no longer possible to edit","wc_comment_not_updated":"\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043d\u0435 \u0431\u044b\u043b \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d","wc_comment_not_edited":"\u0412\u044b \u043d\u0435 \u0441\u0434\u0435\u043b\u0430\u043b\u0438 \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439","wc_msg_input_min_length":"\u0412\u0432\u043e\u0434 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0439","wc_msg_input_max_length":"\u0412\u0432\u043e\u0434 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439","wc_spoiler_title":"Spoiler Title","wc_cannot_rate_again":"You cannot rate again","wc_not_allowed_to_rate":"You're not allowed to rate here","wc_follow_user":"\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u044d\u0442\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f","wc_unfollow_user":"\u041e\u0442\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u044d\u0442\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f","wc_follow_success":"\u0412\u044b \u043d\u0430\u0447\u0430\u043b\u0438 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443 \u043d\u0430 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 \u044d\u0442\u043e\u0433\u043e \u0430\u0432\u0442\u043e\u0440\u0430","wc_follow_canceled":"\u0412\u044b \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u043b\u0438 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443 \u043d\u0430 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 \u044d\u0442\u043e\u0433\u043e \u0430\u0432\u0442\u043e\u0440\u0430","wc_follow_email_confirm":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u0432\u0430\u0448 email \u0438 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u0437\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443.","wc_follow_email_confirm_fail":"\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u043c\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u043c \u043f\u0440\u0438\u0441\u043b\u0430\u0442\u044c \u043f\u0438\u0441\u044c\u043c\u043e \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f.","wc_follow_login_to_follow":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u043e\u0439\u0434\u0438\u0442\u0435 \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u044b\u0432\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439.","wc_follow_impossible":"\u041d\u0430\u043c \u0436\u0430\u043b\u044c, \u043d\u043e \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u044d\u0442\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f.","wc_follow_not_added":"\u041d\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435.","is_user_logged_in":"","commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"0","wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":"0","replyTextMaxLength":"0","commentTextMinLength":"1","replyTextMinLength":"1","storeCommenterData":"100000","socialLoginAgreementCheckbox":"1","enableFbLogin":"1","fbUseOAuth2":"1","enableFbShare":"0","facebookAppID":"","facebookUseOAuth2":"1","enableGoogleLogin":"0","googleClientID":"","googleClientSecret":"","cookiehash":"f76a6555e6bdf9abe9742252882308ee","isLoadOnlyParentComments":"0","scrollToComment":"1","commentFormView":"collapsed","enableDropAnimation":"1","isNativeAjaxEnabled":"1","enableBubble":"1","bubbleLiveUpdate":"0","bubbleHintTimeout":"45","bubbleHintHideTimeout":"10","cookieHideBubbleHint":"wpdiscuz_hide_bubble_hint","bubbleShowNewCommentMessage":"1","bubbleLocation":"content_left","firstLoadWithAjax":"0","wc_copied_to_clipboard":"\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440 \u043e\u0431\u043c\u0435\u043d\u0430!","inlineFeedbackAttractionType":"blink","loadRichEditor":"1","wpDiscuzReCaptchaSK":"","wpDiscuzReCaptchaTheme":"light","wpDiscuzReCaptchaVersion":"2.0","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","wpDiscuzIsShowOnSubscribeForm":"0","wmuEnabled":"1","wmuInput":"wmu_files","wmuMaxFileCount":"1","wmuMaxFileSize":"2097152","wmuPostMaxSize":"1047527424","wmuIsLightbox":"1","wmuMimeTypes":{"jpg":"image\/jpeg","jpeg":"image\/jpeg","jpe":"image\/jpeg","gif":"image\/gif","png":"image\/png","bmp":"image\/bmp","tiff":"image\/tiff","tif":"image\/tiff","ico":"image\/x-icon"},"wmuPhraseConfirmDelete":"Are you sure you want to delete this attachment?","wmuPhraseNotAllowedFile":"Not allowed file type","wmuPhraseMaxFileCount":"Maximum number of uploaded files is 1","wmuPhraseMaxFileSize":"Maximum upload file size is 2MB","wmuPhrasePostMaxSize":"Maximum post size is 999MB","wmuPhraseDoingUpload":"Uploading in progress! Please wait.","msgEmptyFile":"File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.","msgPostIdNotExists":"ID \u0437\u0430\u043f\u0438\u0441\u0438 \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442","msgUploadingNotAllowed":"\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u043f\u043e\u0441\u0442\u0430 \u0437\u0430\u043f\u0440\u0435\u0449\u0435\u043d\u0430","msgPermissionDenied":"\u0423 \u0432\u0430\u0441 \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u043f\u0440\u0430\u0432 \u0434\u043b\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u044d\u0442\u043e\u0433\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f","wmuKeyImages":"images","wmuSingleImageWidth":"auto","wmuSingleImageHeight":"200","version":"7.6.2","wc_post_id":"1082","isCookiesEnabled":"1","loadLastCommentId":"0","dataFilterCallbacks":[],"phraseFilters":[],"scrollSize":"32","is_email_field_required":"1","url":"https:\/\/analytics.infozone.pro\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/analytics.infozone.pro\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","bubbleUpdateUrl":"https:\/\/analytics.infozone.pro\/wp-json\/wpdiscuz\/v1\/update","restNonce":"19f577a920","validateNonceForGuests":""};
+var wpdiscuzUCObj = {"msgConfirmDeleteComment":"\u0412\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u044d\u0442\u043e\u0442 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439?","msgConfirmCancelSubscription":"\u0412\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u044d\u0442\u0443 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443?","msgConfirmCancelFollow":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u044d\u0442\u0443 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443?","additionalTab":"0"};
+/* ]]> */
+</script>
+<script id="wpdiscuz-combo-js-js-before" type="text/javascript">
+var wpdiscuzEditorOptions = {
+        modules: {
+        toolbar: "",
+        counter: {
+        uniqueID: "",
+        commentmaxcount : 0,
+        replymaxcount : 0,
+        commentmincount : 1,
+        replymincount : 1,
+        },
+                },
+        wc_be_the_first_text: "\u041e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u043f\u0435\u0440\u0432\u044b\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439!",
+        wc_comment_join_text: "\u041f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u0442\u044c\u0441\u044f \u043a \u043e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u044e",
+        theme: 'snow',
+        debug: 'error'
+        };
+</script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/wpdiscuz-combo.min.js.Без названия" id="wpdiscuz-combo-js-js"></script>
+<script type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/comment-reply.min.js.Без названия" id="comment-reply-js"></script>
+<script defer="" type="text/javascript" src="./Введение в проектирование баз данных _ Бизнес-Анализ в России_files/akismet-frontend.js.Без названия" id="akismet-frontend-js"></script>
+<script data-wpfc-render="false">!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script>
+<!-- Top100 (Kraken) Widget -->
+<span id="top100_widget"></span>
+<!-- END Top100 (Kraken) Widget -->
+
+<!-- Top100 (Kraken) Counter -->
+<script>
+    (function (w, d, c) {
+    (w[c] = w[c] || []).push(function() {
+        var options = {
+            project: 3002290,
+            element: 'top100_widget',
+            user_id: null,
+        };
+        try {
+            w.top100Counter = new top100(options);
+        } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src =
+    (d.location.protocol == "https:" ? "https:" : "http:") +
+    "//st.top100.ru/top100/top100.js";
+
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(window, document, "_top100q");
+</script>
+<noscript>
+  <img src="//counter.rambler.ru/top100.cnt?pid=3002290" alt="���-100" />
+</noscript>
+<!-- END Top100 (Kraken) Counter -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(54314715, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/54314715" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body></html>
